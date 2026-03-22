@@ -1,0 +1,26 @@
+{
+  "input_features": 26327,
+  "dense_layers": [
+    {
+      "layer": "dense1",
+      "input_features": 26327,
+      "units": 1000
+    },
+    {
+      "layer": "dense2",
+      "input_features": 1000,
+      "units": 1000
+    },
+    {
+      "layer": "dense3",
+      "input_features": 1000,
+      "units": 1000
+    },
+    {
+      "layer": "wdnn_final_layer",
+      "input_features": 1000,
+      "units": 4
+    }
+  ],
+  "output_units": 4
+}

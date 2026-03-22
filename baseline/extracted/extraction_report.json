@@ -1,0 +1,57 @@
+{
+  "saved_model_path": "baseline/saved_model.pb",
+  "has_meta_graph": true,
+  "meta_graph_count": 1,
+  "graph_nodes": 121,
+  "const_nodes": 1,
+  "embedded_weight_tensors_extracted": 1,
+  "embedded_weights_file": "baseline/extracted/embedded_weights.npz",
+  "variable_related_nodes": 114,
+  "variable_node_examples": [
+    "dense1/kernel",
+    "dense1/kernel/Read/ReadVariableOp",
+    "dense1/bias",
+    "dense1/bias/Read/ReadVariableOp",
+    "batch_normalization/gamma",
+    "batch_normalization/gamma/Read/ReadVariableOp",
+    "batch_normalization/beta",
+    "batch_normalization/beta/Read/ReadVariableOp",
+    "batch_normalization/moving_mean",
+    "batch_normalization/moving_mean/Read/ReadVariableOp",
+    "batch_normalization/moving_variance",
+    "batch_normalization/moving_variance/Read/ReadVariableOp",
+    "dense2/kernel",
+    "dense2/kernel/Read/ReadVariableOp",
+    "dense2/bias",
+    "dense2/bias/Read/ReadVariableOp",
+    "batch_normalization_1/gamma",
+    "batch_normalization_1/gamma/Read/ReadVariableOp",
+    "batch_normalization_1/beta",
+    "batch_normalization_1/beta/Read/ReadVariableOp"
+  ],
+  "inferred_dense_layers": [
+    {
+      "layer": "dense1",
+      "input_features": 26327,
+      "units": 1000
+    },
+    {
+      "layer": "dense2",
+      "input_features": 1000,
+      "units": 1000
+    },
+    {
+      "layer": "dense3",
+      "input_features": 1000,
+      "units": 1000
+    },
+    {
+      "layer": "wdnn_final_layer",
+      "input_features": 1000,
+      "units": 4
+    }
+  ],
+  "layer_sizes_file": "baseline/extracted/layer_sizes.json",
+  "model_audit_file": "baseline/extracted/model_audit.json",
+  "note": "Full trained weights require SavedModel variables checkpoint files."
+}

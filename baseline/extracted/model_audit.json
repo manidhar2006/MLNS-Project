@@ -1,0 +1,495 @@
+{
+  "model_name_hint": "WDNN",
+  "input_features": 26327,
+  "output_units": 4,
+  "dense_layers": [
+    {
+      "layer": "dense1",
+      "input_features": 26327,
+      "units": 1000
+    },
+    {
+      "layer": "dense2",
+      "input_features": 1000,
+      "units": 1000
+    },
+    {
+      "layer": "dense3",
+      "input_features": 1000,
+      "units": 1000
+    },
+    {
+      "layer": "wdnn_final_layer",
+      "input_features": 1000,
+      "units": 4
+    }
+  ],
+  "hidden_activation": "Relu",
+  "output_activation": "Sigmoid",
+  "dropout": {
+    "used": true,
+    "dropout_layers": [
+      "dropout",
+      "dropout_1",
+      "dropout_2"
+    ],
+    "rate": 0.30000001192092896,
+    "keep_prob": 0.6999999833106999
+  },
+  "batch_normalization": {
+    "used": true,
+    "count": 3,
+    "epsilon": 0.0010000000474974513,
+    "momentum": 0.9900000002235174,
+    "gamma_beta_moving_stats": true
+  },
+  "regularization_constants": [
+    {
+      "function": "__inference_loss_fn_2_104372",
+      "name": "dense2/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_dense2_layer_call_and_return_conditional_losses_102642",
+      "name": "dense2/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_dense2_layer_call_and_return_conditional_losses_102642",
+      "name": "dense2/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_dense2_layer_call_and_return_conditional_losses_104024",
+      "name": "dense2/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_dense2_layer_call_and_return_conditional_losses_104024",
+      "name": "dense2/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_loss_fn_3_104383",
+      "name": "dense2/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_wdnn_final_layer_layer_call_and_return_conditional_losses_104330",
+      "name": "wdnn_final_layer/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_wdnn_final_layer_layer_call_and_return_conditional_losses_104330",
+      "name": "wdnn_final_layer/bias/Regularizer/mul/x",
+      "value": 0.10000000149011612
+    },
+    {
+      "function": "__inference_wdnn_final_layer_layer_call_and_return_conditional_losses_102850",
+      "name": "wdnn_final_layer/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_wdnn_final_layer_layer_call_and_return_conditional_losses_102850",
+      "name": "wdnn_final_layer/bias/Regularizer/mul/x",
+      "value": 0.10000000149011612
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103746",
+      "name": "dense1/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103746",
+      "name": "dense1/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103746",
+      "name": "dense2/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103746",
+      "name": "dense2/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103746",
+      "name": "dense3/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103746",
+      "name": "dense3/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103746",
+      "name": "wdnn_final_layer/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103746",
+      "name": "wdnn_final_layer/bias/Regularizer/mul/x",
+      "value": 0.10000000149011612
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103017",
+      "name": "dense1/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103017",
+      "name": "dense1/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103017",
+      "name": "dense2/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103017",
+      "name": "dense2/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103017",
+      "name": "dense3/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103017",
+      "name": "dense3/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103017",
+      "name": "wdnn_final_layer/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103017",
+      "name": "wdnn_final_layer/bias/Regularizer/mul/x",
+      "value": 0.10000000149011612
+    },
+    {
+      "function": "__inference_dense1_layer_call_and_return_conditional_losses_103871",
+      "name": "dense1/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_dense1_layer_call_and_return_conditional_losses_103871",
+      "name": "dense1/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_loss_fn_5_104405",
+      "name": "dense3/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_102915",
+      "name": "dense1/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_102915",
+      "name": "dense1/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_102915",
+      "name": "dense2/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_102915",
+      "name": "dense2/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_102915",
+      "name": "dense3/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_102915",
+      "name": "dense3/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_102915",
+      "name": "wdnn_final_layer/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_102915",
+      "name": "wdnn_final_layer/bias/Regularizer/mul/x",
+      "value": 0.10000000149011612
+    },
+    {
+      "function": "__inference_loss_fn_6_104416",
+      "name": "wdnn_final_layer/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103122",
+      "name": "dense1/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103122",
+      "name": "dense1/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103122",
+      "name": "dense2/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103122",
+      "name": "dense2/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103122",
+      "name": "dense3/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103122",
+      "name": "dense3/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103122",
+      "name": "wdnn_final_layer/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103122",
+      "name": "wdnn_final_layer/bias/Regularizer/mul/x",
+      "value": 0.10000000149011612
+    },
+    {
+      "function": "__inference_loss_fn_0_104350",
+      "name": "dense1/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_dense1_layer_call_and_return_conditional_losses_102538",
+      "name": "dense1/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_dense1_layer_call_and_return_conditional_losses_102538",
+      "name": "dense1/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103615",
+      "name": "dense1/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103615",
+      "name": "dense1/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103615",
+      "name": "dense2/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103615",
+      "name": "dense2/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103615",
+      "name": "dense3/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103615",
+      "name": "dense3/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103615",
+      "name": "wdnn_final_layer/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103615",
+      "name": "wdnn_final_layer/bias/Regularizer/mul/x",
+      "value": 0.10000000149011612
+    },
+    {
+      "function": "__inference_loss_fn_7_104427",
+      "name": "wdnn_final_layer/bias/Regularizer/mul/x",
+      "value": 0.10000000149011612
+    },
+    {
+      "function": "__inference_loss_fn_1_104361",
+      "name": "dense1/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103269",
+      "name": "dense1/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103269",
+      "name": "dense1/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103269",
+      "name": "dense2/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103269",
+      "name": "dense2/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103269",
+      "name": "dense3/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103269",
+      "name": "dense3/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103269",
+      "name": "wdnn_final_layer/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_WDNN_layer_call_and_return_conditional_losses_103269",
+      "name": "wdnn_final_layer/bias/Regularizer/mul/x",
+      "value": 0.10000000149011612
+    },
+    {
+      "function": "__inference_dense3_layer_call_and_return_conditional_losses_102746",
+      "name": "dense3/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_dense3_layer_call_and_return_conditional_losses_102746",
+      "name": "dense3/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_dense3_layer_call_and_return_conditional_losses_104177",
+      "name": "dense3/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    },
+    {
+      "function": "__inference_dense3_layer_call_and_return_conditional_losses_104177",
+      "name": "dense3/bias/Regularizer/mul/x",
+      "value": 0.0010000000474974513
+    },
+    {
+      "function": "__inference_loss_fn_4_104394",
+      "name": "dense3/kernel/Regularizer/mul/x",
+      "value": 9.999999747378752e-05
+    }
+  ],
+  "function_op_counts_top": [
+    [
+      "Const",
+      227
+    ],
+    [
+      "ReadVariableOp",
+      196
+    ],
+    [
+      "Mul",
+      171
+    ],
+    [
+      "Identity",
+      141
+    ],
+    [
+      "Sum",
+      72
+    ],
+    [
+      "AssignVariableOp",
+      57
+    ],
+    [
+      "StatefulPartitionedCall",
+      52
+    ],
+    [
+      "AddV2",
+      42
+    ],
+    [
+      "Sub",
+      39
+    ],
+    [
+      "Abs",
+      36
+    ],
+    [
+      "Square",
+      36
+    ],
+    [
+      "Rsqrt",
+      21
+    ],
+    [
+      "MatMul",
+      20
+    ],
+    [
+      "BiasAdd",
+      20
+    ],
+    [
+      "Mean",
+      18
+    ],
+    [
+      "Squeeze",
+      18
+    ],
+    [
+      "AssignSubVariableOp",
+      18
+    ],
+    [
+      "Relu",
+      15
+    ],
+    [
+      "PartitionedCall",
+      9
+    ],
+    [
+      "StopGradient",
+      9
+    ]
+  ],
+  "notes": [
+    "Graph stores many training functions; serving uses signature 'serving_default'.",
+    "Output activation is Sigmoid, usually used for multilabel probabilities.",
+    "Adam optimizer slot variables are present in the SavedModel graph."
+  ]
+}

@@ -1,0 +1,862 @@
+[
+  {
+    "name": "dense1/kernel",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "dense1/kernel/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "dense1/kernel"
+    ]
+  },
+  {
+    "name": "dense1/bias",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "dense1/bias/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "dense1/bias"
+    ]
+  },
+  {
+    "name": "batch_normalization/gamma",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "batch_normalization/gamma/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "batch_normalization/gamma"
+    ]
+  },
+  {
+    "name": "batch_normalization/beta",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "batch_normalization/beta/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "batch_normalization/beta"
+    ]
+  },
+  {
+    "name": "batch_normalization/moving_mean",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "batch_normalization/moving_mean/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "batch_normalization/moving_mean"
+    ]
+  },
+  {
+    "name": "batch_normalization/moving_variance",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "batch_normalization/moving_variance/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "batch_normalization/moving_variance"
+    ]
+  },
+  {
+    "name": "dense2/kernel",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "dense2/kernel/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "dense2/kernel"
+    ]
+  },
+  {
+    "name": "dense2/bias",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "dense2/bias/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "dense2/bias"
+    ]
+  },
+  {
+    "name": "batch_normalization_1/gamma",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "batch_normalization_1/gamma/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "batch_normalization_1/gamma"
+    ]
+  },
+  {
+    "name": "batch_normalization_1/beta",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "batch_normalization_1/beta/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "batch_normalization_1/beta"
+    ]
+  },
+  {
+    "name": "batch_normalization_1/moving_mean",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "batch_normalization_1/moving_mean/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "batch_normalization_1/moving_mean"
+    ]
+  },
+  {
+    "name": "batch_normalization_1/moving_variance",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "batch_normalization_1/moving_variance/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "batch_normalization_1/moving_variance"
+    ]
+  },
+  {
+    "name": "dense3/kernel",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "dense3/kernel/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "dense3/kernel"
+    ]
+  },
+  {
+    "name": "dense3/bias",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "dense3/bias/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "dense3/bias"
+    ]
+  },
+  {
+    "name": "batch_normalization_2/gamma",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "batch_normalization_2/gamma/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "batch_normalization_2/gamma"
+    ]
+  },
+  {
+    "name": "batch_normalization_2/beta",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "batch_normalization_2/beta/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "batch_normalization_2/beta"
+    ]
+  },
+  {
+    "name": "batch_normalization_2/moving_mean",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "batch_normalization_2/moving_mean/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "batch_normalization_2/moving_mean"
+    ]
+  },
+  {
+    "name": "batch_normalization_2/moving_variance",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "batch_normalization_2/moving_variance/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "batch_normalization_2/moving_variance"
+    ]
+  },
+  {
+    "name": "wdnn_final_layer/kernel",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "wdnn_final_layer/kernel/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "wdnn_final_layer/kernel"
+    ]
+  },
+  {
+    "name": "wdnn_final_layer/bias",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "wdnn_final_layer/bias/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "wdnn_final_layer/bias"
+    ]
+  },
+  {
+    "name": "Adam/iter",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/iter/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/iter"
+    ]
+  },
+  {
+    "name": "Adam/beta_1",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/beta_1/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/beta_1"
+    ]
+  },
+  {
+    "name": "Adam/beta_2",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/beta_2/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/beta_2"
+    ]
+  },
+  {
+    "name": "Adam/decay",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/decay/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/decay"
+    ]
+  },
+  {
+    "name": "Adam/learning_rate",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/learning_rate/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/learning_rate"
+    ]
+  },
+  {
+    "name": "total",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "total/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "total"
+    ]
+  },
+  {
+    "name": "count",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "count/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "count"
+    ]
+  },
+  {
+    "name": "total_1",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "total_1/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "total_1"
+    ]
+  },
+  {
+    "name": "count_1",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "count_1/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "count_1"
+    ]
+  },
+  {
+    "name": "Adam/dense1/kernel/m",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/dense1/kernel/m/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/dense1/kernel/m"
+    ]
+  },
+  {
+    "name": "Adam/dense1/bias/m",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/dense1/bias/m/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/dense1/bias/m"
+    ]
+  },
+  {
+    "name": "Adam/batch_normalization/gamma/m",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/batch_normalization/gamma/m/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/batch_normalization/gamma/m"
+    ]
+  },
+  {
+    "name": "Adam/batch_normalization/beta/m",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/batch_normalization/beta/m/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/batch_normalization/beta/m"
+    ]
+  },
+  {
+    "name": "Adam/dense2/kernel/m",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/dense2/kernel/m/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/dense2/kernel/m"
+    ]
+  },
+  {
+    "name": "Adam/dense2/bias/m",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/dense2/bias/m/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/dense2/bias/m"
+    ]
+  },
+  {
+    "name": "Adam/batch_normalization_1/gamma/m",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/batch_normalization_1/gamma/m/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/batch_normalization_1/gamma/m"
+    ]
+  },
+  {
+    "name": "Adam/batch_normalization_1/beta/m",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/batch_normalization_1/beta/m/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/batch_normalization_1/beta/m"
+    ]
+  },
+  {
+    "name": "Adam/dense3/kernel/m",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/dense3/kernel/m/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/dense3/kernel/m"
+    ]
+  },
+  {
+    "name": "Adam/dense3/bias/m",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/dense3/bias/m/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/dense3/bias/m"
+    ]
+  },
+  {
+    "name": "Adam/batch_normalization_2/gamma/m",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/batch_normalization_2/gamma/m/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/batch_normalization_2/gamma/m"
+    ]
+  },
+  {
+    "name": "Adam/batch_normalization_2/beta/m",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/batch_normalization_2/beta/m/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/batch_normalization_2/beta/m"
+    ]
+  },
+  {
+    "name": "Adam/wdnn_final_layer/kernel/m",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/wdnn_final_layer/kernel/m/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/wdnn_final_layer/kernel/m"
+    ]
+  },
+  {
+    "name": "Adam/wdnn_final_layer/bias/m",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/wdnn_final_layer/bias/m/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/wdnn_final_layer/bias/m"
+    ]
+  },
+  {
+    "name": "Adam/dense1/kernel/v",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/dense1/kernel/v/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/dense1/kernel/v"
+    ]
+  },
+  {
+    "name": "Adam/dense1/bias/v",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/dense1/bias/v/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/dense1/bias/v"
+    ]
+  },
+  {
+    "name": "Adam/batch_normalization/gamma/v",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/batch_normalization/gamma/v/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/batch_normalization/gamma/v"
+    ]
+  },
+  {
+    "name": "Adam/batch_normalization/beta/v",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/batch_normalization/beta/v/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/batch_normalization/beta/v"
+    ]
+  },
+  {
+    "name": "Adam/dense2/kernel/v",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/dense2/kernel/v/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/dense2/kernel/v"
+    ]
+  },
+  {
+    "name": "Adam/dense2/bias/v",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/dense2/bias/v/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/dense2/bias/v"
+    ]
+  },
+  {
+    "name": "Adam/batch_normalization_1/gamma/v",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/batch_normalization_1/gamma/v/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/batch_normalization_1/gamma/v"
+    ]
+  },
+  {
+    "name": "Adam/batch_normalization_1/beta/v",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/batch_normalization_1/beta/v/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/batch_normalization_1/beta/v"
+    ]
+  },
+  {
+    "name": "Adam/dense3/kernel/v",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/dense3/kernel/v/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/dense3/kernel/v"
+    ]
+  },
+  {
+    "name": "Adam/dense3/bias/v",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/dense3/bias/v/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/dense3/bias/v"
+    ]
+  },
+  {
+    "name": "Adam/batch_normalization_2/gamma/v",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/batch_normalization_2/gamma/v/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/batch_normalization_2/gamma/v"
+    ]
+  },
+  {
+    "name": "Adam/batch_normalization_2/beta/v",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/batch_normalization_2/beta/v/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/batch_normalization_2/beta/v"
+    ]
+  },
+  {
+    "name": "Adam/wdnn_final_layer/kernel/v",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/wdnn_final_layer/kernel/v/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/wdnn_final_layer/kernel/v"
+    ]
+  },
+  {
+    "name": "Adam/wdnn_final_layer/bias/v",
+    "op": "VarHandleOp",
+    "inputs": []
+  },
+  {
+    "name": "Adam/wdnn_final_layer/bias/v/Read/ReadVariableOp",
+    "op": "ReadVariableOp",
+    "inputs": [
+      "Adam/wdnn_final_layer/bias/v"
+    ]
+  },
+  {
+    "name": "NoOp",
+    "op": "NoOp",
+    "inputs": []
+  },
+  {
+    "name": "Const",
+    "op": "Const",
+    "inputs": []
+  },
+  {
+    "name": "serving_default_input_1",
+    "op": "Placeholder",
+    "inputs": []
+  },
+  {
+    "name": "StatefulPartitionedCall",
+    "op": "StatefulPartitionedCall",
+    "inputs": [
+      "serving_default_input_1",
+      "dense1/kernel",
+      "dense1/bias",
+      "batch_normalization/moving_variance",
+      "batch_normalization/gamma",
+      "batch_normalization/moving_mean",
+      "batch_normalization/beta",
+      "dense2/kernel",
+      "dense2/bias",
+      "batch_normalization_1/moving_variance",
+      "batch_normalization_1/gamma",
+      "batch_normalization_1/moving_mean",
+      "batch_normalization_1/beta",
+      "dense3/kernel",
+      "dense3/bias",
+      "batch_normalization_2/moving_variance",
+      "batch_normalization_2/gamma",
+      "batch_normalization_2/moving_mean",
+      "batch_normalization_2/beta",
+      "wdnn_final_layer/kernel",
+      "wdnn_final_layer/bias"
+    ]
+  },
+  {
+    "name": "saver_filename",
+    "op": "Placeholder",
+    "inputs": []
+  },
+  {
+    "name": "StatefulPartitionedCall_1",
+    "op": "StatefulPartitionedCall",
+    "inputs": [
+      "saver_filename",
+      "dense1/kernel/Read/ReadVariableOp",
+      "dense1/bias/Read/ReadVariableOp",
+      "batch_normalization/gamma/Read/ReadVariableOp",
+      "batch_normalization/beta/Read/ReadVariableOp",
+      "batch_normalization/moving_mean/Read/ReadVariableOp",
+      "batch_normalization/moving_variance/Read/ReadVariableOp",
+      "dense2/kernel/Read/ReadVariableOp",
+      "dense2/bias/Read/ReadVariableOp",
+      "batch_normalization_1/gamma/Read/ReadVariableOp",
+      "batch_normalization_1/beta/Read/ReadVariableOp",
+      "batch_normalization_1/moving_mean/Read/ReadVariableOp",
+      "batch_normalization_1/moving_variance/Read/ReadVariableOp",
+      "dense3/kernel/Read/ReadVariableOp",
+      "dense3/bias/Read/ReadVariableOp",
+      "batch_normalization_2/gamma/Read/ReadVariableOp",
+      "batch_normalization_2/beta/Read/ReadVariableOp",
+      "batch_normalization_2/moving_mean/Read/ReadVariableOp",
+      "batch_normalization_2/moving_variance/Read/ReadVariableOp",
+      "wdnn_final_layer/kernel/Read/ReadVariableOp",
+      "wdnn_final_layer/bias/Read/ReadVariableOp",
+      "Adam/iter/Read/ReadVariableOp",
+      "Adam/beta_1/Read/ReadVariableOp",
+      "Adam/beta_2/Read/ReadVariableOp",
+      "Adam/decay/Read/ReadVariableOp",
+      "Adam/learning_rate/Read/ReadVariableOp",
+      "total/Read/ReadVariableOp",
+      "count/Read/ReadVariableOp",
+      "total_1/Read/ReadVariableOp",
+      "count_1/Read/ReadVariableOp",
+      "Adam/dense1/kernel/m/Read/ReadVariableOp",
+      "Adam/dense1/bias/m/Read/ReadVariableOp",
+      "Adam/batch_normalization/gamma/m/Read/ReadVariableOp",
+      "Adam/batch_normalization/beta/m/Read/ReadVariableOp",
+      "Adam/dense2/kernel/m/Read/ReadVariableOp",
+      "Adam/dense2/bias/m/Read/ReadVariableOp",
+      "Adam/batch_normalization_1/gamma/m/Read/ReadVariableOp",
+      "Adam/batch_normalization_1/beta/m/Read/ReadVariableOp",
+      "Adam/dense3/kernel/m/Read/ReadVariableOp",
+      "Adam/dense3/bias/m/Read/ReadVariableOp",
+      "Adam/batch_normalization_2/gamma/m/Read/ReadVariableOp",
+      "Adam/batch_normalization_2/beta/m/Read/ReadVariableOp",
+      "Adam/wdnn_final_layer/kernel/m/Read/ReadVariableOp",
+      "Adam/wdnn_final_layer/bias/m/Read/ReadVariableOp",
+      "Adam/dense1/kernel/v/Read/ReadVariableOp",
+      "Adam/dense1/bias/v/Read/ReadVariableOp",
+      "Adam/batch_normalization/gamma/v/Read/ReadVariableOp",
+      "Adam/batch_normalization/beta/v/Read/ReadVariableOp",
+      "Adam/dense2/kernel/v/Read/ReadVariableOp",
+      "Adam/dense2/bias/v/Read/ReadVariableOp",
+      "Adam/batch_normalization_1/gamma/v/Read/ReadVariableOp",
+      "Adam/batch_normalization_1/beta/v/Read/ReadVariableOp",
+      "Adam/dense3/kernel/v/Read/ReadVariableOp",
+      "Adam/dense3/bias/v/Read/ReadVariableOp",
+      "Adam/batch_normalization_2/gamma/v/Read/ReadVariableOp",
+      "Adam/batch_normalization_2/beta/v/Read/ReadVariableOp",
+      "Adam/wdnn_final_layer/kernel/v/Read/ReadVariableOp",
+      "Adam/wdnn_final_layer/bias/v/Read/ReadVariableOp",
+      "Const"
+    ]
+  },
+  {
+    "name": "StatefulPartitionedCall_2",
+    "op": "StatefulPartitionedCall",
+    "inputs": [
+      "saver_filename",
+      "dense1/kernel",
+      "dense1/bias",
+      "batch_normalization/gamma",
+      "batch_normalization/beta",
+      "batch_normalization/moving_mean",
+      "batch_normalization/moving_variance",
+      "dense2/kernel",
+      "dense2/bias",
+      "batch_normalization_1/gamma",
+      "batch_normalization_1/beta",
+      "batch_normalization_1/moving_mean",
+      "batch_normalization_1/moving_variance",
+      "dense3/kernel",
+      "dense3/bias",
+      "batch_normalization_2/gamma",
+      "batch_normalization_2/beta",
+      "batch_normalization_2/moving_mean",
+      "batch_normalization_2/moving_variance",
+      "wdnn_final_layer/kernel",
+      "wdnn_final_layer/bias",
+      "Adam/iter",
+      "Adam/beta_1",
+      "Adam/beta_2",
+      "Adam/decay",
+      "Adam/learning_rate",
+      "total",
+      "count",
+      "total_1",
+      "count_1",
+      "Adam/dense1/kernel/m",
+      "Adam/dense1/bias/m",
+      "Adam/batch_normalization/gamma/m",
+      "Adam/batch_normalization/beta/m",
+      "Adam/dense2/kernel/m",
+      "Adam/dense2/bias/m",
+      "Adam/batch_normalization_1/gamma/m",
+      "Adam/batch_normalization_1/beta/m",
+      "Adam/dense3/kernel/m",
+      "Adam/dense3/bias/m",
+      "Adam/batch_normalization_2/gamma/m",
+      "Adam/batch_normalization_2/beta/m",
+      "Adam/wdnn_final_layer/kernel/m",
+      "Adam/wdnn_final_layer/bias/m",
+      "Adam/dense1/kernel/v",
+      "Adam/dense1/bias/v",
+      "Adam/batch_normalization/gamma/v",
+      "Adam/batch_normalization/beta/v",
+      "Adam/dense2/kernel/v",
+      "Adam/dense2/bias/v",
+      "Adam/batch_normalization_1/gamma/v",
+      "Adam/batch_normalization_1/beta/v",
+      "Adam/dense3/kernel/v",
+      "Adam/dense3/bias/v",
+      "Adam/batch_normalization_2/gamma/v",
+      "Adam/batch_normalization_2/beta/v",
+      "Adam/wdnn_final_layer/kernel/v",
+      "Adam/wdnn_final_layer/bias/v"
+    ]
+  }
+]

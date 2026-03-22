@@ -1,0 +1,167 @@
+{
+  "dense1/kernel": [
+    26327,
+    1000
+  ],
+  "dense1/bias": [
+    1000
+  ],
+  "batch_normalization/gamma": [
+    1000
+  ],
+  "batch_normalization/beta": [
+    1000
+  ],
+  "batch_normalization/moving_mean": [
+    1000
+  ],
+  "batch_normalization/moving_variance": [
+    1000
+  ],
+  "dense2/kernel": [
+    1000,
+    1000
+  ],
+  "dense2/bias": [
+    1000
+  ],
+  "batch_normalization_1/gamma": [
+    1000
+  ],
+  "batch_normalization_1/beta": [
+    1000
+  ],
+  "batch_normalization_1/moving_mean": [
+    1000
+  ],
+  "batch_normalization_1/moving_variance": [
+    1000
+  ],
+  "dense3/kernel": [
+    1000,
+    1000
+  ],
+  "dense3/bias": [
+    1000
+  ],
+  "batch_normalization_2/gamma": [
+    1000
+  ],
+  "batch_normalization_2/beta": [
+    1000
+  ],
+  "batch_normalization_2/moving_mean": [
+    1000
+  ],
+  "batch_normalization_2/moving_variance": [
+    1000
+  ],
+  "wdnn_final_layer/kernel": [
+    1000,
+    4
+  ],
+  "wdnn_final_layer/bias": [
+    4
+  ],
+  "Adam/iter": [],
+  "Adam/beta_1": [],
+  "Adam/beta_2": [],
+  "Adam/decay": [],
+  "Adam/learning_rate": [],
+  "total": [],
+  "count": [],
+  "total_1": [],
+  "count_1": [],
+  "Adam/dense1/kernel/m": [
+    26327,
+    1000
+  ],
+  "Adam/dense1/bias/m": [
+    1000
+  ],
+  "Adam/batch_normalization/gamma/m": [
+    1000
+  ],
+  "Adam/batch_normalization/beta/m": [
+    1000
+  ],
+  "Adam/dense2/kernel/m": [
+    1000,
+    1000
+  ],
+  "Adam/dense2/bias/m": [
+    1000
+  ],
+  "Adam/batch_normalization_1/gamma/m": [
+    1000
+  ],
+  "Adam/batch_normalization_1/beta/m": [
+    1000
+  ],
+  "Adam/dense3/kernel/m": [
+    1000,
+    1000
+  ],
+  "Adam/dense3/bias/m": [
+    1000
+  ],
+  "Adam/batch_normalization_2/gamma/m": [
+    1000
+  ],
+  "Adam/batch_normalization_2/beta/m": [
+    1000
+  ],
+  "Adam/wdnn_final_layer/kernel/m": [
+    1000,
+    4
+  ],
+  "Adam/wdnn_final_layer/bias/m": [
+    4
+  ],
+  "Adam/dense1/kernel/v": [
+    26327,
+    1000
+  ],
+  "Adam/dense1/bias/v": [
+    1000
+  ],
+  "Adam/batch_normalization/gamma/v": [
+    1000
+  ],
+  "Adam/batch_normalization/beta/v": [
+    1000
+  ],
+  "Adam/dense2/kernel/v": [
+    1000,
+    1000
+  ],
+  "Adam/dense2/bias/v": [
+    1000
+  ],
+  "Adam/batch_normalization_1/gamma/v": [
+    1000
+  ],
+  "Adam/batch_normalization_1/beta/v": [
+    1000
+  ],
+  "Adam/dense3/kernel/v": [
+    1000,
+    1000
+  ],
+  "Adam/dense3/bias/v": [
+    1000
+  ],
+  "Adam/batch_normalization_2/gamma/v": [
+    1000
+  ],
+  "Adam/batch_normalization_2/beta/v": [
+    1000
+  ],
+  "Adam/wdnn_final_layer/kernel/v": [
+    1000,
+    4
+  ],
+  "Adam/wdnn_final_layer/bias/v": [
+    4
+  ]
+}

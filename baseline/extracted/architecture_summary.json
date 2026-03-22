@@ -1,0 +1,11 @@
+{
+  "saved_model_schema_version": 1,
+  "tags": [
+    "serve"
+  ],
+  "signature_def_keys": [
+    "__saved_model_init_op",
+    "serving_default"
+  ],
+  "num_nodes": 121
+}
