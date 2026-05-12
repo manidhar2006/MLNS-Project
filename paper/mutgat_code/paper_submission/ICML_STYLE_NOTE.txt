@@ -1,0 +1,7 @@
+This directory contains paper.tex, paper.bib, and fig_mutgat_graph.jpg for the MutGAT submission.
+
+The LaTeX file uses the ICML 2025 style:
+  \usepackage[accepted]{icml2025}
+  \bibliographystyle{icml2025}
+
+You must add the official ICML 2025 author kit files (e.g. icml2025.sty, icml2025.bst, and any bundled macros) from the conference website next to paper.tex before running pdflatex/bibtex.

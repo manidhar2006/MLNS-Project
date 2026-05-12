@@ -1,0 +1,20 @@
+Optional: scripts/annotate_vcfs.py adds snpEff effect-class one-hot features to SNP embeddings.
+
+Requirements (not installed via pip):
+  - Java runtime
+  - snpEff JAR (https://pcingola.github.io/SnpEff/)
+  - Mycobacterium tuberculosis H37Rv database configured in snpEff (e.g. "Mycobacterium_tuberculosis_h37rv")
+
+Typical invocation from the mutgat_code root (after VCFs exist under data/cryptic/vcf/):
+
+  java -jar /path/to/snpEff.jar download -v Mycobacterium_tuberculosis_h37rv
+
+  python scripts/annotate_vcfs.py \
+    --vcf-dir data/cryptic/vcf \
+    --output snpeff_annotations.parquet \
+    --snpeff-jar /path/to/snpEff.jar \
+    --genome Mycobacterium_tuberculosis_h37rv
+
+Then pass --snpeff-parquet snpeff_annotations.parquet to scripts/run_ablation.py.
+
+Without snpEff, omit --snpeff-parquet; the model trains on PMI+SVD embeddings only.

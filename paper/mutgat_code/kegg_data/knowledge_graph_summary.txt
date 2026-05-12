@@ -1,0 +1,197 @@
+TB DRUG RESISTANCE KNOWLEDGE GRAPH SUMMARY
+======================================================================
+
+STATISTICS
+----------------------------------------------------------------------
+total_genes............................. 23
+total_pathways.......................... 23
+total_drugs............................. 8
+genes_with_pathways..................... 14
+avg_pathways_per_gene................... 1.565217391304348
+avg_genes_per_pathway................... 73.04347826086956
+
+
+DRUG-PATHWAY ASSOCIATIONS
+----------------------------------------------------------------------
+
+INH:
+  Description: Targets mycolic acid biosynthesis
+  Mechanism:   Inhibits InhA (enoyl-ACP reductase) after activation by KatG
+  Pathways:    mtu00650, mtu01100, mtu01110
+
+RIF:
+  Description: Targets RNA synthesis
+  Mechanism:   Binds to RNA polymerase beta subunit (RpoB)
+  Pathways:    mtu03020, mtu01100
+
+EMB:
+  Description: Targets arabinogalactan biosynthesis
+  Mechanism:   Inhibits arabinosyltransferases (EmbCAB)
+  Pathways:    mtu00572, mtu01100
+
+PZA:
+  Description: Targets energy metabolism
+  Mechanism:   Converted to pyrazinoic acid by PncA, disrupts membrane
+  Pathways:    mtu00770, mtu00760, mtu01100
+
+FLQ:
+  Description: Targets DNA replication
+  Mechanism:   Inhibits DNA gyrase (GyrA/GyrB)
+  Pathways:    mtu00230, mtu03018
+
+STR:
+  Description: Targets protein synthesis
+  Mechanism:   Binds 16S rRNA, causes misreading
+  Pathways:    mtu03010
+
+KAN:
+  Description: Targets protein synthesis
+  Mechanism:   Binds 16S rRNA
+  Pathways:    mtu03010
+
+AMK:
+  Description: Targets protein synthesis
+  Mechanism:   Binds 16S rRNA
+  Pathways:    mtu03010
+
+
+GENE-PATHWAY MAPPINGS
+----------------------------------------------------------------------
+
+ahpC:
+  KEGG ID:      Rv2428
+  Drugs:        INH
+  Description:  Alkyl hydroperoxide reductase
+  Pathways:     None found
+
+eis:
+  KEGG ID:      Rv2416c
+  Drugs:        KAN, AMK
+  Description:  Enhanced intracellular survival
+  Pathways:     None found
+
+embA:
+  KEGG ID:      Rv3794
+  Drugs:        EMB
+  Description:  Arabinosyltransferase A
+  Pathways:     mtu00572
+
+embB:
+  KEGG ID:      Rv3795
+  Drugs:        EMB
+  Description:  Arabinosyltransferase B
+  Pathways:     mtu00572
+
+embC:
+  KEGG ID:      Rv3793
+  Drugs:        EMB
+  Description:  Arabinosyltransferase C
+  Pathways:     mtu00571
+
+fabG1:
+  KEGG ID:      Rv1483
+  Drugs:        INH
+  Description:  3-oxoacyl-ACP reductase
+  Pathways:     mtu00074, mtu01100, mtu01110
+
+gidB:
+  KEGG ID:      Rv3919c
+  Drugs:        STR
+  Description:  Glucose-inhibited division protein
+  Pathways:     None found
+
+gyrA:
+  KEGG ID:      Rv0006
+  Drugs:        FLQ
+  Description:  DNA gyrase subunit A
+  Pathways:     None found
+
+gyrB:
+  KEGG ID:      Rv0005
+  Drugs:        FLQ
+  Description:  DNA gyrase subunit B
+  Pathways:     None found
+
+inhA:
+  KEGG ID:      Rv1484
+  Drugs:        INH
+  Description:  Enoyl-ACP reductase (INH target)
+  Pathways:     mtu00074, mtu01100, mtu01110
+
+iniA:
+  KEGG ID:      Rv0342
+  Drugs:        INH, ETH
+  Description:  Isoniazid inductible gene
+  Pathways:     None found
+
+iniB:
+  KEGG ID:      Rv0341
+  Drugs:        INH, ETH
+  Description:  Isoniazid inductible gene
+  Pathways:     None found
+
+iniC:
+  KEGG ID:      Rv0343
+  Drugs:        INH, ETH
+  Description:  Isoniazid inductible gene
+  Pathways:     None found
+
+katG:
+  KEGG ID:      Rv1908c
+  Drugs:        INH
+  Description:  Catalase-peroxidase (INH activation)
+  Pathways:     mtu00360, mtu00380, mtu00983, mtu01100, mtu01110
+
+manB:
+  KEGG ID:      Rv3264c
+  Drugs:        EMB
+  Description:  Phosphomannomutase
+  Pathways:     mtu00051, mtu00520, mtu00541, mtu01100, mtu01110, mtu01240, mtu01250
+
+ndh:
+  KEGG ID:      Rv1854c
+  Drugs:        INH
+  Description:  NADH dehydrogenase
+  Pathways:     mtu00190, mtu01100
+
+pncA:
+  KEGG ID:      Rv2043c
+  Drugs:        PZA
+  Description:  Pyrazinamidase/nicotinamidase
+  Pathways:     mtu00760, mtu01100, mtu01240
+
+rmlD:
+  KEGG ID:      Rv3266c
+  Drugs:        EMB
+  Description:  dTDP-4-dehydrorhamnose reductase
+  Pathways:     mtu00521, mtu00523, mtu00541, mtu01100, mtu01110, mtu01250
+
+rpoB:
+  KEGG ID:      Rv0667
+  Drugs:        RIF
+  Description:  RNA polymerase beta subunit
+  Pathways:     mtu03020
+
+rpoC:
+  KEGG ID:      Rv0668
+  Drugs:        RIF
+  Description:  RNA polymerase beta' subunit
+  Pathways:     mtu03020
+
+rrl:
+  KEGG ID:      Rvnr02
+  Drugs:        LNZ
+  Description:  23S ribosomal RNA
+  Pathways:     mtu03010
+
+rrs:
+  KEGG ID:      Rvnr01
+  Drugs:        STR, AMK, KAN
+  Description:  16S ribosomal RNA
+  Pathways:     mtu03010
+
+tlyA:
+  KEGG ID:      Rv1694
+  Drugs:        CAP
+  Description:  Hemolysin
+  Pathways:     None found

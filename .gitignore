@@ -1,0 +1,21 @@
+vcf(2024)/
+tb-drop/
+tb-drop-source-code/
+PATRIC_MTB_vcfs/
+kegg_data/cache/
+
+# Experiment outputs and caches
+runs/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+.DS_Store
+*.log
+
+# Large per-sample VCFs (download with download_all_vcfs.py)
+data/cryptic/vcf/*.vcf.gz
+data/cryptic/vcf/*.part
+
+# Misc
+Generated Image*.jpg

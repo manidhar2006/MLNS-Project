@@ -1,0 +1,254 @@
+TB (mtu) KEGG KNOWLEDGE GRAPH — FULL
+======================================================================
+organism........................... Mycobacterium tuberculosis H37Rv
+organism_code...................... mtu
+fetched_at......................... 2026-04-21T20:08:05Z
+n_pathways......................... 147
+n_genes_panel...................... 50
+n_drugs............................ 23
+n_kos_panel........................ 43
+
+PATHWAYS
+----------------------------------------------------------------------
+  mtu01100    699 genes  Metabolic pathways - Mycobacterium tuberculosis H37Rv
+  mtu01110    370 genes  Biosynthesis of secondary metabolites - Mycobacterium tuberculosis H37Rv
+  mtu01120    235 genes  Microbial metabolism in diverse environments - Mycobacterium tuberculosis H37Rv
+  mtu01240    133 genes  Biosynthesis of cofactors - Mycobacterium tuberculosis H37Rv
+  mtu01230    111 genes  Biosynthesis of amino acids - Mycobacterium tuberculosis H37Rv
+  mtu01200     96 genes  Carbon metabolism - Mycobacterium tuberculosis H37Rv
+  mtu02010     84 genes  ABC transporters - Mycobacterium tuberculosis H37Rv
+  mtu00970     69 genes  Aminoacyl-tRNA biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu02020     61 genes  Two-component system - Mycobacterium tuberculosis H37Rv
+  mtu03010     61 genes  Ribosome - Mycobacterium tuberculosis H37Rv
+  mtu00230     51 genes  Purine metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00190     49 genes  Oxidative phosphorylation - Mycobacterium tuberculosis H37Rv
+  mtu00620     44 genes  Pyruvate metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00280     43 genes  Valine, leucine and isoleucine degradation - Mycobacterium tuberculosis H37Rv
+  mtu00984     41 genes  Steroid degradation - Mycobacterium tuberculosis H37Rv
+  mtu00630     39 genes  Glyoxylate and dicarboxylate metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00650     37 genes  Butanoate metabolism - Mycobacterium tuberculosis H37Rv
+  mtu01232     37 genes  Nucleotide metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00074     36 genes  Mycolic acid biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00720     36 genes  Other carbon fixation pathways - Mycobacterium tuberculosis H37Rv
+  mtu00860     36 genes  Porphyrin metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00270     35 genes  Cysteine and methionine metabolism - Mycobacterium tuberculosis H37Rv
+  mtu01210     35 genes  2-Oxocarboxylic acid metabolism - Mycobacterium tuberculosis H37Rv
+  mtu01212     35 genes  Fatty acid metabolism - Mycobacterium tuberculosis H37Rv
+  mtu05152     34 genes  Tuberculosis - Mycobacterium tuberculosis H37Rv
+  mtu00071     33 genes  Fatty acid degradation - Mycobacterium tuberculosis H37Rv
+  mtu01250     32 genes  Biosynthesis of nucleotide sugars - Mycobacterium tuberculosis H37Rv
+  mtu00010     31 genes  Glycolysis / Gluconeogenesis - Mycobacterium tuberculosis H37Rv
+  mtu00561     30 genes  Glycerolipid metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00640     30 genes  Propanoate metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00020     29 genes  Citrate cycle (TCA cycle) - Mycobacterium tuberculosis H37Rv
+  mtu00240     27 genes  Pyrimidine metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00250     27 genes  Alanine, aspartate and glutamate metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00790     27 genes  Folate biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00260     25 genes  Glycine, serine and threonine metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00362     24 genes  Benzoate degradation - Mycobacterium tuberculosis H37Rv
+  mtu00380     24 genes  Tryptophan metabolism - Mycobacterium tuberculosis H37Rv
+  mtu02024     24 genes  Quorum sensing - Mycobacterium tuberculosis H37Rv
+  mtu00220     23 genes  Arginine biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00500     23 genes  Starch and sucrose metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00520     23 genes  Amino sugar and nucleotide sugar metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00770     23 genes  Pantothenate and CoA biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00900     23 genes  Terpenoid backbone biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00310     22 genes  Lysine degradation - Mycobacterium tuberculosis H37Rv
+  mtu00910     22 genes  Nitrogen metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00920     22 genes  Sulfur metabolism - Mycobacterium tuberculosis H37Rv
+  mtu03440     22 genes  Homologous recombination - Mycobacterium tuberculosis H37Rv
+  mtu04122     22 genes  Sulfur relay system - Mycobacterium tuberculosis H37Rv
+  mtu00360     21 genes  Phenylalanine metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00680     21 genes  Methane metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00340     20 genes  Histidine metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00760     20 genes  Nicotinate and nicotinamide metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00030     19 genes  Pentose phosphate pathway - Mycobacterium tuberculosis H37Rv
+  mtu00400     19 genes  Phenylalanine, tyrosine and tryptophan biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00550     19 genes  Peptidoglycan biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00564     19 genes  Glycerophospholipid metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00670     19 genes  One carbon pool by folate - Mycobacterium tuberculosis H37Rv
+  mtu00330     18 genes  Arginine and proline metabolism - Mycobacterium tuberculosis H37Rv
+  mtu03060     18 genes  Protein export - Mycobacterium tuberculosis H37Rv
+  mtu00051     15 genes  Fructose and mannose metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00073     15 genes  Cutin, suberine and wax biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00541     15 genes  Biosynthesis of various nucleotide sugars - Mycobacterium tuberculosis H37Rv
+  mtu00572     15 genes  Arabinogalactan biosynthesis - Mycobacterium - Mycobacterium tuberculosis H37Rv
+  mtu03030     15 genes  DNA replication - Mycobacterium tuberculosis H37Rv
+  mtu03410     15 genes  Base excision repair - Mycobacterium tuberculosis H37Rv
+  mtu03430     15 genes  Mismatch repair - Mycobacterium tuberculosis H37Rv
+  mtu00480     14 genes  Glutathione metabolism - Mycobacterium tuberculosis H37Rv
+  mtu03070     14 genes  Bacterial secretion system - Mycobacterium tuberculosis H37Rv
+  mtu00061     13 genes  Fatty acid biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00290     13 genes  Valine, leucine and isoleucine biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00300     13 genes  Lysine biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00410     13 genes  beta-Alanine metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00571     13 genes  Lipoarabinomannan (LAM) biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00627     13 genes  Aminobenzoate degradation - Mycobacterium tuberculosis H37Rv
+  mtu00785     12 genes  Lipoic acid metabolism - Mycobacterium tuberculosis H37Rv
+  mtu03018     12 genes  RNA degradation - Mycobacterium tuberculosis H37Rv
+  mtu00450     11 genes  Selenocompound metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00710     11 genes  Carbon fixation by Calvin cycle - Mycobacterium tuberculosis H37Rv
+  mtu00730     11 genes  Thiamine metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00983     11 genes  Drug metabolism - other enzymes - Mycobacterium tuberculosis H37Rv
+  mtu01220     11 genes  Degradation of aromatic compounds - Mycobacterium tuberculosis H37Rv
+  mtu04146     11 genes  Peroxisome - Mycobacterium tuberculosis H37Rv
+  mtu00052     10 genes  Galactose metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00350     10 genes  Tyrosine metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00521     10 genes  Streptomycin biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00562     10 genes  Inositol phosphate metabolism - Mycobacterium tuberculosis H37Rv
+  mtu01053     10 genes  Biosynthesis of siderophore group nonribosomal peptides - Mycobacterium tuberculosis H37Rv
+  mtu03420     10 genes  Nucleotide excision repair - Mycobacterium tuberculosis H37Rv
+  mtu00130      9 genes  Ubiquinone and other terpenoid-quinone biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00625      9 genes  Chloroalkane and chloroalkene degradation - Mycobacterium tuberculosis H37Rv
+  mtu00660      9 genes  C5-Branched dibasic acid metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00780      9 genes  Biotin metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00907      9 genes  Pinene, camphor and geraniol degradation - Mycobacterium tuberculosis H37Rv
+  mtu01501      9 genes  beta-Lactam resistance - Mycobacterium tuberculosis H37Rv
+  mtu00470      8 genes  D-Amino acid metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00261      7 genes  Monobactam biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00430      7 genes  Taurine and hypotaurine metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00740      7 genes  Riboflavin metabolism - Mycobacterium tuberculosis H37Rv
+  mtu04981      7 genes  Folate transport and metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00460      6 genes  Cyanoamino acid metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00523      6 genes  Polyketide sugar unit biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00930      6 genes  Caprolactam degradation - Mycobacterium tuberculosis H37Rv
+  mtu01040      6 genes  Biosynthesis of unsaturated fatty acids - Mycobacterium tuberculosis H37Rv
+  mtu01310      6 genes  Nitrogen cycle - Mycobacterium tuberculosis H37Rv
+  mtu01320      6 genes  Sulfur cycle - Mycobacterium tuberculosis H37Rv
+  mtu01502      6 genes  Vancomycin resistance - Mycobacterium tuberculosis H37Rv
+  mtu00040      5 genes  Pentose and glucuronate interconversions - Mycobacterium tuberculosis H37Rv
+  mtu00361      5 genes  Chlorocyclohexane and chlorobenzene degradation - Mycobacterium tuberculosis H37Rv
+  mtu00565      5 genes  Ether lipid metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00643      5 genes  Styrene degradation - Mycobacterium tuberculosis H37Rv
+  mtu00750      5 genes  Vitamin B6 metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00903      5 genes  Limonene degradation - Mycobacterium tuberculosis H37Rv
+  mtu04980      5 genes  Cobalamin transport and metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00053      4 genes  Ascorbate and aldarate metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00401      4 genes  Novobiocin biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00621      4 genes  Dioxin degradation - Mycobacterium tuberculosis H37Rv
+  mtu00622      4 genes  Xylene degradation - Mycobacterium tuberculosis H37Rv
+  mtu01503      4 genes  Cationic antimicrobial peptide (CAMP) resistance - Mycobacterium tuberculosis H37Rv
+  mtu03020      4 genes  RNA polymerase - Mycobacterium tuberculosis H37Rv
+  mtu00525      3 genes  Acarbose and validamycin biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00592      3 genes  alpha-Linolenic acid metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00626      3 genes  Naphthalene degradation - Mycobacterium tuberculosis H37Rv
+  mtu03050      3 genes  Proteasome - Mycobacterium tuberculosis H37Rv
+  mtu00311      2 genes  Penicillin and cephalosporin biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00332      2 genes  Carbapenem biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00364      2 genes  Fluorobenzoate degradation - Mycobacterium tuberculosis H37Rv
+  mtu00543      2 genes  Exopolysaccharide biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00552      2 genes  Teichoic acid biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00600      2 genes  Sphingolipid metabolism - Mycobacterium tuberculosis H37Rv
+  mtu00623      2 genes  Toluene degradation - Mycobacterium tuberculosis H37Rv
+  mtu00999      2 genes  Biosynthesis of various plant secondary metabolites
+  mtu03008      2 genes  Ribosome biogenesis in eukaryotes - Mycobacterium tuberculosis H37Rv
+  mtu03450      2 genes  Non-homologous end-joining - Mycobacterium tuberculosis H37Rv
+  mtu04141      2 genes  Protein processing in endoplasmic reticulum - Mycobacterium tuberculosis H37Rv
+  mtu00100      1 genes  Steroid biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00121      1 genes  Secondary bile acid biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00514      1 genes  Other types of O-glycan biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00515      1 genes  Mannose type O-glycan biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00542      1 genes  O-Antigen repeat unit biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00906      1 genes  Carotenoid biosynthesis - Mycobacterium tuberculosis H37Rv
+  mtu00946      1 genes  Degradation of flavonoids - Mycobacterium tuberculosis H37Rv
+  mtu03250      1 genes  Viral life cycle - HIV-1 - Mycobacterium tuberculosis H37Rv
+  mtu00072      0 genes  
+  mtu00540      0 genes  
+  mtu00563      0 genes  
+  mtu01130      0 genes  
+  mtu02025      0 genes  
+
+AMR GENE PANEL
+----------------------------------------------------------------------
+  aftA     Rv3792   drugs=EMB                  KO=K13686       pathways=2
+  ahpC     Rv2428   drugs=INH                  KO=K24126       pathways=0
+  atpB     Rv1304   drugs=BDQ                  KO=K02108       pathways=2
+  atpE     Rv1305   drugs=BDQ                  KO=K02110       pathways=2
+  clpC1    Rv3596c  drugs=PZA                  KO=K03696       pathways=0
+  ddn      Rv3547   drugs=DLM,PTM              KO=K00540       pathways=0
+  eis      Rv2416c  drugs=KAN,AMK              KO=             pathways=0
+  embA     Rv3794   drugs=EMB                  KO=K11385       pathways=1
+  embB     Rv3795   drugs=EMB                  KO=K11386       pathways=1
+  embC     Rv3793   drugs=EMB                  KO=K11387       pathways=1
+  embR     Rv1267c  drugs=EMB                  KO=K22894       pathways=0
+  ethA     Rv3854c  drugs=ETH                  KO=K10215       pathways=2
+  ethR     Rv3855   drugs=ETH                  KO=K21961       pathways=0
+  fabG1    Rv1483   drugs=INH                  KO=K11610       pathways=3
+  fbiA     Rv3261   drugs=DLM,PTM              KO=K11212       pathways=4
+  fbiB     Rv3262   drugs=DLM,PTM              KO=K24998       pathways=3
+  fbiC     Rv1173   drugs=DLM,PTM              KO=K11779       pathways=3
+  fbiD     Rv2983   drugs=DLM,PTM              KO=K14941       pathways=4
+  fgd1     Rv0407   drugs=DLM,PTM              KO=K15510       pathways=0
+  furA     Rv1909c  drugs=INH                  KO=K22297       pathways=0
+  gidB     Rv3919c  drugs=STR                  KO=K03501       pathways=0
+  gyrA     Rv0006   drugs=FLQ                  KO=K02469       pathways=0
+  gyrB     Rv0005   drugs=FLQ                  KO=K02470       pathways=0
+  inhA     Rv1484   drugs=INH                  KO=K11611       pathways=3
+  iniA     Rv0342   drugs=INH,ETH              KO=             pathways=0
+  iniB     Rv0341   drugs=INH,ETH              KO=             pathways=0
+  iniC     Rv0343   drugs=INH,ETH              KO=             pathways=0
+  kasA     Rv2245   drugs=INH                  KO=K11609       pathways=3
+  katG     Rv1908c  drugs=INH                  KO=K03782       pathways=5
+  manB     Rv3264c  drugs=EMB                  KO=K00966       pathways=7
+  mmpR5    Rv0678   drugs=BDQ,CFZ              KO=             pathways=0
+  mshA     Rv0486   drugs=INH,ETH              KO=K15521       pathways=0
+  mymA     Rv3083   drugs=ETH                  KO=K10215       pathways=2
+  nat      Rv3566c  drugs=INH                  KO=K00622       pathways=4
+  ndh      Rv1854c  drugs=INH                  KO=K03885       pathways=2
+  panD     Rv3601c  drugs=PZA                  KO=K01579       pathways=5
+  pepQ     Rv2535c  drugs=BDQ,CFZ              KO=             pathways=0
+  pncA     Rv2043c  drugs=PZA                  KO=K08281       pathways=3
+  rmlD     Rv3266c  drugs=EMB                  KO=K00067       pathways=6
+  rplC     Rv0701   drugs=LZD                  KO=K02906       pathways=1
+  rplD     Rv0702   drugs=LZD                  KO=K02926       pathways=1
+  rpoA     Rv3457c  drugs=RIF                  KO=K03040       pathways=1
+  rpoB     Rv0667   drugs=RIF                  KO=K03043       pathways=1
+  rpoC     Rv0668   drugs=RIF                  KO=K03046       pathways=1
+  rpsA     Rv1630   drugs=PZA                  KO=K02945       pathways=1
+  rrl      Rvnr02   drugs=LZD                  KO=K01980       pathways=1
+  rrs      Rvnr01   drugs=STR,AMK,KAN,CAP      KO=K01977       pathways=1
+  tlyA     Rv1694   drugs=CAP                  KO=K06442       pathways=0
+  ubiA     Rv3806c  drugs=EMB                  KO=K14136       pathways=0
+  whiB7    Rv3197A  drugs=INH,STR,KAN,AMK      KO=K18958       pathways=0
+
+DRUGS
+----------------------------------------------------------------------
+  AMK  D02543  Amikacin (USP/INN)                       targets=  0 pathways=  2
+  BDQ  D09872  Bedaquiline (USAN/INN)                   targets=  0 pathways=  2
+  CAP  D00135  Capreomycin sulfate (JAN/USP);           targets=  0 pathways=  1
+  CFZ  D00278  Clofazimine (JAN/USP/INN);               targets=  0 pathways=  0
+  CIP  D00186  Ciprofloxacin (JP18/USP/INN);            targets=  0 pathways=  0
+  CYS  D00877  Cycloserine (JP18/USP/INN);              targets=  0 pathways=  0
+  DLM  D09785  Delamanid (JAN/USAN);                    targets=  0 pathways=  4
+  EMB  D07925  Ethambutol (INN);                        targets=  0 pathways= 11
+  ETH  D00591  Ethionamide (JP18/USP/INN);              targets=  0 pathways=  2
+  INH  D00346  Isoniazid (JP18/USP/INN);                targets=  0 pathways= 10
+  KAN  D00866  Kanamycin sulfate (USP);                 targets=  0 pathways=  2
+  LEV  D08120  Levofloxacin (INN);                      targets=  0 pathways=  0
+  LZD  D00947  Linezolid (JAN/USAN/INN);                targets=  0 pathways=  1
+  MXF  D08237  Moxifloxacin (INN);                      targets=  0 pathways=  0
+  OFX  D00453  Ofloxacin (JP18/USP/INN);                targets=  0 pathways=  0
+  PAS  D03368  Calcium para-aminosalicylate (JP18);     targets=  0 pathways=  0
+  PTH  D01195  Prothionamide (JP18);                    targets=  0 pathways=  0
+  PTM  D10722  Pretomanid (USAN/INN)                    targets=  0 pathways=  4
+  PZA  D00144  Pyrazinamide (JP18/USP/INN)              targets=  0 pathways=  7
+  RFB  D00424  Rifabutin (JAN/USP/INN);                 targets=  0 pathways=  0
+  RIF  D00211  Rifampin (USP);                          targets=  0 pathways=  2
+  RPT  D00879  Rifapentine (USAN/INN);                  targets=  0 pathways=  0
+  STR  D01350  Streptomycin sulfate (JP18/USP)          targets=  0 pathways=  2
+
+DRUG -> PATHWAYS (grounded)
+----------------------------------------------------------------------
+  AMK: map07021, mtu03010
+  BDQ: mtu00190, mtu01100
+  CAP: mtu03010
+  DLM: mtu00680, mtu01100, mtu01120, mtu01240
+  EMB: mtu00051, mtu00520, mtu00521, mtu00523, mtu00541, mtu00571, mtu00572, mtu01100, mtu01110, mtu01240, mtu01250
+  ETH: mtu00627, mtu01120
+  INH: map00983, map07216, mtu00074, mtu00190, mtu00360, mtu00380, mtu00983, mtu01100, mtu01110, mtu01120
+  KAN: map07021, mtu03010
+  LZD: mtu03010
+  PTM: mtu00680, mtu01100, mtu01120, mtu01240
+  PZA: mtu00410, mtu00760, mtu00770, mtu01100, mtu01110, mtu01240, mtu03010
+  RIF: map07023, mtu03020
+  STR: map07021, mtu03010

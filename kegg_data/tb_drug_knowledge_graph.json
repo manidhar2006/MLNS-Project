@@ -1,0 +1,4415 @@
+{
+  "gene_info": {
+    "katG": {
+      "kegg_id": "Rv1908c",
+      "name": "(RefSeq) catalase-peroxidase",
+      "definition": "",
+      "pathways": [
+        {
+          "id": "mtu00360",
+          "name": "Phenylalanine metabolism"
+        },
+        {
+          "id": "mtu00380",
+          "name": "Tryptophan metabolism"
+        },
+        {
+          "id": "mtu00983",
+          "name": "Drug metabolism - other enzymes"
+        },
+        {
+          "id": "mtu01100",
+          "name": "Metabolic pathways"
+        },
+        {
+          "id": "mtu01110",
+          "name": "Biosynthesis of secondary metabolites"
+        }
+      ],
+      "position": "complement(2153889..2156111)",
+      "sequence": "",
+      "standard_name": "katG",
+      "associated_drugs": [
+        "INH"
+      ],
+      "description": "Catalase-peroxidase (INH activation)"
+    },
+    "inhA": {
+      "kegg_id": "Rv1484",
+      "name": "(RefSeq) NADH-dependent enoyl-[ACP] reductase",
+      "definition": "",
+      "pathways": [
+        {
+          "id": "mtu00074",
+          "name": "Mycolic acid biosynthesis"
+        },
+        {
+          "id": "mtu01100",
+          "name": "Metabolic pathways"
+        },
+        {
+          "id": "mtu01110",
+          "name": "Biosynthesis of secondary metabolites"
+        }
+      ],
+      "position": "1674202..1675011",
+      "sequence": "",
+      "standard_name": "inhA",
+      "associated_drugs": [
+        "INH"
+      ],
+      "description": "Enoyl-ACP reductase (INH target)"
+    },
+    "fabG1": {
+      "kegg_id": "Rv1483",
+      "name": "(RefSeq) 3-oxoacyl-ACP reductase FabG",
+      "definition": "",
+      "pathways": [
+        {
+          "id": "mtu00074",
+          "name": "Mycolic acid biosynthesis"
+        },
+        {
+          "id": "mtu01100",
+          "name": "Metabolic pathways"
+        },
+        {
+          "id": "mtu01110",
+          "name": "Biosynthesis of secondary metabolites"
+        }
+      ],
+      "position": "1673440..1674183",
+      "sequence": "",
+      "standard_name": "fabG1",
+      "associated_drugs": [
+        "INH"
+      ],
+      "description": "3-oxoacyl-ACP reductase"
+    },
+    "ahpC": {
+      "kegg_id": "Rv2428",
+      "name": "(RefSeq) alkyl hydroperoxide reductase subunit AhpC",
+      "definition": "",
+      "pathways": [],
+      "position": "2726193..2726780",
+      "sequence": "",
+      "standard_name": "ahpC",
+      "associated_drugs": [
+        "INH"
+      ],
+      "description": "Alkyl hydroperoxide reductase"
+    },
+    "rpoB": {
+      "kegg_id": "Rv0667",
+      "name": "(RefSeq) DNA-directed RNA polymerase subunit beta",
+      "definition": "",
+      "pathways": [
+        {
+          "id": "mtu03020",
+          "name": "RNA polymerase"
+        }
+      ],
+      "position": "759807..763325",
+      "sequence": "",
+      "standard_name": "rpoB",
+      "associated_drugs": [
+        "RIF"
+      ],
+      "description": "RNA polymerase beta subunit"
+    },
+    "rpoC": {
+      "kegg_id": "Rv0668",
+      "name": "(RefSeq) DNA-directed RNA polymerase subunit beta'",
+      "definition": "",
+      "pathways": [
+        {
+          "id": "mtu03020",
+          "name": "RNA polymerase"
+        }
+      ],
+      "position": "763370..767320",
+      "sequence": "",
+      "standard_name": "rpoC",
+      "associated_drugs": [
+        "RIF"
+      ],
+      "description": "RNA polymerase beta' subunit"
+    },
+    "embB": {
+      "kegg_id": "Rv3795",
+      "name": "(RefSeq) arabinosyltransferase B",
+      "definition": "",
+      "pathways": [
+        {
+          "id": "mtu00572",
+          "name": "Arabinogalactan biosynthesis - Mycobacterium"
+        }
+      ],
+      "position": "4246514..4249810",
+      "sequence": "",
+      "standard_name": "embB",
+      "associated_drugs": [
+        "EMB"
+      ],
+      "description": "Arabinosyltransferase B"
+    },
+    "embA": {
+      "kegg_id": "Rv3794",
+      "name": "(RefSeq) arabinosyltransferase A",
+      "definition": "",
+      "pathways": [
+        {
+          "id": "mtu00572",
+          "name": "Arabinogalactan biosynthesis - Mycobacterium"
+        }
+      ],
+      "position": "4243233..4246517",
+      "sequence": "",
+      "standard_name": "embA",
+      "associated_drugs": [
+        "EMB"
+      ],
+      "description": "Arabinosyltransferase A"
+    },
+    "embC": {
+      "kegg_id": "Rv3793",
+      "name": "(RefSeq) arabinosyltransferase C",
+      "definition": "",
+      "pathways": [
+        {
+          "id": "mtu00571",
+          "name": "Lipoarabinomannan (LAM) biosynthesis"
+        }
+      ],
+      "position": "4239863..4243147",
+      "sequence": "",
+      "standard_name": "embC",
+      "associated_drugs": [
+        "EMB"
+      ],
+      "description": "Arabinosyltransferase C"
+    },
+    "pncA": {
+      "kegg_id": "Rv2043c",
+      "name": "(RefSeq) pyrazinamidase/nicotinamidase PncA",
+      "definition": "",
+      "pathways": [
+        {
+          "id": "mtu00760",
+          "name": "Nicotinate and nicotinamide metabolism"
+        },
+        {
+          "id": "mtu01100",
+          "name": "Metabolic pathways"
+        },
+        {
+          "id": "mtu01240",
+          "name": "Biosynthesis of cofactors"
+        }
+      ],
+      "position": "complement(2288681..2289241)",
+      "sequence": "",
+      "standard_name": "pncA",
+      "associated_drugs": [
+        "PZA"
+      ],
+      "description": "Pyrazinamidase/nicotinamidase"
+    },
+    "gyrA": {
+      "kegg_id": "Rv0006",
+      "name": "(RefSeq) DNA gyrase subunit A",
+      "definition": "",
+      "pathways": [],
+      "position": "7302..9818",
+      "sequence": "",
+      "standard_name": "gyrA",
+      "associated_drugs": [
+        "FLQ"
+      ],
+      "description": "DNA gyrase subunit A"
+    },
+    "gyrB": {
+      "kegg_id": "Rv0005",
+      "name": "(RefSeq) DNA gyrase subunit B",
+      "definition": "",
+      "pathways": [],
+      "position": "5240..7267",
+      "sequence": "",
+      "standard_name": "gyrB",
+      "associated_drugs": [
+        "FLQ"
+      ],
+      "description": "DNA gyrase subunit B"
+    },
+    "rrs": {
+      "kegg_id": "Rvnr01",
+      "name": "(RefSeq) 16S ribosomal RNA",
+      "definition": "",
+      "pathways": [
+        {
+          "id": "mtu03010",
+          "name": "Ribosome"
+        }
+      ],
+      "position": "1471846..1473382",
+      "sequence": "",
+      "standard_name": "rrs",
+      "associated_drugs": [
+        "STR",
+        "AMK",
+        "KAN"
+      ],
+      "description": "16S ribosomal RNA"
+    },
+    "rrl": {
+      "kegg_id": "Rvnr02",
+      "name": "(RefSeq) 23S ribosomal RNA",
+      "definition": "",
+      "pathways": [
+        {
+          "id": "mtu03010",
+          "name": "Ribosome"
+        }
+      ],
+      "position": "1473658..1476795",
+      "sequence": "",
+      "standard_name": "rrl",
+      "associated_drugs": [
+        "LNZ"
+      ],
+      "description": "23S ribosomal RNA"
+    },
+    "eis": {
+      "kegg_id": "Rv2416c",
+      "name": "(RefSeq) enhanced intracellular survival protein",
+      "definition": "",
+      "pathways": [],
+      "position": "complement(2714124..2715332)",
+      "sequence": "",
+      "standard_name": "eis",
+      "associated_drugs": [
+        "KAN",
+        "AMK"
+      ],
+      "description": "Enhanced intracellular survival"
+    },
+    "gidB": {
+      "kegg_id": "Rv3919c",
+      "name": "(RefSeq) 16S rRNA (guanine(527)-N(7))-methyltransferase RsmG",
+      "definition": "",
+      "pathways": [],
+      "position": "complement(4407528..4408202)",
+      "sequence": "",
+      "standard_name": "gidB",
+      "associated_drugs": [
+        "STR"
+      ],
+      "description": "Glucose-inhibited division protein"
+    },
+    "tlyA": {
+      "kegg_id": "Rv1694",
+      "name": "(RefSeq) 16S/23S rRNA (cytidine-2'-O)-methyltransferase TlyA",
+      "definition": "",
+      "pathways": [],
+      "position": "1917940..1918746",
+      "sequence": "",
+      "standard_name": "tlyA",
+      "associated_drugs": [
+        "CAP"
+      ],
+      "description": "Hemolysin"
+    },
+    "iniB": {
+      "kegg_id": "Rv0341",
+      "name": "(RefSeq) isoniazid inducible protein IniB",
+      "definition": "",
+      "pathways": [],
+      "position": "409362..410801",
+      "sequence": "",
+      "standard_name": "iniB",
+      "associated_drugs": [
+        "INH",
+        "ETH"
+      ],
+      "description": "Isoniazid inductible gene"
+    },
+    "iniA": {
+      "kegg_id": "Rv0342",
+      "name": "(RefSeq) isoniazid inductible protein IniA",
+      "definition": "",
+      "pathways": [],
+      "position": "410838..412760",
+      "sequence": "",
+      "standard_name": "iniA",
+      "associated_drugs": [
+        "INH",
+        "ETH"
+      ],
+      "description": "Isoniazid inductible gene"
+    },
+    "iniC": {
+      "kegg_id": "Rv0343",
+      "name": "(RefSeq) iIsoniazid inductible protein IniC",
+      "definition": "",
+      "pathways": [],
+      "position": "412757..414238",
+      "sequence": "",
+      "standard_name": "iniC",
+      "associated_drugs": [
+        "INH",
+        "ETH"
+      ],
+      "description": "Isoniazid inductible gene"
+    },
+    "ndh": {
+      "kegg_id": "Rv1854c",
+      "name": "(RefSeq) NADH dehydrogenase",
+      "definition": "",
+      "pathways": [
+        {
+          "id": "mtu00190",
+          "name": "Oxidative phosphorylation"
+        },
+        {
+          "id": "mtu01100",
+          "name": "Metabolic pathways"
+        }
+      ],
+      "position": "complement(2101651..2103042)",
+      "sequence": "",
+      "standard_name": "ndh",
+      "associated_drugs": [
+        "INH"
+      ],
+      "description": "NADH dehydrogenase"
+    },
+    "manB": {
+      "kegg_id": "Rv3264c",
+      "name": "(RefSeq) D-alpha-D-mannose-1-phosphate guanylyltransferase ManB",
+      "definition": "",
+      "pathways": [
+        {
+          "id": "mtu00051",
+          "name": "Fructose and mannose metabolism"
+        },
+        {
+          "id": "mtu00520",
+          "name": "Amino sugar and nucleotide sugar metabolism"
+        },
+        {
+          "id": "mtu00541",
+          "name": "Biosynthesis of various nucleotide sugars"
+        },
+        {
+          "id": "mtu01100",
+          "name": "Metabolic pathways"
+        },
+        {
+          "id": "mtu01110",
+          "name": "Biosynthesis of secondary metabolites"
+        },
+        {
+          "id": "mtu01240",
+          "name": "Biosynthesis of cofactors"
+        },
+        {
+          "id": "mtu01250",
+          "name": "Biosynthesis of nucleotide sugars"
+        }
+      ],
+      "position": "complement(3644898..3645977)",
+      "sequence": "",
+      "standard_name": "manB",
+      "associated_drugs": [
+        "EMB"
+      ],
+      "description": "Phosphomannomutase"
+    },
+    "rmlD": {
+      "kegg_id": "Rv3266c",
+      "name": "(RefSeq) dTDP-4-dehydrorhamnose reductase",
+      "definition": "",
+      "pathways": [
+        {
+          "id": "mtu00521",
+          "name": "Streptomycin biosynthesis"
+        },
+        {
+          "id": "mtu00523",
+          "name": "Polyketide sugar unit biosynthesis"
+        },
+        {
+          "id": "mtu00541",
+          "name": "Biosynthesis of various nucleotide sugars"
+        },
+        {
+          "id": "mtu01100",
+          "name": "Metabolic pathways"
+        },
+        {
+          "id": "mtu01110",
+          "name": "Biosynthesis of secondary metabolites"
+        },
+        {
+          "id": "mtu01250",
+          "name": "Biosynthesis of nucleotide sugars"
+        }
+      ],
+      "position": "complement(3646895..3647809)",
+      "sequence": "",
+      "standard_name": "rmlD",
+      "associated_drugs": [
+        "EMB"
+      ],
+      "description": "dTDP-4-dehydrorhamnose reductase"
+    }
+  },
+  "pathway_info": {
+    "mtu00051": {
+      "pathway_id": "mtu00051",
+      "name": "Fructose and mannose metabolism - Mycobacterium tuberculosis H37Rv",
+      "description": "",
+      "class": "Metabolism; Carbohydrate metabolism",
+      "genes": [
+        {
+          "id": "Rv0112",
+          "name": "gca; GDP-mannose 4,6-dehydratase [KO:K15856] [EC:1.1.1.281]"
+        },
+        {
+          "id": "Rv0363c",
+          "name": "fba; fructose-bisphosphate aldolase [KO:K01624] [EC:4.1.2.13]"
+        },
+        {
+          "id": "Rv0727c",
+          "name": "fucA; L-fuculose phosphate aldolase FucA [KO:K01628] [EC:4.1.2.17]"
+        },
+        {
+          "id": "Rv1099c",
+          "name": "glpX; fructose 1,6-bisphosphatase [KO:K02446] [EC:3.1.3.11]"
+        },
+        {
+          "id": "Rv1438",
+          "name": "tpi; triosephosphate isomerase [KO:K01803] [EC:5.3.1.1]"
+        },
+        {
+          "id": "Rv1511",
+          "name": "gmdA; GDP-D-mannose dehydratase GmdA [KO:K01711] [EC:4.2.1.47]"
+        },
+        {
+          "id": "Rv1512",
+          "name": "epiA; nucleotide-sugar epimerase EpiA [KO:K02377] [EC:1.1.1.271]"
+        },
+        {
+          "id": "Rv2029c",
+          "name": "pfkB; 6-phosphofructokinase PfkB [KO:K16370] [EC:2.7.1.11]"
+        },
+        {
+          "id": "Rv2465c",
+          "name": "rpiB; ribose-5-phosphate isomerase B [KO:K01808] [EC:5.3.1.6]"
+        },
+        {
+          "id": "Rv3010c",
+          "name": "pfkA; 6-phosphofructokinase [KO:K21071] [EC:2.7.1.11 2.7.1.90]"
+        },
+        {
+          "id": "Rv3214",
+          "name": "gpm2; phosphoglycerate mutase [KO:K28849]"
+        },
+        {
+          "id": "Rv3255c",
+          "name": "manA; mannose-6-phosphate isomerase [KO:K01809] [EC:5.3.1.8]"
+        },
+        {
+          "id": "Rv3257c",
+          "name": "pmmA; phosphomannomutase PmmA [KO:K01840] [EC:5.4.2.8]"
+        },
+        {
+          "id": "Rv3264c",
+          "name": "manB; D-alpha-D-mannose-1-phosphate guanylyltransferase ManB [KO:K00966] [EC:2.7.7.13]"
+        },
+        {
+          "id": "Rv3308",
+          "name": "pmmB; phosphomannomutase PmmB [KO:K01840] [EC:5.4.2.8]"
+        }
+      ],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu00074": {
+      "pathway_id": "mtu00074",
+      "name": "Mycolic acid biosynthesis - Mycobacterium tuberculosis H37Rv",
+      "description": "Mycolic acids are alpha-alkyl, beta-hydroxy long-chain fatty acids, which are essential components of the cell walls of mycobacteria and related bacteria such as Nocardia and Rhodococcus. The structures of mycolic acids are composed of a meromycolic chain and an alpha-branch. Functional groups and carbon chain lengths vary depending on the genus, species and strain levels of bacteria. Corynebacteria also synthesize mycolic acids, called corynomycolic acids, which are shorter and less modified than mycobacterial mycolic acids. In mycobacteria, the biosynthetic pathway starts with de novo synthesis and elongation of fatty acids by FAS I and FAS II, respectively. FAS II products undergo further elongation, desaturation and modification to produce meromycolic acids, while carboxylation of very-long-chain acyl-CoA further elongated by FAS I yields carboxyacyl-CoA (alpha-branch). Mycolic beta-ketoester formed by condensation of the activated meromycolic chain and the carboxylated acyl chain, upon reduction, leads to the mature mycolate, TMM (trehalose monomycolate). Mycolyltransferase (Ag85) then catalyzes the transfer of a mycolate from TMM to the cell wall arabinogalactan and to other TMMs to form mAGP and TDM (trehalose dimycolate), respectively.",
+      "class": "Metabolism; Lipid metabolism",
+      "genes": [
+        {
+          "id": "Rv0129c",
+          "name": "fbpC; diacylglycerol acyltransferase/mycolyltransferase Ag85C [KO:K18851] [EC:2.3.1.20 2.3.1.122 2.3.1.-]"
+        },
+        {
+          "id": "Rv0132c",
+          "name": "fgd2; F420-dependent glucose-6-phosphate dehydrogenase [KO:K00120]"
+        },
+        {
+          "id": "Rv0469",
+          "name": "umaA; mycolic acid synthase UmaA [KO:K26590]"
+        },
+        {
+          "id": "Rv0470c",
+          "name": "pcaA; cyclopropane mycolic acid synthase [KO:K26591]"
+        },
+        {
+          "id": "Rv0503c",
+          "name": "cmaA2; cyclopropane mycolic acid synthase [KO:K26596]"
+        },
+        {
+          "id": "Rv0504c",
+          "name": "[KO:K27074]"
+        },
+        {
+          "id": "Rv0533c",
+          "name": "fabH; 3-oxoacyl-ACP synthase III [KO:K11608] [EC:2.3.1.301]"
+        },
+        {
+          "id": "Rv0635",
+          "name": "hadA; (3R)-hydroxyacyl-ACP dehydratase subunit HadA [KO:K27071]"
+        },
+        {
+          "id": "Rv0636",
+          "name": "hadB; (3R)-hydroxyacyl-ACP dehydratase subunit HadB [KO:K27072]"
+        },
+        {
+          "id": "Rv0637",
+          "name": "hadC; (3R)-hydroxyacyl-ACP dehydratase subunit HadC [KO:K27073]"
+        },
+        {
+          "id": "Rv0642c",
+          "name": "mmaA4; hydroxymycolate synthase MmaA4 [KO:K26592]"
+        },
+        {
+          "id": "Rv0643c",
+          "name": "mmaA3; methoxy mycolic acid synthase MmaA3 [KO:K26593]"
+        },
+        {
+          "id": "Rv0644c",
+          "name": "mmaA2; cyclopropane mycolic acid synthase CmaA [KO:K26595]"
+        },
+        {
+          "id": "Rv0645c",
+          "name": "mmaA1; mycolic acid methyltransferase MmaA1 [KO:K26594]"
+        },
+        {
+          "id": "Rv0649",
+          "name": "fabD2; malonyl CoA-acyl carrier protein transacylase [KO:K00645] [EC:2.3.1.39]"
+        },
+        {
+          "id": "Rv0824c",
+          "name": "desA1; acyl-ACP desaturase DesA [KO:K03921] [EC:1.14.19.2 1.14.19.11 1.14.19.26]"
+        },
+        {
+          "id": "Rv1094",
+          "name": "desA2; acyl-ACP desaturase DesA [KO:K03922] [EC:1.14.19.2 1.14.19.-]"
+        },
+        {
+          "id": "Rv1483",
+          "name": "fabG1; 3-oxoacyl-ACP reductase FabG [KO:K11610] [EC:1.1.1.-]"
+        },
+        {
+          "id": "Rv1484",
+          "name": "inhA; NADH-dependent enoyl-[ACP] reductase [KO:K11611] [EC:1.3.1.118]"
+        },
+        {
+          "id": "Rv1886c",
+          "name": "fbpB; diacylglycerol acyltransferase/mycolyltransferase Ag85B [KO:K18851] [EC:2.3.1.20 2.3.1.122 2.3.1.-]"
+        },
+        {
+          "id": "Rv2243",
+          "name": "fabD; malonyl CoA-acyl carrier protein transacylase [KO:K00645] [EC:2.3.1.39]"
+        },
+        {
+          "id": "Rv2245",
+          "name": "kasA; 3-oxoacyl-ACP synthase 1 [KO:K11609] [EC:2.3.1.293]"
+        },
+        {
+          "id": "Rv2246",
+          "name": "kasB; 3-oxoacyl-ACP synthase 2 [KO:K27070]"
+        },
+        {
+          "id": "Rv2247",
+          "name": "accD6; acetyl-/propionyl-CoA carboxylase subunit beta [KO:K18472] [EC:6.4.1.2 6.4.1.3 2.1.3.15]"
+        },
+        {
+          "id": "Rv2509",
+          "name": "[KO:K27306]"
+        },
+        {
+          "id": "Rv2523c",
+          "name": "acpS; holo-ACP synthase [KO:K00997] [EC:2.7.8.7]"
+        },
+        {
+          "id": "Rv2524c",
+          "name": "fas; fatty acid synthase [KO:K11533] [EC:2.3.1.-]"
+        },
+        {
+          "id": "Rv2794c",
+          "name": "pptT; 4'-phosphopantetheinyl transferase [KO:K02362] [EC:6.3.2.14 2.7.8.7]"
+        },
+        {
+          "id": "Rv3280",
+          "name": "accD5; propionyl-CoA carboxylase subunit beta [KO:K27094]"
+        },
+        {
+          "id": "Rv3281",
+          "name": "accE5; bifunctional protein acetyl-/propionyl-CoAcarboxylase subunit epsilon AccE [KO:K27095]"
+        },
+        {
+          "id": "Rv3285",
+          "name": "accA3; bifunctional protein acetyl-/propionyl-CoA carboxylase subunit alpha AccA [KO:K11263] [EC:6.4.1.2 6.4.1.3 6.4.1.- 6.3.4.14]"
+        },
+        {
+          "id": "Rv3451",
+          "name": "cut3; cutinase [KO:K27359]"
+        },
+        {
+          "id": "Rv3799c",
+          "name": "accD4; propionyl-CoA carboxylase subunit beta AccD [KO:K27093]"
+        },
+        {
+          "id": "Rv3800c",
+          "name": "pks13; polyketide synthase [KO:K12437]"
+        },
+        {
+          "id": "Rv3801c",
+          "name": "fadD32; long-chain-fatty-acid--AMP ligase FadD32 [KO:K12428] [EC:6.2.1.-]"
+        },
+        {
+          "id": "Rv3804c",
+          "name": "fbpA; diacylglycerol acyltransferase/mycolyltransferase Ag85A [KO:K18851] [EC:2.3.1.20 2.3.1.122 2.3.1.-]"
+        }
+      ],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu00190": {
+      "pathway_id": "mtu00190",
+      "name": "Oxidative phosphorylation - Mycobacterium tuberculosis H37Rv",
+      "description": "",
+      "class": "Metabolism; Energy metabolism",
+      "genes": [
+        {
+          "id": "Rv0247c",
+          "name": "[KO:K00240] [EC:1.3.5.1]"
+        },
+        {
+          "id": "Rv0248c",
+          "name": "[KO:K00239] [EC:1.3.5.1]"
+        },
+        {
+          "id": "Rv0392c",
+          "name": "ndhA; NADH dehydrogenase NdhA [KO:K03885] [EC:1.6.5.9]"
+        },
+        {
+          "id": "Rv1304",
+          "name": "atpB; ATP synthase subunit A [KO:K02108]"
+        },
+        {
+          "id": "Rv1305",
+          "name": "atpE; ATP synthase subunit C [KO:K02110]"
+        },
+        {
+          "id": "Rv1306",
+          "name": "atpF; ATP synthase subunit B [KO:K02109]"
+        },
+        {
+          "id": "Rv1307",
+          "name": "atpH; ATP synthase subunit b/delta [KO:K02113 K02109]"
+        },
+        {
+          "id": "Rv1308",
+          "name": "atpA; ATP synthase subunit alpha [KO:K02111] [EC:7.1.2.2 7.2.2.1]"
+        },
+        {
+          "id": "Rv1309",
+          "name": "atpG; ATP synthase subunit gamma [KO:K02115]"
+        },
+        {
+          "id": "Rv1310",
+          "name": "atpD; ATP synthase subunit beta [KO:K02112] [EC:7.1.2.2 7.2.2.1]"
+        },
+        {
+          "id": "Rv1311",
+          "name": "atpC; ATP synthase subunit epsilon [KO:K02114]"
+        },
+        {
+          "id": "Rv1451",
+          "name": "[KO:K02257] [EC:2.5.1.141]"
+        },
+        {
+          "id": "Rv1456c",
+          "name": "[KO:K02259] [EC:1.17.99.9]"
+        },
+        {
+          "id": "Rv1552",
+          "name": "frdA; fumarate reductase flavoprotein subunit [KO:K00244] [EC:1.3.5.1]"
+        },
+        {
+          "id": "Rv1553",
+          "name": "frdB; fumarate reductase iron-sulfur subunit [KO:K00245] [EC:1.3.5.1]"
+        },
+        {
+          "id": "Rv1554",
+          "name": "frdC; fumarate reductase membrane anchor subunit [KO:K00246]"
+        },
+        {
+          "id": "Rv1555",
+          "name": "frdD; fumarate reductase membrane anchor subunit [KO:K00247]"
+        },
+        {
+          "id": "Rv1622c",
+          "name": "cydB; cytochrome D ubiquinol oxidase subunit II CydB [KO:K00426] [EC:7.1.1.7]"
+        },
+        {
+          "id": "Rv1623c",
+          "name": "cydA; cytochrome D ubiquinol oxidase subunit I CydA [KO:K00425] [EC:7.1.1.7]"
+        },
+        {
+          "id": "Rv1812c",
+          "name": "[KO:K03885] [EC:1.6.5.9]"
+        },
+        {
+          "id": "Rv1854c",
+          "name": "ndh; NADH dehydrogenase [KO:K03885] [EC:1.6.5.9]"
+        },
+        {
+          "id": "Rv2193",
+          "name": "ctaE; cytochrome C oxidase subunit III [KO:K02276] [EC:7.1.1.9]"
+        },
+        {
+          "id": "Rv2194",
+          "name": "qcrC; ubiquinol-cytochrome C reductase cytochrome subunit C [KO:K03889] [EC:7.1.1.8]"
+        },
+        {
+          "id": "Rv2195",
+          "name": "qcrA; ubiquinol-cytochrome C reductase rieske iron-sulfur subunit [KO:K03890] [EC:7.1.1.8]"
+        },
+        {
+          "id": "Rv2196",
+          "name": "qcrB; ubiquinol-cytochrome C reductase cytochrome subunit B [KO:K03891] [EC:7.1.1.8]"
+        },
+        {
+          "id": "Rv2199c",
+          "name": "[KO:K27109]"
+        },
+        {
+          "id": "Rv2200c",
+          "name": "ctaC; cytochrome C oxidase subunit II [KO:K02275] [EC:7.1.1.9]"
+        },
+        {
+          "id": "Rv2984",
+          "name": "ppk1; polyphosphate kinase [KO:K00937] [EC:2.7.4.1]"
+        },
+        {
+          "id": "Rv3043c",
+          "name": "ctaD; cytochrome C oxidase cytochrome 1 [KO:K02274] [EC:7.1.1.9]"
+        },
+        {
+          "id": "Rv3145",
+          "name": "nuoA; NADH-quinone oxidoreductase subunit A [KO:K00330] [EC:7.1.1.2]"
+        },
+        {
+          "id": "Rv3146",
+          "name": "nuoB; NADH-quinone oxidoreductase subunit B [KO:K00331] [EC:7.1.1.2]"
+        },
+        {
+          "id": "Rv3147",
+          "name": "nuoC; NADH-quinone oxidoreductase subunit C [KO:K00332] [EC:7.1.1.2]"
+        },
+        {
+          "id": "Rv3148",
+          "name": "nuoD; NADH-quinone oxidoreductase subunit D [KO:K00333] [EC:7.1.1.2]"
+        },
+        {
+          "id": "Rv3149",
+          "name": "nuoE; NADH-quinone oxidoreductase subunit E [KO:K00334] [EC:7.1.1.2]"
+        },
+        {
+          "id": "Rv3150",
+          "name": "nuoF; NADH-quinone oxidoreductase subunit F [KO:K00335] [EC:7.1.1.2]"
+        },
+        {
+          "id": "Rv3151",
+          "name": "nuoG; NADH-quinone oxidoreductase subunit G [KO:K00336] [EC:7.1.1.2]"
+        },
+        {
+          "id": "Rv3152",
+          "name": "nuoH; NADH-quinone oxidoreductase subunit H [KO:K00337] [EC:7.1.1.2]"
+        },
+        {
+          "id": "Rv3153",
+          "name": "nuoI; NADH-quinone oxidoreductase subunit I [KO:K00338] [EC:7.1.1.2]"
+        },
+        {
+          "id": "Rv3154",
+          "name": "nuoJ; NADH-quinone oxidoreductase subunit J [KO:K00339] [EC:7.1.1.2]"
+        },
+        {
+          "id": "Rv3155",
+          "name": "nuoK; NADH-quinone oxidoreductase subunit K [KO:K00340] [EC:7.1.1.2]"
+        },
+        {
+          "id": "Rv3156",
+          "name": "nuoL; NADH-quinone oxidoreductase subunit L [KO:K00341] [EC:7.1.1.2]"
+        },
+        {
+          "id": "Rv3157",
+          "name": "nuoM; NADH-quinone oxidoreductase subunit M [KO:K00342] [EC:7.1.1.2]"
+        },
+        {
+          "id": "Rv3158",
+          "name": "nuoN; NADH-quinone oxidoreductase subunit N [KO:K00343] [EC:7.1.1.2]"
+        },
+        {
+          "id": "Rv3232c",
+          "name": "ppk2; polyphosphate kinase [KO:K22468] [EC:2.7.4.34]"
+        },
+        {
+          "id": "Rv3316",
+          "name": "sdhC; succinate dehydrogenase cytochrome B-556 subunit [KO:K00241]"
+        },
+        {
+          "id": "Rv3317",
+          "name": "sdhD; succinate dehydrogenase hydrophobic membrane anchor subunit [KO:K00242]"
+        },
+        {
+          "id": "Rv3318",
+          "name": "sdhA; succinate dehydrogenase flavoprotein subunit [KO:K00239] [EC:1.3.5.1]"
+        },
+        {
+          "id": "Rv3319",
+          "name": "sdhB; succinate dehydrogenase iron-sulphur protein subunit [KO:K00240] [EC:1.3.5.1]"
+        },
+        {
+          "id": "Rv3628",
+          "name": "ppa; inorganic pyrophosphatase [KO:K01507] [EC:3.6.1.1]"
+        }
+      ],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu00230": {
+      "pathway_id": "mtu00230",
+      "name": "Purine metabolism - Mycobacterium tuberculosis H37Rv",
+      "description": "",
+      "class": "Metabolism; Nucleotide metabolism",
+      "genes": [
+        {
+          "id": "Rv0233",
+          "name": "nrdB; ribonucleoside-diphosphate reductase subunit beta NrdB [KO:K00526] [EC:1.17.4.1]"
+        },
+        {
+          "id": "Rv0357c",
+          "name": "purA; adenylosuccinate synthetase [KO:K01939] [EC:6.3.4.4]"
+        },
+        {
+          "id": "Rv0389",
+          "name": "purT; phosphoribosylglycinamide formyltransferase PurT [KO:K08289] [EC:6.3.1.21]"
+        },
+        {
+          "id": "Rv0496",
+          "name": "[KO:K01524] [EC:3.6.1.11 3.6.1.40]"
+        },
+        {
+          "id": "Rv0570",
+          "name": "nrdZ; vitamin B12-dependent ribonucleoside-diphosphate reductase [KO:K00525] [EC:1.17.4.1]"
+        },
+        {
+          "id": "Rv0733",
+          "name": "adk; adenylate kinase [KO:K00939] [EC:2.7.4.3]"
+        },
+        {
+          "id": "Rv0772",
+          "name": "purD; phosphoribosylamine--glycine ligase [KO:K01945] [EC:6.3.4.13]"
+        },
+        {
+          "id": "Rv0777",
+          "name": "purB; adenylosuccinate lyase PurB [KO:K01756] [EC:4.3.2.2]"
+        },
+        {
+          "id": "Rv0780",
+          "name": "purC; phosphoribosylaminoimidazole-succinocarboxamide synthase [KO:K01923] [EC:6.3.2.6]"
+        },
+        {
+          "id": "Rv0787A",
+          "name": "[KO:K23264]"
+        },
+        {
+          "id": "Rv0788",
+          "name": "purQ; phosphoribosylformylglycinamidine synthase [KO:K23265]"
+        },
+        {
+          "id": "Rv0803",
+          "name": "purL; phosphoribosylformylglycinamidine synthase 2 [KO:K23269]"
+        },
+        {
+          "id": "Rv0805",
+          "name": "[KO:K03651] [EC:3.1.4.53]"
+        },
+        {
+          "id": "Rv0808",
+          "name": "purF; amidophosphoribosyltransferase [KO:K00764] [EC:2.4.2.14]"
+        },
+        {
+          "id": "Rv0809",
+          "name": "purM; phosphoribosylformylglycinamidine cyclo-ligase PurM [KO:K01933] [EC:6.3.3.1]"
+        },
+        {
+          "id": "Rv0956",
+          "name": "purN; phosphoribosylglycinamide formyltransferase PurN [KO:K11175] [EC:2.1.2.2]"
+        },
+        {
+          "id": "Rv0957",
+          "name": "purH; bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/inosinemonophosphate cyclohydrolase [KO:K00602] [EC:2.1.2.3 3.5.4.10]"
+        },
+        {
+          "id": "Rv1017c",
+          "name": "prsA; ribose-phosphate pyrophosphokinase [KO:K00948] [EC:2.7.6.1]"
+        },
+        {
+          "id": "Rv1021",
+          "name": "[KO:K04765] [EC:3.6.1.9]"
+        },
+        {
+          "id": "Rv1026",
+          "name": "[KO:K01524] [EC:3.6.1.11 3.6.1.40]"
+        },
+        {
+          "id": "Rv1264",
+          "name": "[KO:K01768] [EC:4.6.1.1]"
+        },
+        {
+          "id": "Rv1285",
+          "name": "cysD; sulfate adenylyltransferase subunit 2 [KO:K00957] [EC:2.7.7.4]"
+        },
+        {
+          "id": "Rv1286",
+          "name": "[KO:K00955] [EC:2.7.7.4 2.7.1.25]"
+        },
+        {
+          "id": "Rv1341",
+          "name": "[KO:K01519] [EC:3.6.1.66]"
+        },
+        {
+          "id": "Rv1389",
+          "name": "gmk; guanylate kinase [KO:K00942] [EC:2.7.4.8]"
+        },
+        {
+          "id": "Rv1625c",
+          "name": "cya; adenylate cyclase [KO:K01768] [EC:4.6.1.1]"
+        },
+        {
+          "id": "Rv1843c",
+          "name": "guaB1; inosine-5'-monophosphate dehydrogenase [KO:K26110]"
+        },
+        {
+          "id": "Rv1848",
+          "name": "ureA; urease subunit gamma [KO:K01430] [EC:3.5.1.5]"
+        },
+        {
+          "id": "Rv1849",
+          "name": "ureB; urease subunit beta [KO:K01429] [EC:3.5.1.5]"
+        },
+        {
+          "id": "Rv1850",
+          "name": "ureC; urease subunit alpha [KO:K01428] [EC:3.5.1.5]"
+        },
+        {
+          "id": "Rv1981c",
+          "name": "nrdF1; ribonucleoside-diphosphate reductase subunit beta NrdF1 [KO:K00526] [EC:1.17.4.1]"
+        },
+        {
+          "id": "Rv2149c",
+          "name": "yfiH; laccase domain-containing protein [KO:K05810] [EC:2.4.2.1 2.4.2.28 3.5.4.4]"
+        },
+        {
+          "id": "Rv2202c",
+          "name": "adoK; adenosine kinase [KO:K00856] [EC:2.7.1.20]"
+        },
+        {
+          "id": "Rv2344c",
+          "name": "dgt; deoxyguanosine triphosphate triphosphohydrolase [KO:K01129] [EC:3.1.5.1]"
+        },
+        {
+          "id": "Rv2445c",
+          "name": "ndkA; nucleoside diphosphate kinase [KO:K00940] [EC:2.7.4.6]"
+        },
+        {
+          "id": "Rv2583c",
+          "name": "relA; bifunctional (p)ppGpp synthase/hydrolase RelA [KO:K01139] [EC:2.7.6.5 3.1.7.2]"
+        },
+        {
+          "id": "Rv2584c",
+          "name": "apt; adenine phosphoribosyltransferase [KO:K00759] [EC:2.4.2.7]"
+        },
+        {
+          "id": "Rv2613c",
+          "name": "[KO:K19710] [EC:2.7.7.53]"
+        },
+        {
+          "id": "Rv3048c",
+          "name": "nrdF2; ribonucleoside-diphosphate reductase subunit beta NrdF2 [KO:K00526] [EC:1.17.4.1]"
+        },
+        {
+          "id": "Rv3051c",
+          "name": "nrdE; ribonucleoside-diphosphate reductase subunit alpha [KO:K00525] [EC:1.17.4.1]"
+        },
+        {
+          "id": "Rv3068c",
+          "name": "pgmA; phosphoglucomutase PgmA [KO:K01835] [EC:5.4.2.2]"
+        },
+        {
+          "id": "Rv3275c",
+          "name": "purE; 5-(carboxyamino)imidazole ribonucleotide mutase [KO:K01588] [EC:5.4.99.18]"
+        },
+        {
+          "id": "Rv3276c",
+          "name": "purK; 5-(carboxyamino)imidazole ribonucleotide synthase [KO:K01589] [EC:6.3.4.18]"
+        },
+        {
+          "id": "Rv3307",
+          "name": "deoD; purine nucleoside phosphorylase [KO:K03783] [EC:2.4.2.1]"
+        },
+        {
+          "id": "Rv3313c",
+          "name": "add; adenosine deaminase [KO:K01488] [EC:3.5.4.4]"
+        },
+        {
+          "id": "Rv3393",
+          "name": "iunH; nucleoside hydrolase [KO:K01239] [EC:3.2.2.1]"
+        },
+        {
+          "id": "Rv3396c",
+          "name": "guaA; GMP synthase [KO:K01951] [EC:6.3.5.2]"
+        },
+        {
+          "id": "Rv3410c",
+          "name": "guaB3; oxidoreductase [KO:K00088] [EC:1.1.1.205]"
+        },
+        {
+          "id": "Rv3411c",
+          "name": "guaB2; inosine-5'-monophosphate dehydrogenase [KO:K00088] [EC:1.1.1.205]"
+        },
+        {
+          "id": "Rv3624c",
+          "name": "hpt; hypoxanthine-guanine phosphoribosyltransferase [KO:K00760] [EC:2.4.2.8]"
+        },
+        {
+          "id": "Rv3645",
+          "name": "[KO:K01768] [EC:4.6.1.1]"
+        }
+      ],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu00360": {
+      "pathway_id": "mtu00360",
+      "name": "Phenylalanine metabolism - Mycobacterium tuberculosis H37Rv",
+      "description": "",
+      "class": "Metabolism; Amino acid metabolism",
+      "genes": [
+        {
+          "id": "Rv0468",
+          "name": "fadB2; 3-hydroxybutyryl-CoA dehydrogenase [KO:K00074] [EC:1.1.1.157]"
+        },
+        {
+          "id": "Rv1070c",
+          "name": "echA8; enoyl-CoA hydratase EchA8 [KO:K01692] [EC:4.2.1.17]"
+        },
+        {
+          "id": "Rv1263",
+          "name": "amiB2; amidase AmiB [KO:K01426] [EC:3.5.1.4]"
+        },
+        {
+          "id": "Rv1472",
+          "name": "echA12; enoyl-CoA hydratase EchA12 [KO:K01692] [EC:4.2.1.17]"
+        },
+        {
+          "id": "Rv1600",
+          "name": "hisC1; histidinol-phosphate aminotransferase [KO:K00817] [EC:2.6.1.9]"
+        },
+        {
+          "id": "Rv1715",
+          "name": "fadB3; 3-hydroxybutyryl-CoA dehydrogenase FadB [KO:K00074] [EC:1.1.1.157]"
+        },
+        {
+          "id": "Rv1869c",
+          "name": "[KO:K00529] [EC:1.18.1.3]"
+        },
+        {
+          "id": "Rv1908c",
+          "name": "katG; catalase-peroxidase [KO:K03782] [EC:1.11.1.21]"
+        },
+        {
+          "id": "Rv2231c",
+          "name": "cobC; aminotransferase [KO:K00817] [EC:2.6.1.9]"
+        },
+        {
+          "id": "Rv2363",
+          "name": "amiA2; amidase [KO:K01426] [EC:3.5.1.4]"
+        },
+        {
+          "id": "Rv2486",
+          "name": "echA14; enoyl-CoA hydratase EchA14 [KO:K01692] [EC:4.2.1.17]"
+        },
+        {
+          "id": "Rv2888c",
+          "name": "amiC; amidase AmiC [KO:K01426] [EC:3.5.1.4]"
+        },
+        {
+          "id": "Rv3039c",
+          "name": "echA17; enoyl-CoA hydratase EchA17 [KO:K01692] [EC:4.2.1.17]"
+        },
+        {
+          "id": "Rv3170",
+          "name": "aofH; flavin-containing monoamine oxidase [KO:K00274] [EC:1.4.3.4]"
+        },
+        {
+          "id": "Rv3175",
+          "name": "[KO:K01426] [EC:3.5.1.4]"
+        },
+        {
+          "id": "Rv3375",
+          "name": "amiD; amidase [KO:K01426] [EC:3.5.1.4]"
+        },
+        {
+          "id": "Rv3469c",
+          "name": "mhpE; 4-hydroxy-2-oxovalerate aldolase MhpE [KO:K01666] [EC:4.1.3.39]"
+        },
+        {
+          "id": "Rv3534c",
+          "name": "hsaF; 4-hydroxy-2-oxovalerate aldolase [KO:K01666] [EC:4.1.3.39]"
+        },
+        {
+          "id": "Rv3535c",
+          "name": "hsaG; acetaldehyde dehydrogenase [KO:K04073] [EC:1.2.1.10]"
+        },
+        {
+          "id": "Rv3536c",
+          "name": "hsaE; hydratase [KO:K02554] [EC:4.2.1.80]"
+        },
+        {
+          "id": "Rv3772",
+          "name": "hisC2; histidinol-phosphate aminotransferase [KO:K00817] [EC:2.6.1.9]"
+        }
+      ],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu00380": {
+      "pathway_id": "mtu00380",
+      "name": "Tryptophan metabolism - Mycobacterium tuberculosis H37Rv",
+      "description": "",
+      "class": "Metabolism; Amino acid metabolism",
+      "genes": [
+        {
+          "id": "Rv0147",
+          "name": "[KO:K00128] [EC:1.2.1.3]"
+        },
+        {
+          "id": "Rv0223c",
+          "name": "[KO:K00128] [EC:1.2.1.3]"
+        },
+        {
+          "id": "Rv0243",
+          "name": "fadA2; acetyl-CoA acetyltransferase FadA [KO:K00626] [EC:2.3.1.9]"
+        },
+        {
+          "id": "Rv0400c",
+          "name": "fadE7; acyl-CoA dehydrogenase FadE7 [KO:K00252] [EC:1.3.8.6]"
+        },
+        {
+          "id": "Rv0462",
+          "name": "lpdC; dihydrolipoamide dehydrogenase [KO:K00382] [EC:1.8.1.4]"
+        },
+        {
+          "id": "Rv0768",
+          "name": "aldA; aldehyde dehydrogenase AldA [KO:K00128] [EC:1.2.1.3]"
+        },
+        {
+          "id": "Rv0859",
+          "name": "[KO:K00626] [EC:2.3.1.9]"
+        },
+        {
+          "id": "Rv0860",
+          "name": "fadB; fatty oxidation protein FadB [KO:K01782] [EC:1.1.1.35 4.2.1.17 5.1.2.3]"
+        },
+        {
+          "id": "Rv0914c",
+          "name": "[KO:K00626] [EC:2.3.1.9]"
+        },
+        {
+          "id": "Rv1070c",
+          "name": "echA8; enoyl-CoA hydratase EchA8 [KO:K01692] [EC:4.2.1.17]"
+        },
+        {
+          "id": "Rv1074c",
+          "name": "fadA3; beta-ketoacyl CoA thiolase FadA [KO:K00626] [EC:2.3.1.9]"
+        },
+        {
+          "id": "Rv1263",
+          "name": "amiB2; amidase AmiB [KO:K01426] [EC:3.5.1.4]"
+        },
+        {
+          "id": "Rv1323",
+          "name": "fadA4; acetyl-CoA acetyltransferase [KO:K00626] [EC:2.3.1.9]"
+        },
+        {
+          "id": "Rv1472",
+          "name": "echA12; enoyl-CoA hydratase EchA12 [KO:K01692] [EC:4.2.1.17]"
+        },
+        {
+          "id": "Rv1867",
+          "name": "[KO:K00626] [EC:2.3.1.9]"
+        },
+        {
+          "id": "Rv1908c",
+          "name": "katG; catalase-peroxidase [KO:K03782] [EC:1.11.1.21]"
+        },
+        {
+          "id": "Rv2363",
+          "name": "amiA2; amidase [KO:K01426] [EC:3.5.1.4]"
+        },
+        {
+          "id": "Rv2486",
+          "name": "echA14; enoyl-CoA hydratase EchA14 [KO:K01692] [EC:4.2.1.17]"
+        },
+        {
+          "id": "Rv2888c",
+          "name": "amiC; amidase AmiC [KO:K01426] [EC:3.5.1.4]"
+        },
+        {
+          "id": "Rv3039c",
+          "name": "echA17; enoyl-CoA hydratase EchA17 [KO:K01692] [EC:4.2.1.17]"
+        },
+        {
+          "id": "Rv3170",
+          "name": "aofH; flavin-containing monoamine oxidase [KO:K00274] [EC:1.4.3.4]"
+        },
+        {
+          "id": "Rv3175",
+          "name": "[KO:K01426] [EC:3.5.1.4]"
+        },
+        {
+          "id": "Rv3375",
+          "name": "amiD; amidase [KO:K01426] [EC:3.5.1.4]"
+        },
+        {
+          "id": "Rv3523",
+          "name": "ltp3; lipid carrier protein [KO:K00626] [EC:2.3.1.9]"
+        }
+      ],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu00520": {
+      "pathway_id": "mtu00520",
+      "name": "Amino sugar and nucleotide sugar metabolism - Mycobacterium tuberculosis H37Rv",
+      "description": "",
+      "class": "Metabolism; Glycan biosynthesis and metabolism",
+      "genes": [
+        {
+          "id": "Rv0237",
+          "name": "lpqI; lipoprotein LpqI [KO:K01207] [EC:3.2.1.52]"
+        },
+        {
+          "id": "Rv0322",
+          "name": "udgA; UDP-glucose 6-dehydrogenase UdgA [KO:K00012] [EC:1.1.1.22]"
+        },
+        {
+          "id": "Rv0334",
+          "name": "rmlA; glucose-1-phosphate thymidylyltransferase [KO:K00973] [EC:2.7.7.24]"
+        },
+        {
+          "id": "Rv0482",
+          "name": "murB; UDP-N-acetylenolpyruvoylglucosamine reductase [KO:K00075] [EC:1.3.1.98]"
+        },
+        {
+          "id": "Rv0501",
+          "name": "galE2; UDP-glucose 4-epimerase GalE [KO:K01784] [EC:5.1.3.2]"
+        },
+        {
+          "id": "Rv0620",
+          "name": "galK; galactokinase [KO:K00849] [EC:2.7.1.6]"
+        },
+        {
+          "id": "Rv0650",
+          "name": "[KO:K25026]"
+        },
+        {
+          "id": "Rv0946c",
+          "name": "pgi; glucose-6-phosphate isomerase [KO:K01810] [EC:5.3.1.9]"
+        },
+        {
+          "id": "Rv0993",
+          "name": "galU; UTP--glucose-1-phosphate uridylyltransferase [KO:K00963] [EC:2.7.7.9]"
+        },
+        {
+          "id": "Rv1018c",
+          "name": "glmU; bifunctional UDP-N-acetylglucosamine pyrophosphorylase/glucosamine-1-phosphate N-acetyltransferase [KO:K04042] [EC:2.7.7.23 2.3.1.157]"
+        },
+        {
+          "id": "Rv1213",
+          "name": "glgC; glucose-1-phosphate adenylyltransferase [KO:K00975] [EC:2.7.7.27]"
+        },
+        {
+          "id": "Rv1315",
+          "name": "murA; UDP-N-acetylglucosamine 1-carboxyvinyltransferase [KO:K00790] [EC:2.5.1.7]"
+        },
+        {
+          "id": "Rv2702",
+          "name": "ppgK; polyphosphate glucokinase [KO:K00886] [EC:2.7.1.63]"
+        },
+        {
+          "id": "Rv3068c",
+          "name": "pgmA; phosphoglucomutase PgmA [KO:K01835] [EC:5.4.2.2]"
+        },
+        {
+          "id": "Rv3255c",
+          "name": "manA; mannose-6-phosphate isomerase [KO:K01809] [EC:5.3.1.8]"
+        },
+        {
+          "id": "Rv3257c",
+          "name": "pmmA; phosphomannomutase PmmA [KO:K01840] [EC:5.4.2.8]"
+        },
+        {
+          "id": "Rv3264c",
+          "name": "manB; D-alpha-D-mannose-1-phosphate guanylyltransferase ManB [KO:K00966] [EC:2.7.7.13]"
+        },
+        {
+          "id": "Rv3308",
+          "name": "pmmB; phosphomannomutase PmmB [KO:K01840] [EC:5.4.2.8]"
+        },
+        {
+          "id": "Rv3332",
+          "name": "nagA; N-acetylglucosamine-6-phosphate deacetylase NagA [KO:K01443] [EC:3.5.1.25]"
+        },
+        {
+          "id": "Rv3436c",
+          "name": "glmS; glucosamine--fructose-6-phosphate aminotransferase [KO:K00820] [EC:2.6.1.16]"
+        },
+        {
+          "id": "Rv3441c",
+          "name": "mrsA; phosphoglucosamine mutase [KO:K03431] [EC:5.4.2.10]"
+        },
+        {
+          "id": "Rv3634c",
+          "name": "galE1; UDP-glucose 4-epimerase [KO:K01784] [EC:5.1.3.2]"
+        },
+        {
+          "id": "Rv3809c",
+          "name": "glf; UDP-galactopyranose mutase [KO:K01854] [EC:5.4.99.9]"
+        }
+      ],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu00521": {
+      "pathway_id": "mtu00521",
+      "name": "Streptomycin biosynthesis - Mycobacterium tuberculosis H37Rv",
+      "description": "Streptomycin is an aminocyclitol-aminoglycoside antibiotic produced by Streptomyces griseus. Streptomycin consists of aminocyclitol (streptidine), 6-deoxyhexose (streptose), and N-methyl-L-glucosamine moieties, which are formed by independent biosynthetic pathways. All of the moieties are derived from D-glucose. The streptidine moiety is synthesized via myo-inositol, which is then oxidized at C-1 and transaminated to give scyllo-inosamine. After phosphorylation, the compound is transamidinated by arginine. The same procedure is repeated at the C-3 position. The streptose moiety is made from D-glucose via a dTDP-glucose pathway. The exact biosynthetic route for the N-methyl-L-glucosamine moiety is unknown, though the biosynthetic gene cluster have been proposed.",
+      "class": "Metabolism; Biosynthesis of other secondary metabolites",
+      "genes": [
+        {
+          "id": "Rv0046c",
+          "name": "ino1; inositol-3-phosphate synthase [KO:K01858] [EC:5.5.1.4]"
+        },
+        {
+          "id": "Rv0334",
+          "name": "rmlA; glucose-1-phosphate thymidylyltransferase [KO:K00973] [EC:2.7.7.24]"
+        },
+        {
+          "id": "Rv0650",
+          "name": "[KO:K25026]"
+        },
+        {
+          "id": "Rv1604",
+          "name": "impA; inositol-monophosphatase ImpA [KO:K01092] [EC:3.1.3.25]"
+        },
+        {
+          "id": "Rv2701c",
+          "name": "suhB; inositol-1-monophosphatase SuhB [KO:K01092] [EC:3.1.3.25]"
+        },
+        {
+          "id": "Rv3068c",
+          "name": "pgmA; phosphoglucomutase PgmA [KO:K01835] [EC:5.4.2.2]"
+        },
+        {
+          "id": "Rv3266c",
+          "name": "rmlD; dTDP-4-dehydrorhamnose reductase [KO:K00067] [EC:1.1.1.133]"
+        },
+        {
+          "id": "Rv3464",
+          "name": "rmlB; dTDP-glucose 4,6-dehydratase [KO:K01710] [EC:4.2.1.46]"
+        },
+        {
+          "id": "Rv3465",
+          "name": "rmlC; dTDP-4-dehydrorhamnose 3,5-epimerase [KO:K01790] [EC:5.1.3.13]"
+        },
+        {
+          "id": "Rv3784",
+          "name": "epiB; dTDP-glucose 4,6-dehydratase [KO:K01710] [EC:4.2.1.46]"
+        }
+      ],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu00523": {
+      "pathway_id": "mtu00523",
+      "name": "Polyketide sugar unit biosynthesis - Mycobacterium tuberculosis H37Rv",
+      "description": "",
+      "class": "Metabolism; Metabolism of terpenoids and polyketides",
+      "genes": [
+        {
+          "id": "Rv0334",
+          "name": "rmlA; glucose-1-phosphate thymidylyltransferase [KO:K00973] [EC:2.7.7.24]"
+        },
+        {
+          "id": "Rv0536",
+          "name": "galE3; UDP-glucose 4-epimerase GalE [KO:K17947] [EC:5.1.3.25]"
+        },
+        {
+          "id": "Rv3266c",
+          "name": "rmlD; dTDP-4-dehydrorhamnose reductase [KO:K00067] [EC:1.1.1.133]"
+        },
+        {
+          "id": "Rv3464",
+          "name": "rmlB; dTDP-glucose 4,6-dehydratase [KO:K01710] [EC:4.2.1.46]"
+        },
+        {
+          "id": "Rv3465",
+          "name": "rmlC; dTDP-4-dehydrorhamnose 3,5-epimerase [KO:K01790] [EC:5.1.3.13]"
+        },
+        {
+          "id": "Rv3784",
+          "name": "epiB; dTDP-glucose 4,6-dehydratase [KO:K01710] [EC:4.2.1.46]"
+        }
+      ],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu00541": {
+      "pathway_id": "mtu00541",
+      "name": "Biosynthesis of various nucleotide sugars - Mycobacterium tuberculosis H37Rv",
+      "description": "",
+      "class": "Metabolism; Glycan biosynthesis and metabolism",
+      "genes": [
+        {
+          "id": "Rv0112",
+          "name": "gca; GDP-mannose 4,6-dehydratase [KO:K15856] [EC:1.1.1.281]"
+        },
+        {
+          "id": "Rv0113",
+          "name": "gmhA; phosphoheptose isomerase [KO:K03271] [EC:5.3.1.28]"
+        },
+        {
+          "id": "Rv0114",
+          "name": "gmhB; D-glycero-alpha-D-manno-heptose-1,7-bisphosphate 7-phosphatase [KO:K03273] [EC:3.1.3.82 3.1.3.83]"
+        },
+        {
+          "id": "Rv0115",
+          "name": "hddA; D-alpha-D-heptose-7-phosphate kinase HddA [KO:K07031] [EC:2.7.1.168]"
+        },
+        {
+          "id": "Rv0322",
+          "name": "udgA; UDP-glucose 6-dehydrogenase UdgA [KO:K00012] [EC:1.1.1.22]"
+        },
+        {
+          "id": "Rv0334",
+          "name": "rmlA; glucose-1-phosphate thymidylyltransferase [KO:K00973] [EC:2.7.7.24]"
+        },
+        {
+          "id": "Rv0993",
+          "name": "galU; UTP--glucose-1-phosphate uridylyltransferase [KO:K00963] [EC:2.7.7.9]"
+        },
+        {
+          "id": "Rv1018c",
+          "name": "glmU; bifunctional UDP-N-acetylglucosamine pyrophosphorylase/glucosamine-1-phosphate N-acetyltransferase [KO:K04042] [EC:2.7.7.23 2.3.1.157]"
+        },
+        {
+          "id": "Rv1511",
+          "name": "gmdA; GDP-D-mannose dehydratase GmdA [KO:K01711] [EC:4.2.1.47]"
+        },
+        {
+          "id": "Rv1512",
+          "name": "epiA; nucleotide-sugar epimerase EpiA [KO:K02377] [EC:1.1.1.271]"
+        },
+        {
+          "id": "Rv3264c",
+          "name": "manB; D-alpha-D-mannose-1-phosphate guanylyltransferase ManB [KO:K00966] [EC:2.7.7.13]"
+        },
+        {
+          "id": "Rv3266c",
+          "name": "rmlD; dTDP-4-dehydrorhamnose reductase [KO:K00067] [EC:1.1.1.133]"
+        },
+        {
+          "id": "Rv3464",
+          "name": "rmlB; dTDP-glucose 4,6-dehydratase [KO:K01710] [EC:4.2.1.46]"
+        },
+        {
+          "id": "Rv3465",
+          "name": "rmlC; dTDP-4-dehydrorhamnose 3,5-epimerase [KO:K01790] [EC:5.1.3.13]"
+        },
+        {
+          "id": "Rv3784",
+          "name": "epiB; dTDP-glucose 4,6-dehydratase [KO:K01710] [EC:4.2.1.46]"
+        }
+      ],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu00571": {
+      "pathway_id": "mtu00571",
+      "name": "Lipoarabinomannan (LAM) biosynthesis - Mycobacterium tuberculosis H37Rv",
+      "description": "Lipoarabinomannan (LAM), as well as structurally related lipomannan (LM) and phosphatidylinositol mannosides (PIMs), are major glycolipids found on the mycobacterial cell wall. LAM is synthesized from phosphatidylinositol (PI) and in a biochemical pathway of PI => PIMs => LM =>LAM. Structually, LAM and LM are an extension of PIMs containing an alpha1,6-linked mannan core with alpha1,2-monomannose side chains. The mannan core of LAM is in turn arabinosylated by a linear alpha1,5-linked Araf backbone, punctutated by alpha1,3-linked branching. LAM can be substituted by several capping motifs, which determine the ability of LAM to modulate the immune response through the interaction with different receptors containing C-type lectins (map04625). It has been shown that the immunomodulatory properties of LAM and related glycolipids contribute to the survival of Mycobacteriaum tuberculosis, the causative agent of tuberculosis (map05152).",
+      "class": "Metabolism; Glycan biosynthesis and metabolism",
+      "genes": [
+        {
+          "id": "Rv0236c",
+          "name": "aftD; alpha-(1->3)-arabinofuranosyltransferase [KO:K16648] [EC:2.4.2.-]"
+        },
+        {
+          "id": "Rv0541c",
+          "name": "[KO:K23176]"
+        },
+        {
+          "id": "Rv1159",
+          "name": "pimE; polyprenol-phosphate-mannose-dependent alpha-(1-2)-phosphatidylinositol pentamannoside mannosyltransferase [KO:K13669] [EC:2.4.1.-]"
+        },
+        {
+          "id": "Rv1459c",
+          "name": "[KO:K14339] [EC:2.4.1.-]"
+        },
+        {
+          "id": "Rv1635c",
+          "name": "[KO:K14340] [EC:2.4.1.-]"
+        },
+        {
+          "id": "Rv2174",
+          "name": "mptA; alpha(1->6)-mannopyranosyltransferase A [KO:K14337] [EC:2.4.1.-]"
+        },
+        {
+          "id": "Rv2181",
+          "name": "[KO:K13671] [EC:2.4.1.-]"
+        },
+        {
+          "id": "Rv2188c",
+          "name": "pimB; alpha-(1-6)-phosphatidylinositol monomannoside mannosyltransferase [KO:K13668] [EC:2.4.1.346]"
+        },
+        {
+          "id": "Rv2610c",
+          "name": "pimA; alpha-(1-2)-phosphatidylinositol mannosyltransferase [KO:K08256] [EC:2.4.1.345]"
+        },
+        {
+          "id": "Rv2611c",
+          "name": "[KO:K22311] [EC:2.3.1.265]"
+        },
+        {
+          "id": "Rv2673",
+          "name": "aftC; alpha-(1->3)-arabinofuranosyltransferase [KO:K16647] [EC:2.4.2.47]"
+        },
+        {
+          "id": "Rv3793",
+          "name": "embC; arabinosyltransferase C [KO:K11387] [EC:2.4.2.-]"
+        },
+        {
+          "id": "Rv3805c",
+          "name": "aftB; terminal beta-(1->2)-arabinofuranosyltransferase [KO:K13687] [EC:2.4.2.-]"
+        }
+      ],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu00572": {
+      "pathway_id": "mtu00572",
+      "name": "Arabinogalactan biosynthesis - Mycobacterium - Mycobacterium tuberculosis H37Rv",
+      "description": "Just like lipoarabinomannan (map00571), arabinogalactan (AG) is a major heteropolysaccharide found on the mycobacterium cell wall. AG consists of a linear galactan chain of galactofuranosyl (Galf) residues covalently connected to peptidoglycan (PG), with branches of three similar arabinan chains comprising arabinofuranosyl (Araf) residues. The non-reducing ends of arabinans are often covalently attached to the long fatty acids of mycolic acids. Thus, the covalently linked network of PG and mycolylated AG, termed the mycolyl-arabinogalactan-peptidoglycan (mAGP) complex, forms an exceptionally robust cell wall and provides a permeability barrier to antibiotics.",
+      "class": "Metabolism; Glycan biosynthesis and metabolism",
+      "genes": [
+        {
+          "id": "Rv0129c",
+          "name": "fbpC; diacylglycerol acyltransferase/mycolyltransferase Ag85C [KO:K18851] [EC:2.3.1.20 2.3.1.122 2.3.1.-]"
+        },
+        {
+          "id": "Rv0236c",
+          "name": "aftD; alpha-(1->3)-arabinofuranosyltransferase [KO:K16648] [EC:2.4.2.-]"
+        },
+        {
+          "id": "Rv1302",
+          "name": "rfe; decaprenyl-phosphate N-acetylglucosaminephosphotransferase [KO:K02851] [EC:2.7.8.33 2.7.8.35]"
+        },
+        {
+          "id": "Rv1886c",
+          "name": "fbpB; diacylglycerol acyltransferase/mycolyltransferase Ag85B [KO:K18851] [EC:2.3.1.20 2.3.1.122 2.3.1.-]"
+        },
+        {
+          "id": "Rv2673",
+          "name": "aftC; alpha-(1->3)-arabinofuranosyltransferase [KO:K16647] [EC:2.4.2.47]"
+        },
+        {
+          "id": "Rv3265c",
+          "name": "wbbL1; N-acetylglucosaminyl-diphospho-decaprenol L-rhamnosyltransferase [KO:K16870] [EC:2.4.1.289]"
+        },
+        {
+          "id": "Rv3267",
+          "name": "[KO:K27775]"
+        },
+        {
+          "id": "Rv3779",
+          "name": "[KO:K22902]"
+        },
+        {
+          "id": "Rv3782",
+          "name": "glfT1; galactofuranosyl transferase GlfT [KO:K16649] [EC:2.4.1.287]"
+        },
+        {
+          "id": "Rv3792",
+          "name": "aftA; arabinofuranosyltransferase [KO:K13686] [EC:2.4.2.46]"
+        },
+        {
+          "id": "Rv3794",
+          "name": "embA; arabinosyltransferase A [KO:K11385] [EC:2.4.2.-]"
+        },
+        {
+          "id": "Rv3795",
+          "name": "embB; arabinosyltransferase B [KO:K11386] [EC:2.4.2.-]"
+        },
+        {
+          "id": "Rv3804c",
+          "name": "fbpA; diacylglycerol acyltransferase/mycolyltransferase Ag85A [KO:K18851] [EC:2.3.1.20 2.3.1.122 2.3.1.-]"
+        },
+        {
+          "id": "Rv3805c",
+          "name": "aftB; terminal beta-(1->2)-arabinofuranosyltransferase [KO:K13687] [EC:2.4.2.-]"
+        },
+        {
+          "id": "Rv3808c",
+          "name": "glfT2; galactofuranosyl transferase GlfT [KO:K16650] [EC:2.4.1.288]"
+        }
+      ],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu00650": {
+      "pathway_id": "mtu00650",
+      "name": "Butanoate metabolism - Mycobacterium tuberculosis H37Rv",
+      "description": "",
+      "class": "Metabolism; Carbohydrate metabolism",
+      "genes": [
+        {
+          "id": "Rv0234c",
+          "name": "gabD1; succinate-semialdehyde dehydrogenase [KO:K00135] [EC:1.2.1.16 1.2.1.79 1.2.1.20]"
+        },
+        {
+          "id": "Rv0243",
+          "name": "fadA2; acetyl-CoA acetyltransferase FadA [KO:K00626] [EC:2.3.1.9]"
+        },
+        {
+          "id": "Rv0247c",
+          "name": "[KO:K00240] [EC:1.3.5.1]"
+        },
+        {
+          "id": "Rv0248c",
+          "name": "[KO:K00239] [EC:1.3.5.1]"
+        },
+        {
+          "id": "Rv0468",
+          "name": "fadB2; 3-hydroxybutyryl-CoA dehydrogenase [KO:K00074] [EC:1.1.1.157]"
+        },
+        {
+          "id": "Rv0859",
+          "name": "[KO:K00626] [EC:2.3.1.9]"
+        },
+        {
+          "id": "Rv0860",
+          "name": "fadB; fatty oxidation protein FadB [KO:K01782] [EC:1.1.1.35 4.2.1.17 5.1.2.3]"
+        },
+        {
+          "id": "Rv0914c",
+          "name": "[KO:K00626] [EC:2.3.1.9]"
+        },
+        {
+          "id": "Rv1070c",
+          "name": "echA8; enoyl-CoA hydratase EchA8 [KO:K01692] [EC:4.2.1.17]"
+        },
+        {
+          "id": "Rv1074c",
+          "name": "fadA3; beta-ketoacyl CoA thiolase FadA [KO:K00626] [EC:2.3.1.9]"
+        },
+        {
+          "id": "Rv1323",
+          "name": "fadA4; acetyl-CoA acetyltransferase [KO:K00626] [EC:2.3.1.9]"
+        },
+        {
+          "id": "Rv1472",
+          "name": "echA12; enoyl-CoA hydratase EchA12 [KO:K01692] [EC:4.2.1.17]"
+        },
+        {
+          "id": "Rv1552",
+          "name": "frdA; fumarate reductase flavoprotein subunit [KO:K00244] [EC:1.3.5.1]"
+        },
+        {
+          "id": "Rv1553",
+          "name": "frdB; fumarate reductase iron-sulfur subunit [KO:K00245] [EC:1.3.5.1]"
+        },
+        {
+          "id": "Rv1554",
+          "name": "frdC; fumarate reductase membrane anchor subunit [KO:K00246]"
+        },
+        {
+          "id": "Rv1555",
+          "name": "frdD; fumarate reductase membrane anchor subunit [KO:K00247]"
+        },
+        {
+          "id": "Rv1715",
+          "name": "fadB3; 3-hydroxybutyryl-CoA dehydrogenase FadB [KO:K00074] [EC:1.1.1.157]"
+        },
+        {
+          "id": "Rv1731",
+          "name": "gabD2; succinate-semialdehyde dehydrogenase [KO:K00135] [EC:1.2.1.16 1.2.1.79 1.2.1.20]"
+        },
+        {
+          "id": "Rv1867",
+          "name": "[KO:K00626] [EC:2.3.1.9]"
+        },
+        {
+          "id": "Rv2454c",
+          "name": "[KO:K00175] [EC:1.2.7.3 1.2.7.11]"
+        },
+        {
+          "id": "Rv2455c",
+          "name": "[KO:K00174] [EC:1.2.7.3 1.2.7.11]"
+        },
+        {
+          "id": "Rv2486",
+          "name": "echA14; enoyl-CoA hydratase EchA14 [KO:K01692] [EC:4.2.1.17]"
+        },
+        {
+          "id": "Rv2503c",
+          "name": "scoB; succinyl-CoA:3-ketoacid-CoA transferase subunit B [KO:K01029] [EC:2.8.3.5]"
+        },
+        {
+          "id": "Rv2504c",
+          "name": "scoA; succinyl-CoA:3-ketoacid-CoA transferase subunit A [KO:K01028] [EC:2.8.3.5]"
+        },
+        {
+          "id": "Rv2589",
+          "name": "gabT; 4-aminobutyrate aminotransferase [KO:K07250] [EC:2.6.1.19 2.6.1.22 2.6.1.48]"
+        },
+        {
+          "id": "Rv3002c",
+          "name": "ilvN; acetolactate synthase small subunit [KO:K01653] [EC:2.2.1.6]"
+        },
+        {
+          "id": "Rv3003c",
+          "name": "ilvB1; acetolactate synthase large subunit IlvB [KO:K01652] [EC:2.2.1.6]"
+        },
+        {
+          "id": "Rv3039c",
+          "name": "echA17; enoyl-CoA hydratase EchA17 [KO:K01692] [EC:4.2.1.17]"
+        },
+        {
+          "id": "Rv3316",
+          "name": "sdhC; succinate dehydrogenase cytochrome B-556 subunit [KO:K00241]"
+        },
+        {
+          "id": "Rv3317",
+          "name": "sdhD; succinate dehydrogenase hydrophobic membrane anchor subunit [KO:K00242]"
+        },
+        {
+          "id": "Rv3318",
+          "name": "sdhA; succinate dehydrogenase flavoprotein subunit [KO:K00239] [EC:1.3.5.1]"
+        },
+        {
+          "id": "Rv3319",
+          "name": "sdhB; succinate dehydrogenase iron-sulphur protein subunit [KO:K00240] [EC:1.3.5.1]"
+        },
+        {
+          "id": "Rv3432c",
+          "name": "gadB; glutamate decarboxylase GadB [KO:K01580] [EC:4.1.1.15]"
+        },
+        {
+          "id": "Rv3470c",
+          "name": "ilvB2; acetolactate synthase large subunit [KO:K01652] [EC:2.2.1.6]"
+        },
+        {
+          "id": "Rv3509c",
+          "name": "ilvX; acetohydroxyacid synthase large subunit [KO:K01652] [EC:2.2.1.6]"
+        },
+        {
+          "id": "Rv3523",
+          "name": "ltp3; lipid carrier protein [KO:K00626] [EC:2.3.1.9]"
+        },
+        {
+          "id": "Rv3535c",
+          "name": "hsaG; acetaldehyde dehydrogenase [KO:K04073] [EC:1.2.1.10]"
+        }
+      ],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu00760": {
+      "pathway_id": "mtu00760",
+      "name": "Nicotinate and nicotinamide metabolism - Mycobacterium tuberculosis H37Rv",
+      "description": "",
+      "class": "Metabolism; Metabolism of cofactors and vitamins",
+      "genes": [
+        {
+          "id": "Rv0155",
+          "name": "pntAa; NAD(P) transhydrogenase subunit alpha PntAa [KO:K00324] [EC:7.1.1.1]"
+        },
+        {
+          "id": "Rv0156",
+          "name": "pntAb; NAD(P) transhydrogenase subunit alpha PntAb [KO:K00324] [EC:7.1.1.1]"
+        },
+        {
+          "id": "Rv0157",
+          "name": "pntB; NAD(P) transhydrogenase subunit beta PntB [KO:K00325] [EC:7.1.1.1]"
+        },
+        {
+          "id": "Rv0212c",
+          "name": "nadR; transcriptional regulator NadR [KO:K06211] [EC:2.7.7.1 2.7.1.22]"
+        },
+        {
+          "id": "Rv0234c",
+          "name": "gabD1; succinate-semialdehyde dehydrogenase [KO:K00135] [EC:1.2.1.16 1.2.1.79 1.2.1.20]"
+        },
+        {
+          "id": "Rv0573c",
+          "name": "pncB2; nicotinic acid phosphoribosyltransferase PncB2 [KO:K00763] [EC:6.3.4.21]"
+        },
+        {
+          "id": "Rv1021",
+          "name": "[KO:K04765] [EC:3.6.1.9]"
+        },
+        {
+          "id": "Rv1151c",
+          "name": "[KO:K12410] [EC:2.3.1.286 2.3.1.313]"
+        },
+        {
+          "id": "Rv1330c",
+          "name": "pncB1; nicotinic acid phosphoribosyltransferase PncB1 [KO:K00763] [EC:6.3.4.21]"
+        },
+        {
+          "id": "Rv1594",
+          "name": "nadA; quinolinate synthetase A [KO:K03517] [EC:2.5.1.72]"
+        },
+        {
+          "id": "Rv1595",
+          "name": "nadB; L-aspartate oxidase [KO:K00278] [EC:1.4.3.16]"
+        },
+        {
+          "id": "Rv1596",
+          "name": "nadC; nicotinate-nucleotide pyrophosphatase [KO:K00767] [EC:2.4.2.19]"
+        },
+        {
+          "id": "Rv1695",
+          "name": "ppnK; inorganic polyphosphate/ATP-NAD kinase [KO:K00858] [EC:2.7.1.23]"
+        },
+        {
+          "id": "Rv1731",
+          "name": "gabD2; succinate-semialdehyde dehydrogenase [KO:K00135] [EC:1.2.1.16 1.2.1.79 1.2.1.20]"
+        },
+        {
+          "id": "Rv2043c",
+          "name": "pncA; pyrazinamidase/nicotinamidase PncA [KO:K08281] [EC:3.5.1.19 3.5.1.-]"
+        },
+        {
+          "id": "Rv2421c",
+          "name": "nadD; nicotinate-nucleotide adenylyltransferase [KO:K00969] [EC:2.7.7.18]"
+        },
+        {
+          "id": "Rv2438c",
+          "name": "nadE; glutamine-dependent NAD(+) synthetase [KO:K01950] [EC:6.3.5.1]"
+        },
+        {
+          "id": "Rv2713",
+          "name": "sthA; pyridine nucleotide transhydrogenase [KO:K00322] [EC:1.6.1.1]"
+        },
+        {
+          "id": "Rv3199c",
+          "name": "nudC; NADH pyrophosphatase [KO:K03426] [EC:3.6.1.22]"
+        },
+        {
+          "id": "Rv3307",
+          "name": "deoD; purine nucleoside phosphorylase [KO:K03783] [EC:2.4.2.1]"
+        }
+      ],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu00770": {
+      "pathway_id": "mtu00770",
+      "name": "Pantothenate and CoA biosynthesis - Mycobacterium tuberculosis H37Rv",
+      "description": "",
+      "class": "Metabolism; Metabolism of cofactors and vitamins",
+      "genes": [
+        {
+          "id": "Rv0147",
+          "name": "[KO:K00128] [EC:1.2.1.3]"
+        },
+        {
+          "id": "Rv0189c",
+          "name": "ilvD; dihydroxy-acid dehydratase [KO:K01687] [EC:4.2.1.9]"
+        },
+        {
+          "id": "Rv0223c",
+          "name": "[KO:K00128] [EC:1.2.1.3]"
+        },
+        {
+          "id": "Rv0768",
+          "name": "aldA; aldehyde dehydrogenase AldA [KO:K00128] [EC:1.2.1.3]"
+        },
+        {
+          "id": "Rv1021",
+          "name": "[KO:K04765] [EC:3.6.1.9]"
+        },
+        {
+          "id": "Rv1092c",
+          "name": "coaA; pantothenate kinase [KO:K00867] [EC:2.7.1.33]"
+        },
+        {
+          "id": "Rv1391",
+          "name": "dfp; bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase [KO:K13038] [EC:4.1.1.36 6.3.2.5]"
+        },
+        {
+          "id": "Rv1631",
+          "name": "coaE; dephospho-CoA kinase CoaE [KO:K00859] [EC:2.7.1.24]"
+        },
+        {
+          "id": "Rv2210c",
+          "name": "ilvE; branched-chain amino acid aminotransferase [KO:K00826] [EC:2.6.1.42]"
+        },
+        {
+          "id": "Rv2225",
+          "name": "panB; 3-methyl-2-oxobutanoate hydroxymethyltransferase [KO:K00606] [EC:2.1.2.11]"
+        },
+        {
+          "id": "Rv2523c",
+          "name": "acpS; holo-ACP synthase [KO:K00997] [EC:2.7.8.7]"
+        },
+        {
+          "id": "Rv2573",
+          "name": "[KO:K00077] [EC:1.1.1.169]"
+        },
+        {
+          "id": "Rv2794c",
+          "name": "pptT; 4'-phosphopantetheinyl transferase [KO:K02362] [EC:6.3.2.14 2.7.8.7]"
+        },
+        {
+          "id": "Rv2795c",
+          "name": "[KO:K28885]"
+        },
+        {
+          "id": "Rv2965c",
+          "name": "kdtB; phosphopantetheine adenylyltransferase [KO:K00954] [EC:2.7.7.3]"
+        },
+        {
+          "id": "Rv3001c",
+          "name": "ilvC; ketol-acid reductoisomerase [KO:K00053] [EC:1.1.1.86]"
+        },
+        {
+          "id": "Rv3002c",
+          "name": "ilvN; acetolactate synthase small subunit [KO:K01653] [EC:2.2.1.6]"
+        },
+        {
+          "id": "Rv3003c",
+          "name": "ilvB1; acetolactate synthase large subunit IlvB [KO:K01652] [EC:2.2.1.6]"
+        },
+        {
+          "id": "Rv3470c",
+          "name": "ilvB2; acetolactate synthase large subunit [KO:K01652] [EC:2.2.1.6]"
+        },
+        {
+          "id": "Rv3509c",
+          "name": "ilvX; acetohydroxyacid synthase large subunit [KO:K01652] [EC:2.2.1.6]"
+        },
+        {
+          "id": "Rv3600c",
+          "name": "[KO:K03525] [EC:2.7.1.33]"
+        },
+        {
+          "id": "Rv3601c",
+          "name": "panD; aspartate 1-decarboxylase [KO:K01579] [EC:4.1.1.11]"
+        },
+        {
+          "id": "Rv3602c",
+          "name": "panC; pantothenate synthetase [KO:K01918] [EC:6.3.2.1]"
+        }
+      ],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu00983": {
+      "pathway_id": "mtu00983",
+      "name": "Drug metabolism - other enzymes - Mycobacterium tuberculosis H37Rv",
+      "description": "",
+      "class": "Metabolism; Xenobiotics biodegradation and metabolism",
+      "genes": [
+        {
+          "id": "Rv1341",
+          "name": "[KO:K01519] [EC:3.6.1.66]"
+        },
+        {
+          "id": "Rv1908c",
+          "name": "katG; catalase-peroxidase [KO:K03782] [EC:1.11.1.21]"
+        },
+        {
+          "id": "Rv2445c",
+          "name": "ndkA; nucleoside diphosphate kinase [KO:K00940] [EC:2.7.4.6]"
+        },
+        {
+          "id": "Rv2697c",
+          "name": "dut; deoxyuridine 5'-triphosphate nucleotidohydrolase [KO:K01520] [EC:3.6.1.23]"
+        },
+        {
+          "id": "Rv3314c",
+          "name": "deoA; thymidine phosphorylase [KO:K00758] [EC:2.4.2.4]"
+        },
+        {
+          "id": "Rv3315c",
+          "name": "cdd; cytidine deaminase [KO:K01489] [EC:3.5.4.5]"
+        },
+        {
+          "id": "Rv3396c",
+          "name": "guaA; GMP synthase [KO:K01951] [EC:6.3.5.2]"
+        },
+        {
+          "id": "Rv3410c",
+          "name": "guaB3; oxidoreductase [KO:K00088] [EC:1.1.1.205]"
+        },
+        {
+          "id": "Rv3411c",
+          "name": "guaB2; inosine-5'-monophosphate dehydrogenase [KO:K00088] [EC:1.1.1.205]"
+        },
+        {
+          "id": "Rv3566c",
+          "name": "nat; arylamine N-acetyltransferase [KO:K00622] [EC:2.3.1.5]"
+        },
+        {
+          "id": "Rv3624c",
+          "name": "hpt; hypoxanthine-guanine phosphoribosyltransferase [KO:K00760] [EC:2.4.2.8]"
+        }
+      ],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu01100": {
+      "pathway_id": "mtu01100",
+      "name": "Metabolic pathways - Mycobacterium tuberculosis H37Rv",
+      "description": "",
+      "class": "",
+      "genes": [],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu01110": {
+      "pathway_id": "mtu01110",
+      "name": "Biosynthesis of secondary metabolites - Mycobacterium tuberculosis H37Rv",
+      "description": "",
+      "class": "",
+      "genes": [],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu01240": {
+      "pathway_id": "mtu01240",
+      "name": "Biosynthesis of cofactors - Mycobacterium tuberculosis H37Rv",
+      "description": "",
+      "class": "",
+      "genes": [],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu01250": {
+      "pathway_id": "mtu01250",
+      "name": "Biosynthesis of nucleotide sugars - Mycobacterium tuberculosis H37Rv",
+      "description": "",
+      "class": "",
+      "genes": [],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu03010": {
+      "pathway_id": "mtu03010",
+      "name": "Ribosome - Mycobacterium tuberculosis H37Rv",
+      "description": "",
+      "class": "Genetic Information Processing; Translation",
+      "genes": [
+        {
+          "id": "Rv0053",
+          "name": "rpsF; 30S ribosomal protein S6 [KO:K02990]"
+        },
+        {
+          "id": "Rv0055",
+          "name": "rpsR1; 30S ribosomal protein S18 [KO:K02963]"
+        },
+        {
+          "id": "Rv0056",
+          "name": "rplI; 50S ribosomal protein L9 [KO:K02939]"
+        },
+        {
+          "id": "Rv0105c",
+          "name": "rpmB1; 50S ribosomal protein L28 [KO:K02902]"
+        },
+        {
+          "id": "Rv0634B",
+          "name": "rpmG2; 50S ribosomal protein L33 [KO:K02913]"
+        },
+        {
+          "id": "Rv0640",
+          "name": "rplK; 50S ribosomal protein L11 [KO:K02867]"
+        },
+        {
+          "id": "Rv0641",
+          "name": "rplA; 50S ribosomal protein L1 [KO:K02863]"
+        },
+        {
+          "id": "Rv0651",
+          "name": "rplJ; 50S ribosomal protein L10 [KO:K02864]"
+        },
+        {
+          "id": "Rv0652",
+          "name": "rplL; 50S ribosomal protein L7/L12 [KO:K02935]"
+        },
+        {
+          "id": "Rv0682",
+          "name": "rpsL; 30S ribosomal protein S12 [KO:K02950]"
+        },
+        {
+          "id": "Rv0683",
+          "name": "rpsG; 30S ribosomal protein S7 [KO:K02992]"
+        },
+        {
+          "id": "Rv0700",
+          "name": "rpsJ; 30S ribosomal protein S10 [KO:K02946]"
+        },
+        {
+          "id": "Rv0701",
+          "name": "rplC; 50S ribosomal protein L3 [KO:K02906]"
+        },
+        {
+          "id": "Rv0702",
+          "name": "rplD; 50S ribosomal protein L4 [KO:K02926]"
+        },
+        {
+          "id": "Rv0703",
+          "name": "rplW; 50S ribosomal protein L23 [KO:K02892]"
+        },
+        {
+          "id": "Rv0704",
+          "name": "rplB; 50S ribosomal protein L2 [KO:K02886]"
+        },
+        {
+          "id": "Rv0705",
+          "name": "rpsS; 30S ribosomal protein S19 [KO:K02965]"
+        },
+        {
+          "id": "Rv0706",
+          "name": "rplV; 50S ribosomal protein L22 [KO:K02890]"
+        },
+        {
+          "id": "Rv0707",
+          "name": "rpsC; 30S ribosomal protein S3 [KO:K02982]"
+        },
+        {
+          "id": "Rv0708",
+          "name": "rplP; 50S ribosomal protein L16 [KO:K02878]"
+        },
+        {
+          "id": "Rv0709",
+          "name": "rpmC; 50S ribosomal protein L29 [KO:K02904]"
+        },
+        {
+          "id": "Rv0710",
+          "name": "rpsQ; 30S ribosomal protein S17 [KO:K02961]"
+        },
+        {
+          "id": "Rv0714",
+          "name": "rplN; 50S ribosomal protein L14 [KO:K02874]"
+        },
+        {
+          "id": "Rv0715",
+          "name": "rplX; 50S ribosomal protein L24 [KO:K02895]"
+        },
+        {
+          "id": "Rv0716",
+          "name": "rplE; 50S ribosomal protein L5 [KO:K02931]"
+        },
+        {
+          "id": "Rv0717",
+          "name": "rpsN1; 30S ribosomal protein S14 [KO:K02954]"
+        },
+        {
+          "id": "Rv0718",
+          "name": "rpsH; 30S ribosomal protein S8 [KO:K02994]"
+        },
+        {
+          "id": "Rv0719",
+          "name": "rplF; 50S ribosomal protein L6 [KO:K02933]"
+        },
+        {
+          "id": "Rv0720",
+          "name": "rplR; 50S ribosomal protein L18 [KO:K02881]"
+        },
+        {
+          "id": "Rv0721",
+          "name": "rpsE; 30S ribosomal protein S5 [KO:K02988]"
+        },
+        {
+          "id": "Rv0722",
+          "name": "rpmD; 50S ribosomal protein L30 [KO:K02907]"
+        },
+        {
+          "id": "Rv0723",
+          "name": "rplO; 50S ribosomal protein L15 [KO:K02876]"
+        },
+        {
+          "id": "Rv0979A",
+          "name": "rpmF; 50S ribosomal protein L32 [KO:K02911]"
+        },
+        {
+          "id": "Rv1015c",
+          "name": "rplY; 50S ribosomal protein L25/general stress protein Ctc [KO:K02897]"
+        },
+        {
+          "id": "Rv1298",
+          "name": "rpmE; 50S ribosomal protein L31 [KO:K02909]"
+        },
+        {
+          "id": "Rv1630",
+          "name": "rpsA; 30S ribosomal protein S1 [KO:K02945]"
+        },
+        {
+          "id": "Rv1642",
+          "name": "rpmI; 50S ribosomal protein L35 [KO:K02916]"
+        },
+        {
+          "id": "Rv1643",
+          "name": "rplT; 50S ribosomal protein L20 [KO:K02887]"
+        },
+        {
+          "id": "Rv2055c",
+          "name": "rpsR2; 30S ribosomal protein S18 [KO:K02963]"
+        },
+        {
+          "id": "Rv2056c",
+          "name": "rpsN2; 30S ribosomal protein S14 [KO:K02954]"
+        },
+        {
+          "id": "Rv2057c",
+          "name": "rpmG1; 50S ribosomal protein L33 [KO:K02913]"
+        },
+        {
+          "id": "Rv2058c",
+          "name": "rpmB2; 50S ribosomal protein L28 [KO:K02902]"
+        },
+        {
+          "id": "Rv2412",
+          "name": "rpsT; 30S ribosomal protein S20 [KO:K02968]"
+        },
+        {
+          "id": "Rv2441c",
+          "name": "rpmA; 50S ribosomal protein L27 [KO:K02899]"
+        },
+        {
+          "id": "Rv2442c",
+          "name": "rplU; 50S ribosomal protein L21 [KO:K02888]"
+        },
+        {
+          "id": "Rv2785c",
+          "name": "rpsO; 30S ribosomal protein S15 [KO:K02956]"
+        },
+        {
+          "id": "Rv2890c",
+          "name": "rpsB; 30S ribosomal protein S2 [KO:K02967]"
+        },
+        {
+          "id": "Rv2904c",
+          "name": "rplS; 50S ribosomal protein L19 [KO:K02884]"
+        },
+        {
+          "id": "Rv2909c",
+          "name": "rpsP; 30S ribosomal protein S16 [KO:K02959]"
+        },
+        {
+          "id": "Rv2975a",
+          "name": "[KO:K02902]"
+        },
+        {
+          "id": "Rv3442c",
+          "name": "rpsI; 30S ribosomal protein S9 [KO:K02996]"
+        },
+        {
+          "id": "Rv3443c",
+          "name": "rplM; 50S ribosomal protein L13 [KO:K02871]"
+        },
+        {
+          "id": "Rv3456c",
+          "name": "rplQ; 50S ribosomal protein L17 [KO:K02879]"
+        },
+        {
+          "id": "Rv3458c",
+          "name": "rpsD; 30S ribosomal protein S4 [KO:K02986]"
+        },
+        {
+          "id": "Rv3459c",
+          "name": "rpsK; 30S ribosomal protein S11 [KO:K02948]"
+        },
+        {
+          "id": "Rv3460c",
+          "name": "rpsM; 30S ribosomal protein S13 [KO:K02952]"
+        },
+        {
+          "id": "Rv3461c",
+          "name": "rpmJ; 50S ribosomal protein L36 [KO:K02919]"
+        },
+        {
+          "id": "Rv3924c",
+          "name": "rpmH; 50S ribosomal protein L34 [KO:K02914]"
+        },
+        {
+          "id": "Rvnr01",
+          "name": "rrs; 16S ribosomal RNA [KO:K01977]"
+        },
+        {
+          "id": "Rvnr02",
+          "name": "rrl; 23S ribosomal RNA [KO:K01980]"
+        },
+        {
+          "id": "Rvnr03",
+          "name": "rrf; 5S ribosomal RNA [KO:K01985]"
+        }
+      ],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu03018": {
+      "pathway_id": "mtu03018",
+      "name": "RNA degradation - Mycobacterium tuberculosis H37Rv",
+      "description": "The correct processing, quality control and turnover of cellular RNA molecules are critical to many aspects in the expression of genetic information. In eukaryotes, two major pathways of mRNA decay exist and both pathways are initiated by poly(A) shortening of the mRNA. In the 5' to 3' pathway, this is followed by decapping which then permits the 5' to 3' exonucleolytic degradation of transcripts. In the 3' to 5' pathway, the exosome, a large multisubunit complex, plays a key role. The exosome exists in archaeal cells, too. In bacteria, endoribonuclease E, a key enzyme involved in RNA decay and processing, organizes a protein complex called degradosome. RNase E or R interacts with the phosphate-dependent exoribonuclease polynucleotide phosphorylase, DEAD-box helicases, and additional factors in the RNA-degrading complex.",
+      "class": "Genetic Information Processing; Folding, sorting and degradation",
+      "genes": [
+        {
+          "id": "Rv0350",
+          "name": "dnaK; chaperone protein DnaK [KO:K04043]"
+        },
+        {
+          "id": "Rv0440",
+          "name": "groEL2; molecular chaperone GroEL [KO:K04077] [EC:5.6.1.7]"
+        },
+        {
+          "id": "Rv1023",
+          "name": "eno; enolase [KO:K01689] [EC:4.2.1.11]"
+        },
+        {
+          "id": "Rv1253",
+          "name": "deaD; ATP-dependent RNA helicase DeaD [KO:K05592] [EC:3.6.4.13]"
+        },
+        {
+          "id": "Rv1297",
+          "name": "rho; transcription termination factor Rho [KO:K03628]"
+        },
+        {
+          "id": "Rv2444c",
+          "name": "rne; ribonuclease E [KO:K08300] [EC:3.1.26.12]"
+        },
+        {
+          "id": "Rv2752c",
+          "name": "[KO:K12574] [EC:3.1.-.-]"
+        },
+        {
+          "id": "Rv2783c",
+          "name": "gpsI; bifunctional guanosine pentaphosphate synthetase/polyribonucleotide nucleotidyltransferase [KO:K00962] [EC:2.7.7.8]"
+        },
+        {
+          "id": "Rv2984",
+          "name": "ppk1; polyphosphate kinase [KO:K00937] [EC:2.7.4.1]"
+        },
+        {
+          "id": "Rv3232c",
+          "name": "ppk2; polyphosphate kinase [KO:K22468] [EC:2.7.4.34]"
+        },
+        {
+          "id": "Rv3417c",
+          "name": "groEL1; chaperonin GroEL [KO:K04077] [EC:5.6.1.7]"
+        },
+        {
+          "id": "Rv3907c",
+          "name": "pcnA; poly(A) polymerase PcnA [KO:K00970] [EC:2.7.7.19]"
+        }
+      ],
+      "compounds": [],
+      "drugs": []
+    },
+    "mtu03020": {
+      "pathway_id": "mtu03020",
+      "name": "RNA polymerase - Mycobacterium tuberculosis H37Rv",
+      "description": "",
+      "class": "Genetic Information Processing; Transcription",
+      "genes": [
+        {
+          "id": "Rv0667",
+          "name": "rpoB; DNA-directed RNA polymerase subunit beta [KO:K03043] [EC:2.7.7.6]"
+        },
+        {
+          "id": "Rv0668",
+          "name": "rpoC; DNA-directed RNA polymerase subunit beta' [KO:K03046] [EC:2.7.7.6]"
+        },
+        {
+          "id": "Rv1390",
+          "name": "rpoZ; DNA-directed RNA polymerase subunit omega [KO:K03060] [EC:2.7.7.6]"
+        },
+        {
+          "id": "Rv3457c",
+          "name": "rpoA; DNA-directed RNA polymerase subunit alpha [KO:K03040] [EC:2.7.7.6]"
+        }
+      ],
+      "compounds": [],
+      "drugs": []
+    }
+  },
+  "gene_to_pathways": {
+    "katG": [
+      "mtu00360",
+      "mtu00380",
+      "mtu00983",
+      "mtu01100",
+      "mtu01110"
+    ],
+    "inhA": [
+      "mtu00074",
+      "mtu01100",
+      "mtu01110"
+    ],
+    "fabG1": [
+      "mtu00074",
+      "mtu01100",
+      "mtu01110"
+    ],
+    "ahpC": [],
+    "rpoB": [
+      "mtu03020"
+    ],
+    "rpoC": [
+      "mtu03020"
+    ],
+    "embB": [
+      "mtu00572"
+    ],
+    "embA": [
+      "mtu00572"
+    ],
+    "embC": [
+      "mtu00571"
+    ],
+    "pncA": [
+      "mtu00760",
+      "mtu01100",
+      "mtu01240"
+    ],
+    "gyrA": [],
+    "gyrB": [],
+    "rrs": [
+      "mtu03010"
+    ],
+    "rrl": [
+      "mtu03010"
+    ],
+    "eis": [],
+    "gidB": [],
+    "tlyA": [],
+    "iniB": [],
+    "iniA": [],
+    "iniC": [],
+    "ndh": [
+      "mtu00190",
+      "mtu01100"
+    ],
+    "manB": [
+      "mtu00051",
+      "mtu00520",
+      "mtu00541",
+      "mtu01100",
+      "mtu01110",
+      "mtu01240",
+      "mtu01250"
+    ],
+    "rmlD": [
+      "mtu00521",
+      "mtu00523",
+      "mtu00541",
+      "mtu01100",
+      "mtu01110",
+      "mtu01250"
+    ]
+  },
+  "pathway_to_genes": {
+    "mtu00051": [
+      "Rv0112",
+      "Rv0363c",
+      "Rv0727c",
+      "Rv1099c",
+      "Rv1438",
+      "Rv1511",
+      "Rv1512",
+      "Rv2029c",
+      "Rv2465c",
+      "Rv3010c",
+      "Rv3214",
+      "Rv3255c",
+      "Rv3257c",
+      "Rv3264c",
+      "Rv3308"
+    ],
+    "mtu00074": [
+      "Rv0129c",
+      "Rv0132c",
+      "Rv0469",
+      "Rv0470c",
+      "Rv0503c",
+      "Rv0504c",
+      "Rv0533c",
+      "Rv0635",
+      "Rv0636",
+      "Rv0637",
+      "Rv0642c",
+      "Rv0643c",
+      "Rv0644c",
+      "Rv0645c",
+      "Rv0649",
+      "Rv0824c",
+      "Rv1094",
+      "Rv1483",
+      "Rv1484",
+      "Rv1886c",
+      "Rv2243",
+      "Rv2245",
+      "Rv2246",
+      "Rv2247",
+      "Rv2509",
+      "Rv2523c",
+      "Rv2524c",
+      "Rv2794c",
+      "Rv3280",
+      "Rv3281",
+      "Rv3285",
+      "Rv3451",
+      "Rv3799c",
+      "Rv3800c",
+      "Rv3801c",
+      "Rv3804c"
+    ],
+    "mtu00190": [
+      "Rv0247c",
+      "Rv0248c",
+      "Rv0392c",
+      "Rv1304",
+      "Rv1305",
+      "Rv1306",
+      "Rv1307",
+      "Rv1308",
+      "Rv1309",
+      "Rv1310",
+      "Rv1311",
+      "Rv1451",
+      "Rv1456c",
+      "Rv1552",
+      "Rv1553",
+      "Rv1554",
+      "Rv1555",
+      "Rv1622c",
+      "Rv1623c",
+      "Rv1812c",
+      "Rv1854c",
+      "Rv2193",
+      "Rv2194",
+      "Rv2195",
+      "Rv2196",
+      "Rv2199c",
+      "Rv2200c",
+      "Rv2984",
+      "Rv3043c",
+      "Rv3145",
+      "Rv3146",
+      "Rv3147",
+      "Rv3148",
+      "Rv3149",
+      "Rv3150",
+      "Rv3151",
+      "Rv3152",
+      "Rv3153",
+      "Rv3154",
+      "Rv3155",
+      "Rv3156",
+      "Rv3157",
+      "Rv3158",
+      "Rv3232c",
+      "Rv3316",
+      "Rv3317",
+      "Rv3318",
+      "Rv3319",
+      "Rv3628"
+    ],
+    "mtu00230": [
+      "Rv0233",
+      "Rv0357c",
+      "Rv0389",
+      "Rv0496",
+      "Rv0570",
+      "Rv0733",
+      "Rv0772",
+      "Rv0777",
+      "Rv0780",
+      "Rv0787A",
+      "Rv0788",
+      "Rv0803",
+      "Rv0805",
+      "Rv0808",
+      "Rv0809",
+      "Rv0956",
+      "Rv0957",
+      "Rv1017c",
+      "Rv1021",
+      "Rv1026",
+      "Rv1264",
+      "Rv1285",
+      "Rv1286",
+      "Rv1341",
+      "Rv1389",
+      "Rv1625c",
+      "Rv1843c",
+      "Rv1848",
+      "Rv1849",
+      "Rv1850",
+      "Rv1981c",
+      "Rv2149c",
+      "Rv2202c",
+      "Rv2344c",
+      "Rv2445c",
+      "Rv2583c",
+      "Rv2584c",
+      "Rv2613c",
+      "Rv3048c",
+      "Rv3051c",
+      "Rv3068c",
+      "Rv3275c",
+      "Rv3276c",
+      "Rv3307",
+      "Rv3313c",
+      "Rv3393",
+      "Rv3396c",
+      "Rv3410c",
+      "Rv3411c",
+      "Rv3624c",
+      "Rv3645"
+    ],
+    "mtu00360": [
+      "Rv0468",
+      "Rv1070c",
+      "Rv1263",
+      "Rv1472",
+      "Rv1600",
+      "Rv1715",
+      "Rv1869c",
+      "Rv1908c",
+      "Rv2231c",
+      "Rv2363",
+      "Rv2486",
+      "Rv2888c",
+      "Rv3039c",
+      "Rv3170",
+      "Rv3175",
+      "Rv3375",
+      "Rv3469c",
+      "Rv3534c",
+      "Rv3535c",
+      "Rv3536c",
+      "Rv3772"
+    ],
+    "mtu00380": [
+      "Rv0147",
+      "Rv0223c",
+      "Rv0243",
+      "Rv0400c",
+      "Rv0462",
+      "Rv0768",
+      "Rv0859",
+      "Rv0860",
+      "Rv0914c",
+      "Rv1070c",
+      "Rv1074c",
+      "Rv1263",
+      "Rv1323",
+      "Rv1472",
+      "Rv1867",
+      "Rv1908c",
+      "Rv2363",
+      "Rv2486",
+      "Rv2888c",
+      "Rv3039c",
+      "Rv3170",
+      "Rv3175",
+      "Rv3375",
+      "Rv3523"
+    ],
+    "mtu00520": [
+      "Rv0237",
+      "Rv0322",
+      "Rv0334",
+      "Rv0482",
+      "Rv0501",
+      "Rv0620",
+      "Rv0650",
+      "Rv0946c",
+      "Rv0993",
+      "Rv1018c",
+      "Rv1213",
+      "Rv1315",
+      "Rv2702",
+      "Rv3068c",
+      "Rv3255c",
+      "Rv3257c",
+      "Rv3264c",
+      "Rv3308",
+      "Rv3332",
+      "Rv3436c",
+      "Rv3441c",
+      "Rv3634c",
+      "Rv3809c"
+    ],
+    "mtu00521": [
+      "Rv0046c",
+      "Rv0334",
+      "Rv0650",
+      "Rv1604",
+      "Rv2701c",
+      "Rv3068c",
+      "Rv3266c",
+      "Rv3464",
+      "Rv3465",
+      "Rv3784"
+    ],
+    "mtu00523": [
+      "Rv0334",
+      "Rv0536",
+      "Rv3266c",
+      "Rv3464",
+      "Rv3465",
+      "Rv3784"
+    ],
+    "mtu00541": [
+      "Rv0112",
+      "Rv0113",
+      "Rv0114",
+      "Rv0115",
+      "Rv0322",
+      "Rv0334",
+      "Rv0993",
+      "Rv1018c",
+      "Rv1511",
+      "Rv1512",
+      "Rv3264c",
+      "Rv3266c",
+      "Rv3464",
+      "Rv3465",
+      "Rv3784"
+    ],
+    "mtu00571": [
+      "Rv0236c",
+      "Rv0541c",
+      "Rv1159",
+      "Rv1459c",
+      "Rv1635c",
+      "Rv2174",
+      "Rv2181",
+      "Rv2188c",
+      "Rv2610c",
+      "Rv2611c",
+      "Rv2673",
+      "Rv3793",
+      "Rv3805c"
+    ],
+    "mtu00572": [
+      "Rv0129c",
+      "Rv0236c",
+      "Rv1302",
+      "Rv1886c",
+      "Rv2673",
+      "Rv3265c",
+      "Rv3267",
+      "Rv3779",
+      "Rv3782",
+      "Rv3792",
+      "Rv3794",
+      "Rv3795",
+      "Rv3804c",
+      "Rv3805c",
+      "Rv3808c"
+    ],
+    "mtu00650": [
+      "Rv0234c",
+      "Rv0243",
+      "Rv0247c",
+      "Rv0248c",
+      "Rv0468",
+      "Rv0859",
+      "Rv0860",
+      "Rv0914c",
+      "Rv1070c",
+      "Rv1074c",
+      "Rv1323",
+      "Rv1472",
+      "Rv1552",
+      "Rv1553",
+      "Rv1554",
+      "Rv1555",
+      "Rv1715",
+      "Rv1731",
+      "Rv1867",
+      "Rv2454c",
+      "Rv2455c",
+      "Rv2486",
+      "Rv2503c",
+      "Rv2504c",
+      "Rv2589",
+      "Rv3002c",
+      "Rv3003c",
+      "Rv3039c",
+      "Rv3316",
+      "Rv3317",
+      "Rv3318",
+      "Rv3319",
+      "Rv3432c",
+      "Rv3470c",
+      "Rv3509c",
+      "Rv3523",
+      "Rv3535c"
+    ],
+    "mtu00760": [
+      "Rv0155",
+      "Rv0156",
+      "Rv0157",
+      "Rv0212c",
+      "Rv0234c",
+      "Rv0573c",
+      "Rv1021",
+      "Rv1151c",
+      "Rv1330c",
+      "Rv1594",
+      "Rv1595",
+      "Rv1596",
+      "Rv1695",
+      "Rv1731",
+      "Rv2043c",
+      "Rv2421c",
+      "Rv2438c",
+      "Rv2713",
+      "Rv3199c",
+      "Rv3307"
+    ],
+    "mtu00770": [
+      "Rv0147",
+      "Rv0189c",
+      "Rv0223c",
+      "Rv0768",
+      "Rv1021",
+      "Rv1092c",
+      "Rv1391",
+      "Rv1631",
+      "Rv2210c",
+      "Rv2225",
+      "Rv2523c",
+      "Rv2573",
+      "Rv2794c",
+      "Rv2795c",
+      "Rv2965c",
+      "Rv3001c",
+      "Rv3002c",
+      "Rv3003c",
+      "Rv3470c",
+      "Rv3509c",
+      "Rv3600c",
+      "Rv3601c",
+      "Rv3602c"
+    ],
+    "mtu00983": [
+      "Rv1341",
+      "Rv1908c",
+      "Rv2445c",
+      "Rv2697c",
+      "Rv3314c",
+      "Rv3315c",
+      "Rv3396c",
+      "Rv3410c",
+      "Rv3411c",
+      "Rv3566c",
+      "Rv3624c"
+    ],
+    "mtu01100": [
+      "Rv0016c",
+      "Rv0021c",
+      "Rv0032",
+      "Rv0046c",
+      "Rv0062",
+      "Rv0066c",
+      "Rv0069c",
+      "Rv0070c",
+      "Rv0075",
+      "Rv0091",
+      "Rv0112",
+      "Rv0113",
+      "Rv0114",
+      "Rv0115",
+      "Rv0118c",
+      "Rv0126",
+      "Rv0127",
+      "Rv0129c",
+      "Rv0131c",
+      "Rv0147",
+      "Rv0154c",
+      "Rv0155",
+      "Rv0156",
+      "Rv0157",
+      "Rv0183",
+      "Rv0186",
+      "Rv0189c",
+      "Rv0211",
+      "Rv0212c",
+      "Rv0221",
+      "Rv0223c",
+      "Rv0231",
+      "Rv0233",
+      "Rv0234c",
+      "Rv0237",
+      "Rv0242c",
+      "Rv0243",
+      "Rv0247c",
+      "Rv0248c",
+      "Rv0252",
+      "Rv0253",
+      "Rv0254c",
+      "Rv0255c",
+      "Rv0260c",
+      "Rv0266c",
+      "Rv0306",
+      "Rv0321",
+      "Rv0322",
+      "Rv0334",
+      "Rv0337c",
+      "Rv0357c",
+      "Rv0363c",
+      "Rv0371c",
+      "Rv0382c",
+      "Rv0389",
+      "Rv0391",
+      "Rv0392c",
+      "Rv0400c",
+      "Rv0408",
+      "Rv0409",
+      "Rv0414c",
+      "Rv0415",
+      "Rv0417",
+      "Rv0422c",
+      "Rv0423c",
+      "Rv0428c",
+      "Rv0433",
+      "Rv0436c",
+      "Rv0437c",
+      "Rv0438c",
+      "Rv0458",
+      "Rv0462",
+      "Rv0467",
+      "Rv0468",
+      "Rv0478",
+      "Rv0482",
+      "Rv0489",
+      "Rv0496",
+      "Rv0500",
+      "Rv0501",
+      "Rv0504c",
+      "Rv0509",
+      "Rv0510",
+      "Rv0511",
+      "Rv0512",
+      "Rv0524",
+      "Rv0533c",
+      "Rv0534c",
+      "Rv0535",
+      "Rv0542c",
+      "Rv0548c",
+      "Rv0553",
+      "Rv0555",
+      "Rv0558",
+      "Rv0564c",
+      "Rv0570",
+      "Rv0573c",
+      "Rv0620",
+      "Rv0635",
+      "Rv0636",
+      "Rv0637",
+      "Rv0649",
+      "Rv0650",
+      "Rv0669c",
+      "Rv0727c",
+      "Rv0728c",
+      "Rv0729",
+      "Rv0733",
+      "Rv0751c",
+      "Rv0753c",
+      "Rv0760c",
+      "Rv0761c",
+      "Rv0764c",
+      "Rv0768",
+      "Rv0771",
+      "Rv0772",
+      "Rv0773c",
+      "Rv0777",
+      "Rv0780",
+      "Rv0787A",
+      "Rv0788",
+      "Rv0803",
+      "Rv0805",
+      "Rv0808",
+      "Rv0809",
+      "Rv0815c",
+      "Rv0824c",
+      "Rv0840c",
+      "Rv0848",
+      "Rv0855",
+      "Rv0858c",
+      "Rv0859",
+      "Rv0860",
+      "Rv0864",
+      "Rv0866",
+      "Rv0869c",
+      "Rv0884c",
+      "Rv0889c",
+      "Rv0895",
+      "Rv0896",
+      "Rv0914c",
+      "Rv0946c",
+      "Rv0948c",
+      "Rv0951",
+      "Rv0952",
+      "Rv0956",
+      "Rv0957",
+      "Rv0958",
+      "Rv0975c",
+      "Rv0989c",
+      "Rv0992c",
+      "Rv0993",
+      "Rv0994",
+      "Rv1001",
+      "Rv1002c",
+      "Rv1007c",
+      "Rv1011",
+      "Rv1017c",
+      "Rv1018c",
+      "Rv1021",
+      "Rv1023",
+      "Rv1026",
+      "Rv1070c",
+      "Rv1074c",
+      "Rv1077",
+      "Rv1079",
+      "Rv1092c",
+      "Rv1093",
+      "Rv1094",
+      "Rv1098c",
+      "Rv1099c",
+      "Rv1110",
+      "Rv1121",
+      "Rv1122",
+      "Rv1127c",
+      "Rv1130",
+      "Rv1131",
+      "Rv1133c",
+      "Rv1143",
+      "Rv1151c",
+      "Rv1159",
+      "Rv1159A",
+      "Rv1161",
+      "Rv1162",
+      "Rv1164",
+      "Rv1173",
+      "Rv1187",
+      "Rv1188",
+      "Rv1201c",
+      "Rv1202",
+      "Rv1207",
+      "Rv1212c",
+      "Rv1213",
+      "Rv1240",
+      "Rv1248c",
+      "Rv1257c",
+      "Rv1263",
+      "Rv1264",
+      "Rv1284",
+      "Rv1285",
+      "Rv1286",
+      "Rv1293",
+      "Rv1294",
+      "Rv1295",
+      "Rv1296",
+      "Rv1302",
+      "Rv1304",
+      "Rv1305",
+      "Rv1306",
+      "Rv1307",
+      "Rv1308",
+      "Rv1309",
+      "Rv1310",
+      "Rv1311",
+      "Rv1314c",
+      "Rv1315",
+      "Rv1322A",
+      "Rv1323",
+      "Rv1326c",
+      "Rv1327c",
+      "Rv1328",
+      "Rv1330c",
+      "Rv1338",
+      "Rv1341",
+      "Rv1344",
+      "Rv1350",
+      "Rv1379",
+      "Rv1380",
+      "Rv1381",
+      "Rv1383",
+      "Rv1384",
+      "Rv1385",
+      "Rv1389",
+      "Rv1391",
+      "Rv1392",
+      "Rv1406",
+      "Rv1408",
+      "Rv1409",
+      "Rv1412",
+      "Rv1415",
+      "Rv1416",
+      "Rv1425",
+      "Rv1436",
+      "Rv1437",
+      "Rv1438",
+      "Rv1442",
+      "Rv1445c",
+      "Rv1447c",
+      "Rv1448c",
+      "Rv1449c",
+      "Rv1451",
+      "Rv1456c",
+      "Rv1464",
+      "Rv1472",
+      "Rv1475c",
+      "Rv1483",
+      "Rv1484",
+      "Rv1485",
+      "Rv1492",
+      "Rv1493",
+      "Rv1511",
+      "Rv1512",
+      "Rv1530",
+      "Rv1538c",
+      "Rv1551",
+      "Rv1552",
+      "Rv1553",
+      "Rv1554",
+      "Rv1555",
+      "Rv1559",
+      "Rv1562c",
+      "Rv1563c",
+      "Rv1564c",
+      "Rv1568",
+      "Rv1569",
+      "Rv1570",
+      "Rv1589",
+      "Rv1594",
+      "Rv1595",
+      "Rv1596",
+      "Rv1599",
+      "Rv1600",
+      "Rv1601",
+      "Rv1602",
+      "Rv1603",
+      "Rv1604",
+      "Rv1605",
+      "Rv1606",
+      "Rv1609",
+      "Rv1611",
+      "Rv1612",
+      "Rv1613",
+      "Rv1617",
+      "Rv1622c",
+      "Rv1623c",
+      "Rv1625c",
+      "Rv1631",
+      "Rv1635c",
+      "Rv1652",
+      "Rv1653",
+      "Rv1654",
+      "Rv1655",
+      "Rv1656",
+      "Rv1658",
+      "Rv1659",
+      "Rv1692",
+      "Rv1695",
+      "Rv1699",
+      "Rv1703c",
+      "Rv1712",
+      "Rv1715",
+      "Rv1718",
+      "Rv1731",
+      "Rv1736c",
+      "Rv1745c",
+      "Rv1760",
+      "Rv1781c",
+      "Rv1812c",
+      "Rv1822",
+      "Rv1826",
+      "Rv1832",
+      "Rv1833c",
+      "Rv1837c",
+      "Rv1843c",
+      "Rv1844c",
+      "Rv1847",
+      "Rv1848",
+      "Rv1849",
+      "Rv1850",
+      "Rv1854c",
+      "Rv1862",
+      "Rv1867",
+      "Rv1869c",
+      "Rv1872c",
+      "Rv1878",
+      "Rv1885c",
+      "Rv1886c",
+      "Rv1905c",
+      "Rv1908c",
+      "Rv1915",
+      "Rv1916",
+      "Rv1940",
+      "Rv1981c",
+      "Rv2002",
+      "Rv2006",
+      "Rv2029c",
+      "Rv2043c",
+      "Rv2054",
+      "Rv2062c",
+      "Rv2064",
+      "Rv2065",
+      "Rv2066",
+      "Rv2070c",
+      "Rv2071c",
+      "Rv2072c",
+      "Rv2074",
+      "Rv2121c",
+      "Rv2122c",
+      "Rv2124c",
+      "Rv2131c",
+      "Rv2139",
+      "Rv2149c",
+      "Rv2152c",
+      "Rv2153c",
+      "Rv2155c",
+      "Rv2156c",
+      "Rv2157c",
+      "Rv2158c",
+      "Rv2163c",
+      "Rv2173",
+      "Rv2178c",
+      "Rv2182c",
+      "Rv2187",
+      "Rv2188c",
+      "Rv2192c",
+      "Rv2193",
+      "Rv2194",
+      "Rv2195",
+      "Rv2196",
+      "Rv2199c",
+      "Rv2200c",
+      "Rv2201",
+      "Rv2202c",
+      "Rv2205c",
+      "Rv2207",
+      "Rv2208",
+      "Rv2210c",
+      "Rv2211c",
+      "Rv2213",
+      "Rv2215",
+      "Rv2217",
+      "Rv2218",
+      "Rv2220",
+      "Rv2222c",
+      "Rv2225",
+      "Rv2228c",
+      "Rv2231c",
+      "Rv2236c",
+      "Rv2241",
+      "Rv2243",
+      "Rv2244",
+      "Rv2245",
+      "Rv2246",
+      "Rv2247",
+      "Rv2249c",
+      "Rv2251",
+      "Rv2252",
+      "Rv2285",
+      "Rv2291",
+      "Rv2294",
+      "Rv2296",
+      "Rv2323c",
+      "Rv2334",
+      "Rv2335",
+      "Rv2344c",
+      "Rv2349c",
+      "Rv2350c",
+      "Rv2351c",
+      "Rv2363",
+      "Rv2377c",
+      "Rv2391",
+      "Rv2392",
+      "Rv2394",
+      "Rv2402",
+      "Rv2421c",
+      "Rv2427c",
+      "Rv2436",
+      "Rv2438c",
+      "Rv2439c",
+      "Rv2445c",
+      "Rv2447c",
+      "Rv2453c",
+      "Rv2454c",
+      "Rv2455c",
+      "Rv2458",
+      "Rv2465c",
+      "Rv2467",
+      "Rv2471",
+      "Rv2476c",
+      "Rv2482c",
+      "Rv2484c",
+      "Rv2486",
+      "Rv2495c",
+      "Rv2496c",
+      "Rv2497c",
+      "Rv2500c",
+      "Rv2501c",
+      "Rv2502c",
+      "Rv2503c",
+      "Rv2504c",
+      "Rv2509",
+      "Rv2523c",
+      "Rv2524c",
+      "Rv2537c",
+      "Rv2538c",
+      "Rv2539c",
+      "Rv2540c",
+      "Rv2573",
+      "Rv2579",
+      "Rv2581c",
+      "Rv2583c",
+      "Rv2584c",
+      "Rv2589",
+      "Rv2601",
+      "Rv2604c",
+      "Rv2606c",
+      "Rv2607",
+      "Rv2610c",
+      "Rv2611c",
+      "Rv2613c",
+      "Rv2676c",
+      "Rv2677c",
+      "Rv2678c",
+      "Rv2682c",
+      "Rv2697c",
+      "Rv2701c",
+      "Rv2702",
+      "Rv2713",
+      "Rv2724c",
+      "Rv2726c",
+      "Rv2727c",
+      "Rv2746c",
+      "Rv2747",
+      "Rv2753c",
+      "Rv2754c",
+      "Rv2763c",
+      "Rv2764c",
+      "Rv2765",
+      "Rv2773c",
+      "Rv2780",
+      "Rv2781c",
+      "Rv2786c",
+      "Rv2790c",
+      "Rv2794c",
+      "Rv2837c",
+      "Rv2847c",
+      "Rv2848c",
+      "Rv2849c",
+      "Rv2850c",
+      "Rv2852c",
+      "Rv2860c",
+      "Rv2868c",
+      "Rv2870c",
+      "Rv2881c",
+      "Rv2883c",
+      "Rv2888c",
+      "Rv2911",
+      "Rv2922A",
+      "Rv2949c",
+      "Rv2964",
+      "Rv2965c",
+      "Rv2967c",
+      "Rv2977c",
+      "Rv2981c",
+      "Rv2982c",
+      "Rv2983",
+      "Rv2987c",
+      "Rv2988c",
+      "Rv2992c",
+      "Rv2995c",
+      "Rv2996c",
+      "Rv3001c",
+      "Rv3002c",
+      "Rv3003c",
+      "Rv3009c",
+      "Rv3010c",
+      "Rv3011c",
+      "Rv3012c",
+      "Rv3025c",
+      "Rv3031",
+      "Rv3032",
+      "Rv3039c",
+      "Rv3042c",
+      "Rv3043c",
+      "Rv3045",
+      "Rv3048c",
+      "Rv3051c",
+      "Rv3068c",
+      "Rv3087",
+      "Rv3088",
+      "Rv3089",
+      "Rv3097c",
+      "Rv3107c",
+      "Rv3109",
+      "Rv3110",
+      "Rv3111",
+      "Rv3117",
+      "Rv3119",
+      "Rv3130c",
+      "Rv3137",
+      "Rv3140",
+      "Rv3145",
+      "Rv3146",
+      "Rv3147",
+      "Rv3148",
+      "Rv3149",
+      "Rv3150",
+      "Rv3151",
+      "Rv3152",
+      "Rv3153",
+      "Rv3154",
+      "Rv3155",
+      "Rv3156",
+      "Rv3157",
+      "Rv3158",
+      "Rv3170",
+      "Rv3175",
+      "Rv3199c",
+      "Rv3215",
+      "Rv3221c",
+      "Rv3227",
+      "Rv3228",
+      "Rv3229c",
+      "Rv3230c",
+      "Rv3234c",
+      "Rv3238c",
+      "Rv3247c",
+      "Rv3248c",
+      "Rv3255c",
+      "Rv3257c",
+      "Rv3261",
+      "Rv3262",
+      "Rv3264c",
+      "Rv3265c",
+      "Rv3266c",
+      "Rv3267",
+      "Rv3273",
+      "Rv3275c",
+      "Rv3276c",
+      "Rv3279c",
+      "Rv3280",
+      "Rv3281",
+      "Rv3282",
+      "Rv3283",
+      "Rv3285",
+      "Rv3293",
+      "Rv3302c",
+      "Rv3307",
+      "Rv3308",
+      "Rv3309c",
+      "Rv3310",
+      "Rv3313c",
+      "Rv3314c",
+      "Rv3315c",
+      "Rv3316",
+      "Rv3317",
+      "Rv3318",
+      "Rv3319",
+      "Rv3323c",
+      "Rv3324c",
+      "Rv3330",
+      "Rv3332",
+      "Rv3339c",
+      "Rv3340",
+      "Rv3341",
+      "Rv3356c",
+      "Rv3371",
+      "Rv3372",
+      "Rv3375",
+      "Rv3379c",
+      "Rv3382c",
+      "Rv3383c",
+      "Rv3393",
+      "Rv3396c",
+      "Rv3397c",
+      "Rv3398c",
+      "Rv3410c",
+      "Rv3411c",
+      "Rv3423c",
+      "Rv3432c",
+      "Rv3436c",
+      "Rv3441c",
+      "Rv3451",
+      "Rv3464",
+      "Rv3465",
+      "Rv3469c",
+      "Rv3470c",
+      "Rv3480c",
+      "Rv3490",
+      "Rv3509c",
+      "Rv3523",
+      "Rv3526",
+      "Rv3534c",
+      "Rv3535c",
+      "Rv3536c",
+      "Rv3537",
+      "Rv3546",
+      "Rv3556c",
+      "Rv3561",
+      "Rv3566c",
+      "Rv3567c",
+      "Rv3568c",
+      "Rv3569c",
+      "Rv3570c",
+      "Rv3571",
+      "Rv3581c",
+      "Rv3582c",
+      "Rv3588c",
+      "Rv3600c",
+      "Rv3601c",
+      "Rv3602c",
+      "Rv3606c",
+      "Rv3607c",
+      "Rv3608c",
+      "Rv3609c",
+      "Rv3624c",
+      "Rv3627c",
+      "Rv3634c",
+      "Rv3645",
+      "Rv3667",
+      "Rv3684",
+      "Rv3696c",
+      "Rv3700c",
+      "Rv3701c",
+      "Rv3702c",
+      "Rv3703c",
+      "Rv3704c",
+      "Rv3708c",
+      "Rv3709c",
+      "Rv3710",
+      "Rv3712",
+      "Rv3713",
+      "Rv3734c",
+      "Rv3740c",
+      "Rv3754",
+      "Rv3772",
+      "Rv3782",
+      "Rv3784",
+      "Rv3792",
+      "Rv3799c",
+      "Rv3800c",
+      "Rv3801c",
+      "Rv3804c",
+      "Rv3805c",
+      "Rv3808c",
+      "Rv3809c",
+      "Rv3838c",
+      "Rv3858c",
+      "Rv3859c"
+    ],
+    "mtu01110": [
+      "Rv0046c",
+      "Rv0066c",
+      "Rv0069c",
+      "Rv0070c",
+      "Rv0075",
+      "Rv0126",
+      "Rv0129c",
+      "Rv0131c",
+      "Rv0147",
+      "Rv0154c",
+      "Rv0183",
+      "Rv0186",
+      "Rv0189c",
+      "Rv0211",
+      "Rv0221",
+      "Rv0223c",
+      "Rv0231",
+      "Rv0242c",
+      "Rv0243",
+      "Rv0247c",
+      "Rv0248c",
+      "Rv0260c",
+      "Rv0334",
+      "Rv0337c",
+      "Rv0363c",
+      "Rv0389",
+      "Rv0400c",
+      "Rv0428c",
+      "Rv0436c",
+      "Rv0437c",
+      "Rv0458",
+      "Rv0462",
+      "Rv0467",
+      "Rv0489",
+      "Rv0500",
+      "Rv0504c",
+      "Rv0509",
+      "Rv0510",
+      "Rv0511",
+      "Rv0512",
+      "Rv0524",
+      "Rv0533c",
+      "Rv0534c",
+      "Rv0536",
+      "Rv0542c",
+      "Rv0548c",
+      "Rv0553",
+      "Rv0555",
+      "Rv0558",
+      "Rv0564c",
+      "Rv0635",
+      "Rv0636",
+      "Rv0637",
+      "Rv0649",
+      "Rv0650",
+      "Rv0728c",
+      "Rv0733",
+      "Rv0761c",
+      "Rv0764c",
+      "Rv0768",
+      "Rv0772",
+      "Rv0777",
+      "Rv0780",
+      "Rv0787A",
+      "Rv0788",
+      "Rv0803",
+      "Rv0808",
+      "Rv0809",
+      "Rv0859",
+      "Rv0860",
+      "Rv0884c",
+      "Rv0889c",
+      "Rv0895",
+      "Rv0896",
+      "Rv0914c",
+      "Rv0946c",
+      "Rv0948c",
+      "Rv0951",
+      "Rv0952",
+      "Rv0956",
+      "Rv0957",
+      "Rv0958",
+      "Rv0975c",
+      "Rv0989c",
+      "Rv0993",
+      "Rv1001",
+      "Rv1011",
+      "Rv1017c",
+      "Rv1023",
+      "Rv1070c",
+      "Rv1074c",
+      "Rv1077",
+      "Rv1079",
+      "Rv1086",
+      "Rv1093",
+      "Rv1098c",
+      "Rv1099c",
+      "Rv1110",
+      "Rv1121",
+      "Rv1122",
+      "Rv1127c",
+      "Rv1131",
+      "Rv1133c",
+      "Rv1188",
+      "Rv1213",
+      "Rv1240",
+      "Rv1248c",
+      "Rv1257c",
+      "Rv1285",
+      "Rv1286",
+      "Rv1293",
+      "Rv1294",
+      "Rv1295",
+      "Rv1296",
+      "Rv1323",
+      "Rv1326c",
+      "Rv1328",
+      "Rv1344",
+      "Rv1350",
+      "Rv1383",
+      "Rv1384",
+      "Rv1392",
+      "Rv1408",
+      "Rv1409",
+      "Rv1412",
+      "Rv1415",
+      "Rv1416",
+      "Rv1425",
+      "Rv1436",
+      "Rv1437",
+      "Rv1438",
+      "Rv1445c",
+      "Rv1447c",
+      "Rv1448c",
+      "Rv1449c",
+      "Rv1451",
+      "Rv1456c",
+      "Rv1472",
+      "Rv1475c",
+      "Rv1483",
+      "Rv1484",
+      "Rv1485",
+      "Rv1530",
+      "Rv1538c",
+      "Rv1551",
+      "Rv1552",
+      "Rv1553",
+      "Rv1554",
+      "Rv1555",
+      "Rv1559",
+      "Rv1562c",
+      "Rv1563c",
+      "Rv1564c",
+      "Rv1599",
+      "Rv1600",
+      "Rv1601",
+      "Rv1602",
+      "Rv1603",
+      "Rv1604",
+      "Rv1605",
+      "Rv1606",
+      "Rv1609",
+      "Rv1611",
+      "Rv1612",
+      "Rv1613",
+      "Rv1617",
+      "Rv1652",
+      "Rv1653",
+      "Rv1654",
+      "Rv1655",
+      "Rv1656",
+      "Rv1658",
+      "Rv1659",
+      "Rv1692",
+      "Rv1745c",
+      "Rv1760",
+      "Rv1781c",
+      "Rv1826",
+      "Rv1832",
+      "Rv1837c",
+      "Rv1844c",
+      "Rv1847",
+      "Rv1862",
+      "Rv1867",
+      "Rv1878",
+      "Rv1885c",
+      "Rv1886c",
+      "Rv1905c",
+      "Rv1908c",
+      "Rv1915",
+      "Rv1916",
+      "Rv1940",
+      "Rv2006",
+      "Rv2029c",
+      "Rv2068c",
+      "Rv2074",
+      "Rv2121c",
+      "Rv2122c",
+      "Rv2124c",
+      "Rv2173",
+      "Rv2178c",
+      "Rv2182c",
+      "Rv2192c",
+      "Rv2201",
+      "Rv2205c",
+      "Rv2210c",
+      "Rv2211c",
+      "Rv2215",
+      "Rv2220",
+      "Rv2222c",
+      "Rv2225",
+      "Rv2231c",
+      "Rv2241",
+      "Rv2243",
+      "Rv2244",
+      "Rv2245",
+      "Rv2246",
+      "Rv2247",
+      "Rv2249c",
+      "Rv2252",
+      "Rv2285",
+      "Rv2289",
+      "Rv2294",
+      "Rv2323c",
+      "Rv2334",
+      "Rv2335",
+      "Rv2349c",
+      "Rv2350c",
+      "Rv2351c",
+      "Rv2361c",
+      "Rv2377c",
+      "Rv2386c",
+      "Rv2402",
+      "Rv2427c",
+      "Rv2439c",
+      "Rv2445c",
+      "Rv2454c",
+      "Rv2455c",
+      "Rv2458",
+      "Rv2465c",
+      "Rv2471",
+      "Rv2482c",
+      "Rv2484c",
+      "Rv2486",
+      "Rv2495c",
+      "Rv2496c",
+      "Rv2497c",
+      "Rv2500c",
+      "Rv2509",
+      "Rv2523c",
+      "Rv2537c",
+      "Rv2538c",
+      "Rv2539c",
+      "Rv2540c",
+      "Rv2573",
+      "Rv2601",
+      "Rv2676c",
+      "Rv2677c",
+      "Rv2678c",
+      "Rv2682c",
+      "Rv2701c",
+      "Rv2702",
+      "Rv2726c",
+      "Rv2727c",
+      "Rv2747",
+      "Rv2753c",
+      "Rv2773c",
+      "Rv2786c",
+      "Rv2790c",
+      "Rv2794c",
+      "Rv2847c",
+      "Rv2850c",
+      "Rv2852c",
+      "Rv2860c",
+      "Rv2868c",
+      "Rv2870c",
+      "Rv2881c",
+      "Rv2949c",
+      "Rv2982c",
+      "Rv2987c",
+      "Rv2988c",
+      "Rv2992c",
+      "Rv2995c",
+      "Rv2996c",
+      "Rv3001c",
+      "Rv3002c",
+      "Rv3003c",
+      "Rv3010c",
+      "Rv3031",
+      "Rv3032",
+      "Rv3039c",
+      "Rv3042c",
+      "Rv3045",
+      "Rv3068c",
+      "Rv3087",
+      "Rv3088",
+      "Rv3097c",
+      "Rv3130c",
+      "Rv3137",
+      "Rv3140",
+      "Rv3170",
+      "Rv3215",
+      "Rv3221c",
+      "Rv3224",
+      "Rv3227",
+      "Rv3234c",
+      "Rv3255c",
+      "Rv3257c",
+      "Rv3264c",
+      "Rv3266c",
+      "Rv3275c",
+      "Rv3276c",
+      "Rv3280",
+      "Rv3281",
+      "Rv3285",
+      "Rv3302c",
+      "Rv3307",
+      "Rv3308",
+      "Rv3316",
+      "Rv3317",
+      "Rv3318",
+      "Rv3319",
+      "Rv3339c",
+      "Rv3341",
+      "Rv3371",
+      "Rv3372",
+      "Rv3379c",
+      "Rv3382c",
+      "Rv3383c",
+      "Rv3391",
+      "Rv3393",
+      "Rv3397c",
+      "Rv3398c",
+      "Rv3410c",
+      "Rv3411c",
+      "Rv3432c",
+      "Rv3451",
+      "Rv3464",
+      "Rv3465",
+      "Rv3470c",
+      "Rv3480c",
+      "Rv3490",
+      "Rv3509c",
+      "Rv3523",
+      "Rv3546",
+      "Rv3556c",
+      "Rv3566c",
+      "Rv3581c",
+      "Rv3582c",
+      "Rv3601c",
+      "Rv3602c",
+      "Rv3624c",
+      "Rv3667",
+      "Rv3684",
+      "Rv3696c",
+      "Rv3708c",
+      "Rv3709c",
+      "Rv3710",
+      "Rv3734c",
+      "Rv3740c",
+      "Rv3754",
+      "Rv3772",
+      "Rv3784",
+      "Rv3799c",
+      "Rv3800c",
+      "Rv3801c",
+      "Rv3804c",
+      "Rv3838c",
+      "Rv3858c",
+      "Rv3859c"
+    ],
+    "mtu01240": [
+      "Rv0013",
+      "Rv0032",
+      "Rv0070c",
+      "Rv0147",
+      "Rv0223c",
+      "Rv0242c",
+      "Rv0254c",
+      "Rv0255c",
+      "Rv0260c",
+      "Rv0306",
+      "Rv0322",
+      "Rv0357c",
+      "Rv0382c",
+      "Rv0414c",
+      "Rv0415",
+      "Rv0417",
+      "Rv0422c",
+      "Rv0423c",
+      "Rv0438c",
+      "Rv0462",
+      "Rv0509",
+      "Rv0510",
+      "Rv0511",
+      "Rv0512",
+      "Rv0524",
+      "Rv0534c",
+      "Rv0542c",
+      "Rv0548c",
+      "Rv0553",
+      "Rv0555",
+      "Rv0558",
+      "Rv0573c",
+      "Rv0733",
+      "Rv0768",
+      "Rv0777",
+      "Rv0812",
+      "Rv0864",
+      "Rv0866",
+      "Rv0869c",
+      "Rv0884c",
+      "Rv0993",
+      "Rv0994",
+      "Rv1005c",
+      "Rv1092c",
+      "Rv1093",
+      "Rv1207",
+      "Rv1314c",
+      "Rv1330c",
+      "Rv1350",
+      "Rv1380",
+      "Rv1381",
+      "Rv1383",
+      "Rv1384",
+      "Rv1385",
+      "Rv1391",
+      "Rv1392",
+      "Rv1409",
+      "Rv1412",
+      "Rv1415",
+      "Rv1416",
+      "Rv1451",
+      "Rv1456c",
+      "Rv1485",
+      "Rv1568",
+      "Rv1569",
+      "Rv1570",
+      "Rv1589",
+      "Rv1594",
+      "Rv1595",
+      "Rv1596",
+      "Rv1631",
+      "Rv1695",
+      "Rv1699",
+      "Rv1847",
+      "Rv1940",
+      "Rv2043c",
+      "Rv2062c",
+      "Rv2064",
+      "Rv2065",
+      "Rv2066",
+      "Rv2070c",
+      "Rv2071c",
+      "Rv2072c",
+      "Rv2139",
+      "Rv2207",
+      "Rv2208",
+      "Rv2210c",
+      "Rv2217",
+      "Rv2218",
+      "Rv2225",
+      "Rv2228c",
+      "Rv2236c",
+      "Rv2421c",
+      "Rv2438c",
+      "Rv2445c",
+      "Rv2447c",
+      "Rv2573",
+      "Rv2604c",
+      "Rv2606c",
+      "Rv2607",
+      "Rv2676c",
+      "Rv2677c",
+      "Rv2678c",
+      "Rv2763c",
+      "Rv2786c",
+      "Rv2847c",
+      "Rv2848c",
+      "Rv2849c",
+      "Rv2883c",
+      "Rv2949c",
+      "Rv2965c",
+      "Rv2977c",
+      "Rv2983",
+      "Rv2992c",
+      "Rv3025c",
+      "Rv3109",
+      "Rv3111",
+      "Rv3119",
+      "Rv3255c",
+      "Rv3261",
+      "Rv3264c",
+      "Rv3323c",
+      "Rv3324c",
+      "Rv3356c",
+      "Rv3559c",
+      "Rv3600c",
+      "Rv3601c",
+      "Rv3602c",
+      "Rv3606c",
+      "Rv3607c",
+      "Rv3608c",
+      "Rv3609c",
+      "Rv3704c"
+    ],
+    "mtu01250": [
+      "Rv0112",
+      "Rv0113",
+      "Rv0114",
+      "Rv0115",
+      "Rv0322",
+      "Rv0334",
+      "Rv0482",
+      "Rv0501",
+      "Rv0536",
+      "Rv0620",
+      "Rv0650",
+      "Rv0946c",
+      "Rv0993",
+      "Rv1018c",
+      "Rv1213",
+      "Rv1315",
+      "Rv1511",
+      "Rv1512",
+      "Rv2702",
+      "Rv3068c",
+      "Rv3255c",
+      "Rv3257c",
+      "Rv3264c",
+      "Rv3266c",
+      "Rv3308",
+      "Rv3436c",
+      "Rv3441c",
+      "Rv3464",
+      "Rv3465",
+      "Rv3634c",
+      "Rv3784",
+      "Rv3809c"
+    ],
+    "mtu03010": [
+      "Rv0053",
+      "Rv0055",
+      "Rv0056",
+      "Rv0105c",
+      "Rv0634B",
+      "Rv0640",
+      "Rv0641",
+      "Rv0651",
+      "Rv0652",
+      "Rv0682",
+      "Rv0683",
+      "Rv0700",
+      "Rv0701",
+      "Rv0702",
+      "Rv0703",
+      "Rv0704",
+      "Rv0705",
+      "Rv0706",
+      "Rv0707",
+      "Rv0708",
+      "Rv0709",
+      "Rv0710",
+      "Rv0714",
+      "Rv0715",
+      "Rv0716",
+      "Rv0717",
+      "Rv0718",
+      "Rv0719",
+      "Rv0720",
+      "Rv0721",
+      "Rv0722",
+      "Rv0723",
+      "Rv0979A",
+      "Rv1015c",
+      "Rv1298",
+      "Rv1630",
+      "Rv1642",
+      "Rv1643",
+      "Rv2055c",
+      "Rv2056c",
+      "Rv2057c",
+      "Rv2058c",
+      "Rv2412",
+      "Rv2441c",
+      "Rv2442c",
+      "Rv2785c",
+      "Rv2890c",
+      "Rv2904c",
+      "Rv2909c",
+      "Rv2975a",
+      "Rv3442c",
+      "Rv3443c",
+      "Rv3456c",
+      "Rv3458c",
+      "Rv3459c",
+      "Rv3460c",
+      "Rv3461c",
+      "Rv3924c",
+      "Rvnr01",
+      "Rvnr02",
+      "Rvnr03"
+    ],
+    "mtu03018": [
+      "Rv0350",
+      "Rv0440",
+      "Rv1023",
+      "Rv1253",
+      "Rv1297",
+      "Rv2444c",
+      "Rv2752c",
+      "Rv2783c",
+      "Rv2984",
+      "Rv3232c",
+      "Rv3417c",
+      "Rv3907c"
+    ],
+    "mtu03020": [
+      "Rv0667",
+      "Rv0668",
+      "Rv1390",
+      "Rv3457c"
+    ]
+  },
+  "drug_to_pathways": {
+    "INH": {
+      "pathways": [
+        "mtu00650",
+        "mtu01100",
+        "mtu01110"
+      ],
+      "description": "Targets mycolic acid biosynthesis",
+      "mechanism": "Inhibits InhA (enoyl-ACP reductase) after activation by KatG"
+    },
+    "RIF": {
+      "pathways": [
+        "mtu03020",
+        "mtu01100"
+      ],
+      "description": "Targets RNA synthesis",
+      "mechanism": "Binds to RNA polymerase beta subunit (RpoB)"
+    },
+    "EMB": {
+      "pathways": [
+        "mtu00572",
+        "mtu01100"
+      ],
+      "description": "Targets arabinogalactan biosynthesis",
+      "mechanism": "Inhibits arabinosyltransferases (EmbCAB)"
+    },
+    "PZA": {
+      "pathways": [
+        "mtu00770",
+        "mtu00760",
+        "mtu01100"
+      ],
+      "description": "Targets energy metabolism",
+      "mechanism": "Converted to pyrazinoic acid by PncA, disrupts membrane"
+    },
+    "FLQ": {
+      "pathways": [
+        "mtu00230",
+        "mtu03018"
+      ],
+      "description": "Targets DNA replication",
+      "mechanism": "Inhibits DNA gyrase (GyrA/GyrB)"
+    },
+    "STR": {
+      "pathways": [
+        "mtu03010"
+      ],
+      "description": "Targets protein synthesis",
+      "mechanism": "Binds 16S rRNA, causes misreading"
+    },
+    "KAN": {
+      "pathways": [
+        "mtu03010"
+      ],
+      "description": "Targets protein synthesis",
+      "mechanism": "Binds 16S rRNA"
+    },
+    "AMK": {
+      "pathways": [
+        "mtu03010"
+      ],
+      "description": "Targets protein synthesis",
+      "mechanism": "Binds 16S rRNA"
+    }
+  },
+  "drug_to_genes": {
+    "INH": [
+      "katG",
+      "inhA",
+      "fabG1",
+      "ahpC",
+      "iniB",
+      "iniA",
+      "iniC",
+      "ndh"
+    ],
+    "RIF": [
+      "rpoB",
+      "rpoC"
+    ],
+    "EMB": [
+      "embB",
+      "embA",
+      "embC",
+      "manB",
+      "rmlD"
+    ],
+    "PZA": [
+      "pncA"
+    ],
+    "FLQ": [
+      "gyrA",
+      "gyrB"
+    ],
+    "STR": [
+      "rrs",
+      "gidB"
+    ],
+    "AMK": [
+      "rrs",
+      "eis"
+    ],
+    "KAN": [
+      "rrs",
+      "eis"
+    ],
+    "LNZ": [
+      "rrl"
+    ],
+    "CAP": [
+      "tlyA"
+    ],
+    "ETH": [
+      "iniB",
+      "iniA",
+      "iniC"
+    ]
+  },
+  "metadata": {
+    "organism": "Mycobacterium tuberculosis H37Rv",
+    "organism_code": "mtu",
+    "n_genes": 23,
+    "n_drugs": 8,
+    "organism_name": "Release 118.0+/04-03, Apr 26"
+  },
+  "statistics": {
+    "total_genes": 23,
+    "total_pathways": 23,
+    "total_drugs": 8,
+    "genes_with_pathways": 14,
+    "avg_pathways_per_gene": 1.565217391304348,
+    "avg_genes_per_pathway": 73.04347826086956
+  }
+}

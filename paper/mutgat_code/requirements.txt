@@ -1,0 +1,12 @@
+# MutGAT / amr_hgat — Python dependencies
+# Install PyTorch first for your CUDA/CPU stack: https://pytorch.org/get-started/locally/
+# Then install PyG wheels matching your torch version: https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+
+numpy>=1.24
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.3
+iterative-stratification>=0.1.7
+
+torch>=2.2
+torch-geometric>=2.5

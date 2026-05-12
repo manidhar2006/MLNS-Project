@@ -1,0 +1,10 @@
+CRyPTIC reuse tables (see paper/mutgat_code/data/cryptic/SOURCE.txt for attribution and EBI URLs).
+
+VCF directory data/cryptic/vcf/ is populated with:
+
+  python scripts/download_all_vcfs.py \
+    --csv data/cryptic/CRyPTIC_reuse_table_20231208.csv \
+    --out-dir data/cryptic/vcf \
+    --workers 8
+
+(run from the repository root; use ./download_all_vcfs.py at repo root, or paper/mutgat_code/scripts/download_all_vcfs.py inside the bundle.)

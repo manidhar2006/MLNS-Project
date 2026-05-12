@@ -1,0 +1,23 @@
+CRyPTIC consortium data (Walker et al., Nature Medicine 2022; MIC / reuse releases).
+
+Bundled files (from EBI CRyPTIC FTP, release reuse tables):
+  CRyPTIC_reuse_table_20231208.csv  — paper / matched ablation cohort (ENA_SAMPLE, VCF paths, MICs, binary phenotypes).
+  CRyPTIC_reuse_table_20240917.csv  — newer reuse table (used in some legacy notebooks).
+
+Official table URL (20231208):
+  https://ftp.ebi.ac.uk/pub/databases/cryptic/release_june2022/reuse/CRyPTIC_reuse_table_20231208.csv
+
+To refresh only the phenotype CSV from EBI:
+
+  python scripts/fetch_cryptic_reuse_table.py
+
+Per-sample VCFs are not stored in this repository (large). Populate data/cryptic/vcf/ by running from the mutgat_code root:
+
+  python scripts/download_all_vcfs.py \
+    --csv data/cryptic/CRyPTIC_reuse_table_20231208.csv \
+    --out-dir data/cryptic/vcf \
+    --workers 8
+
+KEGG (arms B–D): from the mutgat_code root, use kegg_data/tb_knowledge_graph_full.json (bundled under paper/mutgat_code/kegg_data/).
+
+Use of CRyPTIC data is subject to the consortium and EBI terms of use.
